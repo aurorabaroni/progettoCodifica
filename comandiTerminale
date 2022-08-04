@@ -15,4 +15,6 @@ java -cp xml-apis.jar;xercesImpl.jar;/xercesSamples.jar dom.Counter prologo.xml
 java -cp "Xerces-J-bin.2.12.1/xerces-2_12_1/xml-apis.jar;Xerces-J-bin.2.12.1/xerces-2_12_1/xercesImpl.jar;Xerces-J-bin.2.12.1/xerces-2_12_1/xercesSamples.jar" dom.Counter prolusioni.xml
 
 ---
-java -cp "xml-apis.jar;xercesImpl.jar;/xercesSamples.jar" dom.Counter prologo.xml
+java -cp "xml-apis.jar;xercesImpl.jar;xercesSamples.jar" prologo.xml
+
+
