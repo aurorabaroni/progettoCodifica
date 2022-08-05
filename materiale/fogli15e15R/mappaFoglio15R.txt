@@ -1,0 +1,15 @@
+pagina 15 Retro (67% Zoom)
+-----------------------------
+intera
+-----------------------------
+<surface>
+<graphic url='P3_15R.jpg' width='2031px' height='3184px' />
+<zone ulx="6" uly="6" lrx="2026" lry="3179" />
+</surface>
+
+-----------------------------
+
+
+
+
+

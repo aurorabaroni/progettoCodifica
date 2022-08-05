@@ -1,0 +1,15 @@
+pagina 14 Retro (67% Zoom)
+-----------------------------
+intera
+-----------------------------
+<surface>
+<graphic url='P3_14R.jpg' width='2054px' height='3201px' />
+<zone ulx="3" uly="5" lrx="2050" lry="3197" />
+</surface>
+
+-----------------------------
+
+
+
+
+
