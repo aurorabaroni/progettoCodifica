@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Trois premières conférences à l'Université</title>
+                <title xml:lang="fr" type="sub">(cours d'ouverture, <date when="1891-11">novembre 1891</date>)</title>
+                <title xml:lang="it" type="sub">Edizione digitale</title>
+                <author ref="#FdS" role="author">Ferdinand de Saussure</author>
+                <respStmt>
+                    <resp>Responsabilità di: </resp>
+                    <name ref="#AB">Aurora Baroni</name>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>   
+                <edition>Edizione digitale 
+                    <date when="2022-07">settembre 2022</date>
+                </edition>
+
+                <respStmt>
+                    <resp>Trascritto da:</resp>
+                    <persName ref="#SB"> 
+                        <forename>Simon</forename>
+                        <surname>Bouquet</surname>
+                    </persName>
+                    <persName ref="#RE"> 
+                        <forename>Rudolf</forename>
+                        <surname>Engler</surname>
+                    </persName>
+                </respStmt>
+
+                <respStmt>
+                    <resp>Tradotto dal francese all'italiano da:</resp>
+                    <persName> 
+                        <forename ref="#EF">Emanuele</forename>
+                        <surname>Fadda</surname>
+                    </persName>
+                </respStmt>
+
+                <respStmt>
+                    <resp>Codificato in XML da:</resp>
+                    <persName ref="#AB"> 
+                        <forename>Aurora</forename>
+                        <surname>Baroni</surname>
+                    </persName>
+                </respStmt>            
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher>
+                    <orgName><name type="role">Università</name> di <name type="city">Pisa</name></orgName>
+                </publisher>
+                <availability>
+                    <p>Opera ad accesso libero</p>
+                </availability>
+                <date when="2022">2022</date>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Svizzera</country>    
+                        <settlement>Ginevra</settlement>
+                        <institution>Biblioteca di Ginevra</institution>
+                        <repository role="library" ref="https://archives.bge-geneve.ch/ark:/17786/vta01d046d929f231ba">Biblioteca di Ginevra</repository>
+                        <collection>Archivi Ferdinand de Saussure</collection>
+                        <idno type="inventory">BGE Ms. fr. 3951/1.1-3</idno>
+                    </msIdentifier>
+
+                    <msContents>
+                        <msItem>
+                            <author ref="#FdS">Ferdinand de Saussure</author>
+                            <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+                            <title xml:lang="fr" type="sub">1&#x1D49;&#x02B3; cours d'ouverture</title>
+                            <docDate when="1891-11-06">06/11/1891</docDate>
+                            <textLang mainLang="fr">Francese</textLang>
+                        </msItem>
+                        <msItem>
+                            <author ref="#FdS">Ferdinand de Saussure</author>
+                            <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+                            <title xml:lang="fr" type="sub">Cours d'ouverture 2</title>
+                            <docDate when="1891-11-10">10/11/1891</docDate>
+                            <textLang mainLang="fr">Francese</textLang>                           
+                        </msItem>
+                        <msItem>
+                            <author ref="#FdS">Ferdinand de Saussure</author>
+                            <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+                            <title xml:lang="fr" type="sub">Cours d'ouverture 3</title>
+                            <docDate when="1891-11-13">13/11/1891</docDate>
+                            <textLang mainLang="fr">Francese</textLang>
+                        </msItem>                   
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef">
+                                <support>
+                                    <material>Carta a quadretti</material>
+                                </support>
+
+                                <extent>
+                                    <measureGrp unit="page" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef"> 
+                                        <measure quantity="30">30 pagine +</measure>
+                                        <measure quantity="15">15 pagine +</measure>
+                                        <measure quantity="22">22 pagine</measure>
+                                    </measureGrp>
+                                </extent>
+
+                                <foliation>Le pagine sono numerate a mano in alto a sinistra. Ogni pagina è scritta su un foglio diverso.</foliation>
+
+                                <condition>Le carte sono in buone condizioni.</condition>
+                            </supportDesc>
+                        </objectDesc>
+
+                        <handDesc hands="1">
+                            <handNote xml:id="h1">Il testo è scritto a mano solo da <persName ref="#FdS">Ferdinand de Saussure</persName>.</handNote>
+                        </handDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin notAfter="1891-11">
+                            <p><objectType>Appunti</objectType> scritti per le prime conferenze all’<orgName><name type="role">Università</name> di <name type="city">Ginevra</name></orgName>, in parte utilizzati per le prime lezioni del corso di <foreign xml:lang="fr">Phonétique du grec et du latin</foreign> 1891.</p>
+                        </origin>
+                        <acquisition notBefore="1955" notAfter="1988">
+                            <p>Acquisito dalla <orgName>Biblioteca di Ginevra</orgName> <date notBefore="1955" notAfter="1988">tra il 1955 e il 1988</date>.</p>
+                        </acquisition>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">Francese</language>
+                <language ident="fp">Franco-Provenzale</language>
+                <language ident="lt">Latino</language>
+            </langUsage>
+
+            <creation>
+                <date when="1891">1891</date>
+
+                <listChange ordered="true">
+                    <change who="#FdS" status="draft" xml:id="CHG-3" cert="low">Aggiunte scritte a mano da Ferdinand de Saussure successive alla prima stesura.</change>
+                    <change who="#FdS" status="draft" xml:id="CHG-2">Aggiunte e/o cancellature scritte a mano da Ferdinand de Saussure durante la prima stesura.</change>
+                    <change who="#FdS" status="draft" xml:id="CHG-1">Prima stesura, scritta a mano da Ferdinand de Saussure.</change>
+                </listChange>
+            </creation>
+        </profileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>Il testo è stato codificato per l'esame di Codifica di Testi 
+                    del corso di laurea in Informatica Umanistica dell'
+                    <orgName>
+                        <name type="role">Università</name> di <name type="city">Pisa</name>
+                    </orgName>.
+                </p>
+            </projectDesc>
+
+            <editorialDecl>
+                <punctuation marks="some" placement="external">
+                    <p>Alcuni segni di punteggiatura nella trascrizione di Bouquet ed Engler non rispecchiano 
+                        quelli presenti nel manoscritto. 
+                        In quei casi, sono state codificate entrambe le versioni all'interno di un 
+                        <gi scheme="TEI">choice</gi>
+                    </p>
+                </punctuation>
+
+                <normalization method="markup">
+                    <p>Nel manoscritto sono presenti alcune abbreviazioni che sono state sciolte nella trascrizione di Bouquet ed Engler. 
+                        In quei casi, sono state codificate entrambe le versioni all'interno di un <gi scheme="TEI">choice</gi></p>
+                </normalization>
+
+                <segmentation>
+                    <ab>
+                        <list>
+                            <head>Pericopi nelle carte 14 e 15 di Prolusioni 3</head>
+
+                            <!--PERICOPE 1-->
+                            <item n="1" corresp="#pericope1">
+                                <seg>
+                                    Je pourrais naturellement multiplier à l’infini les exemples. 
+                                </seg>
+                            </item>
+
+                            <!--PERICOPE 2-->
+                            <item n="2" corresp="#pericope2">
+                                <seg>
+                                    Pour en prendre un plus loin de nous : il pouvait sembler au commencement du siècle que la langue zende conservée par les livres sacrés des Pârsis nous représentât la langue de l’Iran- Achéménides, deux dialectes iraniens, et il en existait certainement une multitude d’autres.
+                                </seg>
+                            </item>
+
+                            <!--PERICOPE 3-->
+                            <item n="3" corresp="#pericope3">
+                                <seg>
+                                    Au milieu de cette immense multiplicité de formes,il serait faux de supposer que nous ayons de la peine à nous retrouver, et qu’on ait devant soi le tableau d’un immense désordre.
+                                </seg>
+                            </item>
+
+                            <!--PERICOPE 4 - Nota a margine -->
+                            <item n="4" corresp="#pericope4">
+                                <seg>
+                                    je fais cette remarque pour éviter une fausse représentation,
+                                </seg>
+                            </item>
+
+                            <!--PERICOPE 5-->
+                            <item n="5" corresp="#pericope5">
+                                <seg>
+                                    Si nous prenons chacun des termes d’arrivée B' B" B'", nous retrouvons pour chacune exactement le même point de départ A, modifié dans des directions différentes, mais d’une manière parfaitement précise. 
+                                </seg>
+                            </item>    
+
+                            <!--PERICOPE 6-->
+                            <item n="6" corresp="#pericope6">
+                                <seg>
+                                    Ainsi tsa?i - ?ãté – château .
+                                </seg>
+                            </item>
+
+                            <!--PERICOPE 7-->
+                            <item n="7" corresp="#pericope7">
+                                <seg>
+                                    Tout cela remonte mathématiquement à castellum [latino] : tsat?i - tsã - ?ãté – ?ã , château , champ : -st > ? : tî?a.
+                                </seg>
+                            </item>
+
+                            <!--PERICOPE 8-->
+                            <item n="8" corresp="#pericope8">
+                                <seg>
+                                    On voit dès maintenant combien était éloignée de la vérité l’idée qui a dominé toute la première période des études linguistiques, à savoir que, pour qu’une langue ou un parler arrivât à se différencier d’une autre, il était nécessaire qu’une séparation géographique se produisît, par exemple l’idée que l’anglais ne diffère de l’allemand que parce que [ ].
+                                </seg>
+                            </item>
+
+                            <!--PERICOPE 9-->
+                            <item n="9" corresp="#pericope9">
+                                <seg>
+                                    Le cas de la séparation géographique, j’entends de la discontinuité géographique absolue, ce cas, bien loin de représenter la condition régulière pour qu’il y ait divergence, constitue un cas particulier demandant à être examiné à part et que j’exclus complètement de notre étude présente.                                </seg>
+                            </item>
+ 
+                            <!--PERICOPE 10  - Nota a margine -->
+                            <item n="10" corresp="#pericope10">
+                                <seg>
+                                    être examiné à part et que j’exclus complètement de notre étude présente.                                </seg>
+                            </item>
+ 
+                            <!--PERICOPE 11-->
+                            <item n="11" corresp="#pericope11">
+                                <seg>
+                                    L’effet de l’isolement linguistique d’une certaine communauté est probablement double
+                                </seg>
+                            </item>
+                            
+                            <!--PERICOPE 12-->
+                            <item n="12" corresp="#pericope12">
+                                <seg>
+                                    : d’une part les différences se produisent plus rapidement, et de l’autre ces différences se produisent dans une autre direction que si la communauté était restée en contact avec la masse.
+                                </seg>
+                            </item> 
+                            
+                            <!--PERICOPE 13-->
+                            <item n="13" corresp="#pericope13">
+                                <seg>
+                                    Mais, je le répète, c’est là un cas sinon exceptionnel, du moins réclamant une étude spéciale et qui ne peut être abordé qu’à condition d’être d’abord au clair précisément sur la différenciation qui s’accomplit dans un corps linguistique continu.
+                                </seg>
+                            </item>                            
+                            
+                         </list>
+                    </ab>
+                </segmentation>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+
+    <facsimile>
+        <!--CARTA 14-->
+        <surface>
+            <graphic url='ms_fr_03951_01_3_f014v_015.jpg' xml:id="pag14" width='1000px' height='800px' />
+            
+            <zone ulx="498" uly="20" lrx="979" lry="785" xml:id="fullPage14"/> <!-- solo pagina (destra) manoscritta -->
+            
+            <zone ulx="522" uly="27" lrx="577" lry="75" xml:id="p14Num"/> <!--   numero 14 -->
+            
+            <zone ulx="586" uly="33" lrx="942" lry="60" xml:id="p14R1"/>
+            <zone ulx="579" uly="60" lrx="960" lry="87" xml:id="p14R2"/>
+            <zone ulx="580" uly="83" lrx="972" lry="114" xml:id="p14R3"/>
+            <zone ulx="582" uly="110" lrx="963" lry="134" xml:id="p14R4"/>
+            <zone ulx="583" uly="135" lrx="969" lry="162" xml:id="p14R5"/>
+            <zone ulx="588" uly="164" lrx="957" lry="186" xml:id="p14R6"/>
+            <zone ulx="591" uly="188" lrx="772" lry="207" xml:id="p14R7"/>
+            <zone ulx="624" uly="212" lrx="966" lry="236" xml:id="p14R8"/>
+            <zone ulx="576" uly="234" lrx="967" lry="263" xml:id="p14R9"/>
+            <zone ulx="568" uly="260" lrx="964" lry="284" xml:id="p14R10"/>
+            <zone points = ' 505,255 634,258 582,299 538,351 501,353 ' xml:id="p14R10a"/> <!-- NOTA a MARGINE -->
+            <zone ulx="574" uly="284" lrx="957" lry="311" xml:id="p14R11"/>
+            <zone ulx="576" uly="308" lrx="949" lry="333" xml:id="p14R12"/>
+            <zone ulx="571" uly="327" lrx="964" lry="359" xml:id="p14R13"/>
+            <zone ulx="579" uly="363" lrx="973" lry="386" xml:id="p14R14"/>
+            <zone ulx="579" uly="389" lrx="972" lry="411" xml:id="p14R15"/>
+            <zone ulx="582" uly="411" lrx="972" lry="435" xml:id="p14R16"/>
+            <zone ulx="579" uly="440" lrx="958" lry="467" xml:id="p14R17"/>
+            <zone ulx="576" uly="471" lrx="955" lry="494" xml:id="p14R18"/>
+            <zone ulx="585" uly="495" lrx="960" lry="525" xml:id="p14R19"/>
+            <zone ulx="589" uly="524" lrx="952" lry="561" xml:id="p14R20"/>
+            <zone ulx="628" uly="563" lrx="973" lry="603" xml:id="p14R21"/>
+            <zone ulx="589" uly="596" lrx="961" lry="623" xml:id="p14R22"/>
+            <zone ulx="589" uly="621" lrx="975" lry="648" xml:id="p14R23"/>
+            <zone ulx="589" uly="648" lrx="940" lry="675" xml:id="p14R24"/>
+            <zone ulx="597" uly="678" lrx="951" lry="704" xml:id="p14R25"/>
+            <zone ulx="613" uly="701" lrx="964" lry="726" xml:id="p14R26"/>
+            <zone ulx="603" uly="731" lrx="939" lry="752" xml:id="p14R27"/>
+            <zone ulx="612" uly="750" lrx="975" lry="773" xml:id="p14R28"/>
+            <zone ulx="774" uly="765" lrx="963" lry="782" xml:id="p14R29"/>
+            
+            <!-- mappa - PERICOPE Trascrizione e Traduzione Italiano -->
+            
+            <zone points = ' 582,33 954,26 952,60 714,68 714,90 582,93 ' xml:id="peric1" corresp="#pericope1 #pericope1_ita"/>
+            <zone points = ' 711,57 969,48 973,201 586,215 582,93 711,89 ' xml:id="peric2" corresp="#pericope2 #pericope2_ita"/>
+            <zone points = ' 574,212 969,201 969,303 904,305 904,335 573,348 ' xml:id="peric3" corresp="#pericope3 #pericope3_ita"/>
+            <zone points = ' 504,258 633,257 631,288 579,291 579,333 502,333 ' xml:id="peric3a" corresp="#pericope3a #pericope3a_ita"/> <!-- Nota a margine -->
+            <!-- zone points = ' 505,212 969,198 970,326 502,341 ' xml:id="peric3bis" corresp="#pericope3bis #pericope3bis_ita"/>  PericopeConNotaMargine -->
+            <zone points = ' 901,303 970,302 970,426 715,434 714,462 576,468 571,341 903,335 ' xml:id="peric4" corresp="#pericope4 #pericope4_ita"/>
+            <zone points = ' 715,435 966,426 966,470 669,473 669,500 577,504 573,462 714,461 '  xml:id="peric5" corresp="#pericope5 #pericope5_ita"/>
+            <zone points = ' 664,465 964,458 966,558 573,564 571,473 664,474 ' xml:id="peric6" corresp="#pericope6 #pericope6_ita"/>
+            <zone points = ' 588,566 973,558 976,783 589,786 '  xml:id="peric7" corresp="#pericope7 #pericope7_ita"/>
+        </surface>
+
+        <!--CARTA 15 -->
+        <surface>
+            <graphic url="ms_fr_03951_01_3_f015v_014.jpg" xml:id="pag15" width='1000px' height='800px'/>
+            
+            <zone ulx="489" uly="29" lrx="979" lry="779" xml:id="fullPage15"/>
+            
+            <zone ulx="534" uly="36" lrx="588" lry="77" xml:id="p15Num"/> <!--   numero 15 -->
+            
+            <zone ulx="589" uly="56" lrx="960" lry="99" xml:id="p15R1"/>
+            <zone ulx="583" uly="89" lrx="970" lry="128" xml:id="p15R2"/>
+            <zone ulx="519" uly="113" lrx="966" lry="149" xml:id="p15R3"/>
+            <zone ulx="588" uly="140" lrx="943" lry="168" xml:id="p15R4"/>
+            <zone ulx="582" uly="162" lrx="970" lry="200" xml:id="p15R5"/>
+            <zone ulx="583" uly="188" lrx="955" lry="216" xml:id="p15R6"/>
+            <zone ulx="585" uly="210" lrx="970" lry="248" xml:id="p15R7"/>
+            <zone ulx="583" uly="239" lrx="967" lry="270" xml:id="p15R8"/>
+            <zone ulx="576" uly="266" lrx="975" lry="297" xml:id="p15R9"/>
+            <zone points = ' 496,209 586,209 583,335 496,338 ' xml:id="p15R9a"/> <!-- NOTA a MARGINE  -->
+            <zone ulx="580" uly="288" lrx="963" lry="318" xml:id="p15R10"/>
+            <zone ulx="582" uly="317" lrx="961" lry="345" xml:id="p15R11"/>
+            <zone ulx="580" uly="342" lrx="963" lry="368" xml:id="p15R12"/>
+            <zone ulx="588" uly="365" lrx="970" lry="393" xml:id="p15R13"/>
+            <zone ulx="580" uly="392" lrx="967" lry="417" xml:id="p15R14"/>
+            <zone ulx="591" uly="416" lrx="966" lry="440" xml:id="p15R15"/>
+            <zone ulx="594" uly="441" lrx="973" lry="464" xml:id="p15R16"/>
+            <zone ulx="591" uly="461" lrx="976" lry="483" xml:id="p15R17"/>
+            <zone ulx="589" uly="480" lrx="964" lry="506" xml:id="p15R18"/>
+            <zone ulx="586" uly="510" lrx="973" lry="533" xml:id="p15R19"/>
+            <zone ulx="585" uly="531" lrx="751" lry="564" xml:id="p15R20"/>
+            
+            <!-- mappa PERICOPE Trascrizione e Traduzione Italiano -->
+            
+            <zone points = ' 589,54 969,50 969,212 777,215 777,243 586,240 583,153 522,155 520,108 588,107 ' xml:id="peric8" corresp="#pericope8 #pericope8_ita"/>
+            <zone points = ' 498,209 582,209 579,324 495,326 ' xml:id="peric8b" corresp="#pericope8b #pericope8b_ita"/> <!-- Nota a margine -->
+            <!-- <zone points = ' 501,62 969,57 972,212 775,216 774,242 585,243 583,332 493,333 ' xml:id="peric8bis" corresp="#pericope8bis #pericope8bis_ita"/> 
+PericopeConNotaMargine -->
+            <zone points = ' 774,210 973,210 973,261 924,261 922,285 582,291 580,239 774,242 ' xml:id="peric9" corresp="#pericope9 #pericope9_ita"/>
+            <zone points = ' 919,260 975,258 975,389 678,392 678,419 589,422 585,266 ' xml:id="peric10" corresp="#pericope10 #pericope10_ita"/>
+            <zone points = ' 678,387 973,383 972,566 576,566 571,419 678,416 ' xml:id="peric11" corresp="#pericope11 #pericope11_ita"/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <group>
+            <text xml:lang="fr" source="#Bouquet-Engler2002">
+                <body>
+                    <!--INIZIO CARTA 14-->
+                    <pb facs="#fullPage14"/>
+                    <fw type="pageNum" place="top left" facs="#p14Num" hand="#h1">14</fw>
+                    
+                    <!--Prima pericope-->
+                    <ab type="pericope" n="1" xml:id="pericope1" corresp="#pericope1_ita" hand="#h1" facs="#peric1" change="#CHG-1">
+                        <lb facs="#p14R1"/>
+                        Je pourrais naturellement multiplier à
+                        <lb facs="#p14R2"/>
+                        l’infini les <term ref="#exemple"><abbr>ex<am>.</am></abbr><expan><ex>exemples</ex></expan></term>.
+                    </ab>
+                    <!--Seconda pericope-->
+                    <ab type="pericope" n="2" xml:id="pericope2" corresp="#pericope2_ita" hand="#h1" facs="#peric2" change="#CHG-1">
+                        <lb facs="#p14R3"/>
+                        Pour en prendre un <abbr>+</abbr><expan>plus</expan> loin de nous : il pouvait sembler <add resp="#FDS" place="above"> <date when="1891-11-13">au commencement du siècle</date></add> que la <term ref="#languezende"><mentioned xml:lang="fr" rend="underline">langue zende</mentioned></term>
+                        <lb facs="#p14R4"/>
+                        conservée par les <term ref="#livresacre">livres sacrés</term> des Pârsis <choice><orig>,</orig><reg resp="#SB #RE"> </reg></choice> nous
+                        <lb facs="#p14R5"/>
+                        représentât la <term ref="#langue">langue</term> de l’<emph rend="underline"><geogName>Iran</geogName></emph> - <geogName>Achéménides</geogName>.
+                        <lb facs="#p14R6"/>
+                        <abbr>2</abbr><expan><ex>deux</ex></expan> <term ref="#dialectiraniens"><mentioned xml:lang="fr" rend="underline">dialectes iraniens</mentioned></term>, et il en existait <abbr>cert<am>.</am></abbr><expan><ex>ainement</ex></expan>
+                        <lb facs="#p14R7"/>
+                        une multitude d’autres.
+                    </ab>
+                    <!--Terza pericope-->
+                    <ab type="pericope" n="3" xml:id="pericope3" corresp="#pericope3_ita" hand="#h1" facs="#peric3" change="#CHG-1">
+                        <lb facs="#p14R8"/>
+                        Au milieu de cette immense multiplicité
+                        <lb facs="#p14R9"/>
+                        de <term ref="#formes">formes</term>, <choice><orig><del rend="overstrike">nous ne vojons aucunne desordre,</del></orig><reg resp="#SB #RE"> </reg></choice>
+                        <lb facs="#p14R10"/>
+                        <choice><orig><del rend="overstrike">arcunne</del></orig><reg resp="#SB #RE"> </reg></choice>il serait faux de supposer que nous
+                        <lb facs="#p14R11"/>
+                        ayons de la peine à nous retrouver, et qu’on ait 
+                        <lb facs="#p14R12"/>
+                        devant soi le tableau d’ <abbr>i</abbr><expan><ex>un</ex></expan>immense <term ref="#desordre">désordre</term>.
+                    </ab>
+                    <!--Quarta pericope: Nota a margine-->
+                    <ab type="pericope" n="4" xml:id="pericope4" corresp="#pericope4_ita" hand="#h1" facs="#peric4" change="#CHG-1">
+                        <add resp="#FDS" place="margin">                 
+                            je fais cette remarque 
+                            pour éviter 
+                            <term ref="#fausserepresentation">fausse représentation</term>    
+                        </add>
+                    </ab>     
+                    <!--Quinta pericope-->
+                    <ab type="pericope" n="5" xml:id="pericope5" corresp="#pericope5_ita" hand="#h1" facs="#peric5" change="#CHG-1">    
+                        Si
+                        <lb facs="#p14R13"/>
+                        nous prenons chacun des <term ref="#termesdarrivee">termes d'arrivée</term> B'
+                        <lb facs="#p14R14"/>
+                        B'' B''', nous retrouvons pour chacune exactement
+                        <lb facs="#p14R15"/>
+                        le même <term ref="#pointdedepart">point de départ</term> A, modifié
+                        <lb facs="#p14R16"/>
+                        dans des directions <abbr>differ</abbr><expan><term ref="#differentes">differentes</term></expan>, mais d’ <abbr>i<am>.</am></abbr><expan><ex>une</ex></expan> manière 
+                        <lb facs="#p14R17"/>
+                        <abbr>parf<am>.</am></abbr><expan><ex>aitement</ex></expan> précise.
+                    </ab>
+                    <!--Sesta pericope-->
+                    <ab type="pericope" n="6" xml:id="pericope6" corresp="#pericope6_ita" hand="#h1" facs="#peric6" change="#CHG-1">
+                        Ainsi <mentioned xml:lang="fp" rend="underline"> - tsaθi - θãté - </mentioned> 
+                        <lb facs="#p14R18"/>
+                        <mentioned xml:lang="fr" rend="underline">château</mentioned> 
+                    </ab>
+                    <!--Settima pericope-->
+                    <ab type="pericope" n="7" xml:id="pericope7" corresp="#pericope7_ita" hand="#h1" facs="#peric7" change="#CHG-1">
+                        Tout cela remonte mathématiquement
+                        <lb facs="#p14R19"/>
+                        à <mentioned xml:lang="lt" rend="underline">castellum:</mentioned> - <mentioned xml:lang="fr" rend="underline"> tsatθi - tsã - θãté – θã, </mentioned>  
+                        <lb facs="#p14R20"/>
+                        <mentioned xml:lang="fr" rend="underline">château,</mentioned> <mentioned xml:lang="fr" rend="underline">champ</mentioned><choice><orig>;</orig><reg resp="#SB #RE">:</reg></choice> - st > θ <choice><orig>;</orig><reg resp="#SB #RE">:</reg></choice><mentioned xml:lang="fr" rend="underline">tîθa</mentioned>.
+                    </ab>
+                    <!--Ottava pericope-->
+                    <ab type="pericope" n="8" xml:id="pericope8" corresp="#pericope8_ita" hand="#h1" facs="#peric8" change="#CHG-3">
+                        <lb facs="#p14R21"/>
+                        <choice><orig><del rend="overstrike">La</del></orig><reg resp="#SB #RE"> </reg></choice> On voit dès maintenant combien
+                        <lb facs="#p14R22"/>
+                        était éloignée de la <term ref="#verite">vérité</term> l'<term ref="#idee">idée</term> qui a 
+                        <lb facs="#p14R23"/>
+                        dominé toute la <choice><orig>1</orig><reg resp="#SB #RE">première</reg></choice>période des <term ref="#etudeslinguistiques">études linguistiques</term>.
+                        <lb facs="#p14R24"/>
+                        <choice><orig>tiques ;</orig><reg resp="#SB #RE"> </reg></choice> à savoir que, pour<del rend="overstrike"><gap reason="illegible" extent="5" atLeast="10" atMost="12" unit="chars"/></del>
+                        <lb facs="#p14R25"/>
+                        qu’une <term ref="#langue">langue</term> ou un <term ref="#parler"><emph rend="underline">parler</emph></term> arrivât
+                        <lb facs="#p14R26"/>
+                        à se <term ref="#differencier">différencier</term> d’ <abbr>i</abbr><expan>une</expan>  autre, il était <term ref="#necessaire">nécessaire</term>
+                        <lb facs="#p14R27"/>
+                        qu’une <term ref="#separation">séparation</term> <term ref="#geographique">géographique</term><choice><orig><del rend="overstrike">,</del></orig><reg resp="#SB #RE"></reg> </choice> se 
+                        <lb facs="#p14R28"/>
+                        produisît, <abbr>par<am>.</am></abbr> <abbr>ex<am>.</am></abbr><term ref="#exemple"><expan><ex>emple</ex></expan></term> <choice><orig><del rend="overstrike">que</del></orig><reg resp="#SB #RE"></reg></choice>l’<term ref="#idee">idée</term> que l’<lang>anglais</lang> ne
+                        <lb facs="#p14R29"/>
+                        ne <term ref="#differe">diffère</term> de l’<abbr>all<am>.</am></abbr><lang><expan><ex>allemand</ex></expan></lang> que parce que [ ]
+                    </ab> 
+                   
+                    <!--INIZIO CARTA 15-->
+                    <pb facs="#fullPage15"/>
+                    <fw type="pageNum" place="top left" facs="#p15Num" hand="#h1">15</fw>
+                    <!--Nona pericope-->
+                    <ab type="pericope" n="9" xml:id="pericope9" corresp="#pericope9_ita" hand="#h1" facs="#peric9" change="#CHG-3">    
+                        <lb facs="#p15R1"/>
+                            Le cas de la <term ref="#separgeo">séparation géographique</term>,
+                        <lb facs="#p15R2"/>
+                            j’entends de la <term ref="#discgeo"><emph rend="underline">discontinuité</emph> géographique</term>
+                        <lb facs="#p15R3"/>
+                            <term ref="#absolue">absolue</term>,
+                        <lb facs="#p15R4"/>
+                            ce cas, bien loin de <term ref="#representer">représenter</term> la
+                        <lb facs="#p15R5"/>
+                            <term ref="#condition">condition</term> <term ref="#reguliere">régulière</term>pour qu’il y ait <term ref="#divergence">divergence</term>,
+                        <lb facs="#p15R6"/>
+                            constitue un <term ref="#casparticulier"><emph rend="underline">cas particulier</emph></term> demandant à 
+                        <lb facs="#p15R7"/>
+                            être examiné à part.
+                    </ab>
+                    <!--Decima pericope - Nota a margine -->
+                    <ab type="pericope" n="10" xml:id="pericope10" corresp="#pericope10_ita" hand="#h1" facs="#peric10" change="#CHG-3">    
+                        <add resp="#FDS" place="margin">                 
+                            et que 
+                            j’exclus 
+                            complètement 
+                            de notre 
+                            <term ref="#etude">étude</term>
+                            <date when="1891-11-13">présente</date>.    <!-- evento databile -->
+                        </add>
+                    </ab>
+                    <!--Undicesima pericope -->
+                    <ab type="pericope" n="11" xml:id="pericope11" corresp="#pericope11_ita" hand="#h1" facs="#peric11" change="#CHG-3">
+                        L’effet
+                        <lb facs="#p15R8"/>
+                        de l’<term ref="#isolling">isolement linguistique</term>d’<abbr>i</abbr><expan resp="#SB #RE">une</expan> certaine
+                        <lb facs="#p15R9"/>
+                        <term ref="#communaute">communauté</term> est probablement <term ref="#double">double</term>
+                    </ab>
+                        <!--Dodicesima pericope -->
+                        <ab type="pericope" n="12" xml:id="pericope12" corresp="#pericope12_ita" hand="#h1" facs="#peric12" change="#CHG-3">    
+                        : d’une 
+                        <lb facs="#p15R10"/>
+                        part les <term ref="#differences">différences</term> se produisent plus
+                        <lb facs="#p15R11"/>
+                        rapidement, et de l’autre ces <term ref="#differences">différences</term> se
+                        <lb facs="#p15R12"/>
+                        produisent dans une autre <term ref="#direction">direction</term> que si 
+                        <lb facs="#p15R13"/>
+                        la <term ref="#communaute">communauté</term> était restée en <term ref="#contact">contact</term> avec 
+                        <lb facs="#p15R14"/>
+                        la <term ref="#masse">masse</term>.
+                    </ab>
+                    <!--Tredicesima pericope -->
+                    <ab type="pericope" n="13" xml:id="pericope13" corresp="#pericope13_ita" hand="#h1" facs="#peric13" change="#CHG-3">    
+                        Mais, je le répète, c’est là un cas 
+                        <lb facs="#p15R15"/>
+                        sinon <term ref="#exceptionnel">exceptionnel</term>,
+                        <lb facs="#p15R16"/>
+                        du moins réclamant une <term ref="#etudespeciale">étude spéciale</term>
+                        <lb facs="#p15R17"/>
+                        et qui ne peut être abordé qu’à <term ref="#condition">condition</term>
+                        <lb facs="#p15R18"/>
+                        d’être <add resp="#FDS" place="above">d’abord</add> au clair <term ref="#precisement">précisément</term> sur
+                        <lb facs="#p15R19"/>
+                        la <term ref="#differenciation">différenciation</term> qui s’accomplit dans un <term ref="#corps">corps</term>
+                        <lb facs="#p15R20"/>
+                        <term ref="#lingcont">linguistique continu</term>.
+                    </ab>
+                </body>
+            </text>
+
+            <!-- traduzione ITALIANO -->
+
+            <text xml:lang="it">
+                <body source="#Fadda2006" resp="#EF">
+                    <!--Prima pericope-->
+                    <ab type="pericope" n="1" xml:id="pericope1_ita" corresp="#pericope1" facs="#peric1">
+                    Naturalmente potrei moltiplicare all’infinito gli esempi.    
+                    </ab>
+
+                    <!--Seconda pericope-->
+                    <ab type="pericope" n="2" xml:id="pericope2_ita" corresp="#pericope2" facs="#peric2">
+                    Per prenderne uno più lontano da noi: poteva sembrare all’inizio del secolo che la lingua zenda conservata attraverso i libri sacri di Parsi rappresentasse per noi la lingua dell’Iran – Achemenide, due dialetti iraniani, e ce n’era certamente una moltitudine d’altri.   
+                    </ab>
+
+                    <!--Terza pericope-->
+                    <ab type="pericope" n="3" xml:id="pericope3_ita" corresp="#pericope3" facs="#peric3">
+                    In mezzo a questa immensa molteplicità di forme (faccio questa osservazione per evitare una falsa rappresentazione), sarebbe falso supporre che noi abbiamo problemi a raccapezzarci, e che si abbia davanti a sé il quadro di un immenso disordine.    
+                    </ab>
+
+                    <!--Quarta pericope - Nota a margine-->
+                    <ab type="pericope" n="4" xml:id="pericope4_ita" corresp="#pericope4" facs="#peric4a #peric4b">
+                    (faccio questa osservazione per evitare una falsa rappresentazione)    
+                    </ab>
+
+                    <!--Quinta pericope-->
+                    <ab type="pericope" n="5" xml:id="pericope5_ita" corresp="#pericope5" facs="#peric5">
+                    Se noi prendiamo ognuno dei termini d’arrivo B’, B’’, B’’’, ritroviamo per ciascuno esattamente lo stesso punto di partenza A, modificato in direzioni differenti, ma in una maniera perfettamente precisa.
+                    </ab>
+
+                    <!--Sesta pericope-->
+                    <ab type="pericope" n="6" xml:id="pericope6_ita" corresp="#pericope6" facs="#peric6">
+                    Così abbiamo tsaθi - θãté – château.    
+                    </ab>
+
+                    <!--Settima pericope-->
+                    <ab type="pericope" n="7" xml:id="pericope7_ita" corresp="#pericope7" facs="#peric7">
+                    Tutto ciò risale matematicamente a castellum: tsatθi - tsã - θãté – θã, château, champ: -st > θ : tîθa.    
+                    </ab>
+
+                    <!--Ottava pericope-->
+                    <ab type="pericope" n="8" xml:id="pericope8_ita" corresp="#pericope8" facs="#peric8">
+                    Si vede subito quanto fosse lontana dalla verità l’idea che ha dominato tutto il primo periodo degli studi linguistici, e cioè che, perché una lingua o una parlata [parler] arrivasse a differenziarsi da un’altra, era necessario che si producesse una separazione geografica, per esempio l’idea che l’inglese differisce dal tedesco solo perché [ ].    
+                    </ab>
+                    
+                    <!--Nona pericope-->
+                    <ab type="pericope" n="9" xml:id="pericope9_ita" corresp="#pericope9" facs="#peric9">
+                        Il caso della separazione geografica, intendo della discontinuità geografica assoluta, questo caso, ben lungi dal rappresentare una condizione regolare perché ci sia divergenza, costituisce un caso particolare che richiede di essere esaminato a parte e che io escludo completamente dal nostro presente studio.    
+                    </ab>
+                    
+                    <!--Dieci pericope  - Nota a margine -->
+                    <ab type="pericope" n="10" xml:id="pericope10_ita" corresp="#pericope10" facs="#peric10">
+                        a parte e che io escludo completamente dal nostro presente studio.
+                    </ab>
+                    
+                    <!--Undici pericope-->
+                    <ab type="pericope" n="11" xml:id="pericope11_ita" corresp="#pericope11" facs="#peric11">
+                        L’effetto dell’isolamento linguistico di una certa comunità è probabilmente duplice    
+                    </ab>
+                    
+                    <!--Dodici pericope-->
+                    <ab type="pericope" n="12" xml:id="pericope12_ita" corresp="#pericope12" facs="#peric12">
+                        : da una parte le differenze si producono più rapidamente, e dall’altra queste differenze si producono in un’altra direzione rispetto a quella che avrebbe preso se la comunità fosse rimasta in contatto con la massa.    
+                    </ab>
+                    
+                    <!--Tredici pericope-->
+                    <ab type="pericope" n="13" xml:id="pericope13_ita" corresp="#pericope13" facs="#peric13">
+                        Ma, lo ripeto, si tratta di un caso che, se non è eccezionale, quantomeno reclama uno studio speciale e che può essere affrontato solo a condizione di avere anzitutto le idee ben chiare sulla differenziazione che si compie in un corpo linguistico continuo.   
+                    </ab>
+                </body>
+            </text>
+        </group>
+ <!-- ******************** APPENDICE - Bibliografia - Persone - Glossario  ******************* -->
+        <back>
+            <!-- Bibliografia -->
+            <listBibl>
+                <head>Bibliografia</head>
+
+                <bibl xml:id="Bouquet-Engler2002"> 
+                    <title>Écrits de linguistique générale</title>
+                    <author>
+                        <persName ref="#FdS">
+                            <forename>Ferdinand </forename> 
+                            <surname>de Saussure</surname>
+                        </persName>
+                    </author>
+                    <author>
+                        <persName ref="#SB">
+                            <forename>Simon </forename>
+                            <surname>Bouquet</surname>
+                        </persName>
+                    </author>
+                    <author>
+                        <persName ref="#RE">
+                            <forename>Rudolf </forename>
+                            <surname>Engler</surname>
+                        </persName>
+                    </author>
+                    <author>
+                        <persName ref="#AW">
+                            <forename>Antoinette </forename>
+                            <surname>Weil</surname>
+                        </persName>
+                    </author>
+                    <date when="2002">2002</date>
+                    <publisher>Gallimard</publisher>
+                    <pubPlace>Parigi</pubPlace>
+                    <citedRange unit="page" from="143" to="172">pp. 143-172</citedRange>
+                    <note>
+                        Per la trascrizione del manoscritto
+                    </note>
+                </bibl>
+
+                <bibl xml:id="Fadda2006">
+                    <title type="main">Lingua e mente sociale. </title>
+                    <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
+                    <author>
+                        <persName ref="#EF">
+                            <forename>Emanuele </forename>
+                            <surname>Fadda</surname>
+                        </persName>
+                    </author>
+                    <date when="2002">2006</date> 
+                    <publisher>Bonanno Editore</publisher>
+                    <pubPlace>Acireale - Roma</pubPlace>
+                    <idno type="ISBN">ISBN 887796276-3</idno>
+                    <citedRange unit="page" from="85" to="121">pp. 85-121</citedRange>
+                    <note>
+                        Per la traduzione dal francese all'italiano
+                    </note>
+                </bibl>
+            </listBibl>
+
+            <!-- Persone -->
+            <listPerson>
+                <head>Persone</head>
+                
+                <person xml:id="FdS" > 
+                    <persName role="author">
+                        <forename>Ferdinand</forename>
+                        <surname>de Saussure</surname>
+                    </persName>
+                    <occupation> linguistic </occupation>
+                    <sex>M</sex> 
+                </person>
+
+                <person xml:id="SB"> 
+                    <persName> 
+                        <forename>Simon</forename>
+                        <surname>Bouquet</surname>
+                    </persName>
+                    <sex>M</sex> 
+                </person>
+
+                <person xml:id="RE"> 
+                    <persName> 
+                        <forename>Rudolf</forename>
+                        <surname>Engler</surname>
+                    </persName>
+                    <sex>M</sex>
+                </person>
+
+                <person xml:id="EF"> 
+                    <persName> 
+                        <forename>Emanuele</forename>
+                        <surname>Fadda</surname>
+                    </persName>
+                    <sex>M</sex> 
+                </person>
+
+                <person xml:id="AB"> 
+                    <persName> 
+                        <forename>Aurora</forename>
+                        <surname>Baroni</surname>
+                    </persName>
+                    <sex>F</sex> 
+                </person>
+            </listPerson>
+
+            <!-- Glossario -->
+            <list>
+                <head>Glossario</head>
+                  
+                    <label>
+                        <term xml:id="exemple" xml:lang="fr">Exemple</term> <!-- FRANCESE -->
+                        <term ref="#exemple" xml:lang="it">Esempio</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#esemple" xml:lang="it" source="https://www.treccani.it/vocabolario/esempio/">
+                           Fatto particolare che serve a illustrare un’affermazione generica, a dare evidenza a un principio teorico.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="languezende" xml:lang="fr">Langue zende</term> <!-- FRANCESE -->
+                        <term ref="#languezende" xml:lang="it">Lingua zenda</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#languezende" xml:lang="it" source="https://educalingo.com/it/dic-fr/zenda/">
+                            La lingua avestica (obsoleto: lingua Zenda, Zendo) è stata una lingua iranica nord-orientale, appartenente alla famiglia linguistica indoeuropea oggi 
+                            conosciuta come la lingua liturgica dello Zoroastrismo, in particolare come lingua dell'Avesta, il libro sacro di questa religione, da cui deriva il 
+                            nome. Questa lingua deve essere stata, in un periodo storico non precisabile, anche una lingua parlata. Il fatto di essere la lingua di un'opera sacra 
+                            le ha garantito un lungo periodo di uso come lingua scritta, ovvero per la composizione di altre opere e come lingua scritta ha continuato a essere 
+                            utilizzata per molti anni ancora, a partire dal momento in cui cessò di essere una lingua parlata.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="livresacre" xml:lang="fr">Livre sacrés</term> <!-- FRANCESE -->
+                        <term ref="#livresacre" xml:lang="it">Libro sacro</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#livresacre" xml:lang="it" source="https://www.treccani.it/vocabolario/libro sacro/">
+                            La scrittura sacra che è a fondamento di una religione, e per antonomasia, nella religione cristiana, la Bibbia.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="langue" xml:lang="fr">Lingue</term> <!-- FRANCESE -->
+                        <term ref="#langue" xml:lang="it">Lingua</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#langue" xml:lang="it" source="https://www.treccani.it/vocabolario/lingua/">
+                            Sistema di suoni articolati distintivi e significanti (fonemi), di elementi lessicali, cioè parole e locuzioni (lessemi e sintagmi), e di forme 
+                            grammaticali (morfemi), accettato e usato da una comunità etnica, politica o culturale come mezzo di comunicazione per l’espressione e lo scambio di 
+                            pensieri e sentimenti, con caratteri tali da costituire un organismo storicamente determinato, con proprie leggi fonetiche, morfologiche e 
+                            sintattiche.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="dialectiraniens" xml:lang="fr">Dialect iraniens</term> <!-- FRANCESE -->
+                        <term ref="#dialectiraniens" xml:lang="it">Dialetto iraniano</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#dialectiraniens" xml:lang="it" source="https://www.treccani.it/vocabolario/dialetto iraniano/">
+                            Sistema linguistico adoperato in un ambito geografico limitato all'Iran, che non ha raggiunto o che ha perduto diffusione e prestigio di fronte a un altro 
+                            sistema linguistico diventato dominante e riconosciuto come ufficiale, cioè la lingua nazionale (Iraniana).
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="formes" xml:lang="fr">Formes</term> <!-- FRANCESE -->
+                        <term ref="#formes" xml:lang="it">Forme</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#formes" xml:lang="it" source="https://www.treccani.it/vocabolario/forme/">
+                            In linguistica analizza il rapporto tra l'espressione comunicativa e la forma linguistica.
+                            Modo di essere, di presentarsi; così, con riferimento alla struttura, al genere oppure alla qualità.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="fausserepresentation" xml:lang="fr">Fausse représentation</term> <!-- FRANCESE -->
+                        <term ref="#fausserepresentation" xml:lang="it">Falsa rappresentazione</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#fausserepresentation" xml:lang="it" source="https://www.treccani.it/vocabolario/falsa rappresentazione/">
+                            L'oggetto percepito viene sostituito da uno diverso, che ne diventa quindi simbolo che si vuol far passare per vero.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="desordre" xml:lang="fr">Désordre</term> <!-- FRANCESE -->
+                        <term ref="#desordre" xml:lang="it">Disordine</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#desordre" xml:lang="it" source="https://www.treccani.it/vocabolario/disordine/">
+                            Confusione; mancanza o turbamento dell’ordine, lo stato delle cose disordinate;                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="termesdarrivee" xml:lang="fr">Termes d'arrivée</term> <!-- FRANCESE -->
+                        <term ref="#termesdarrivee" xml:lang="it">Termine d'arrivo</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#termesdarrivee" xml:lang="it" source="https://www.treccani.it/vocabolario/termine d'arrivo/">
+                            Fine (punto,stato)a cui si mira. Condizione a cui si giunge o si è giunti.
+                        </gloss>
+                    </item>
+                    
+                    
+                    <label>
+                        <term xml:id="pointdedepart" xml:lang="fr">Point de départ</term> <!-- FRANCESE -->
+                        <term ref="#pointdedepart" xml:lang="it">Punto di partenza</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#pointdedepart" xml:lang="it" source="https://www.treccani.it/vocabolario/punto di partenza/">
+                            Punto d’inizio, il momento d’avvio di qualche cosa, o anche la situazione iniziale.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="differences" xml:lang="fr">Différente</term> <!-- FRANCESE -->
+                        <term ref="#differences" xml:lang="it">Differente</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#differences" xml:lang="it" source="https://www.treccani.it/vocabolario/differente/">
+                            Diverso, che ha natura o qualità dissimili da quelle di un altro oggetto o persona con cui è confrontato.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="verite" xml:lang="fr">Vérité</term> <!-- FRANCESE -->
+                        <term ref="#verite" xml:lang="it">Verità</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#verite" xml:lang="it" source="https://www.treccani.it/vocabolario/verità/">
+                            Rispondenza piena e assoluta con la realtà effettiva. Affermazione di un contenuto ideale, accettato come basilare dal punto di vista religioso, etico, storico.
+                        </gloss>
+                    </item>
+                
+                <label>
+                    <term xml:id="idee" xml:lang="fr">Idée</term> <!-- FRANCESE -->
+                    <term ref="#idee" xml:lang="it">Idea</term> <!-- ITALIANO -->
+                </label>
+                <item>
+                    <gloss target="#idee" xml:lang="it" source="https://www.treccani.it/vocabolario/idea/">
+                        Ogni singolo contenuto del pensiero, ogni entità mentale, e più in particolare la rappresentazione di un oggetto alla mente, la nozione che la mente si forma o riceve di una cosa reale o immaginaria.
+                    </gloss>
+                </item>
+                    
+                    <label>
+                        <term xml:id="etudeslinguistiques" xml:lang="fr">Etude linguistique</term> <!-- FRANCESE -->
+                        <term ref="#etudeslinguistiques" xml:lang="it">Studio linguistico</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#etudeslinguistiques" xml:lang="it" source="https://www.treccani.it/vocabolario/studio linguistico/">
+                            Attività didattica organica e regolare per quello che riguarda il linguaggio.
+                        </gloss>
+                    </item>
+                    
+                     <label>
+                        <term xml:id="parler" xml:lang="fr">Parler</term> <!-- FRANCESE -->
+                        <term ref="#parler" xml:lang="it">Parlata</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#parler" xml:lang="it" source="https://www.treccani.it/vocabolario/parlata/">
+                            Modo di parlare proprio di una persona o di una comunità, caratterizzato da aspetti della pronuncia, della morfologia, del lessico (ha significato più generico e meno preciso che dialetto). 
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="differencier" xml:lang="fr">Différencier</term> <!-- FRANCESE -->
+                        <term ref="#differencier" xml:lang="it">Differenziarsi</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#differencier" xml:lang="it" source="https://www.treccani.it/vocabolario/differenziarsi/">
+                            Stabilire quali sono i caratteri differenziali che consentano di distinguere tra cose o esseri simili.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="necessaire" xml:lang="fr">Nécessaire</term> <!-- FRANCESE -->
+                        <term ref="#necessaire" xml:lang="it">Necessario</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#necessaire" xml:lang="it" source="https://www.treccani.it/vocabolario/necessario/">
+                            Che è per necessità, in opposizione a possibile e contingente.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="separation" xml:lang="fr">Séparation</term> <!-- FRANCESE -->
+                        <term ref="#separation" xml:lang="it">Separazione</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#separation" xml:lang="it" source="https://www.treccani.it/vocabolario/separazione/">
+                            Divisione 
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="geographique" xml:lang="fr">Géographique</term> <!-- FRANCESE -->
+                        <term ref="#geographique" xml:lang="it">Geografica</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#geographique" xml:lang="it" source="https://www.treccani.it/vocabolario/geografica/">
+                            Pertinente all'oggetto e ai metodi della geografia. 
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="differe" xml:lang="fr">Diffère</term> <!-- FRANCESE -->
+                        <term ref="#differe" xml:lang="it">Differisce</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#differe" xml:lang="it" source="https://www.treccani.it/vocabolario/differisce/">
+                            Esser differente, avere qualche cosa di diverso.
+                        </gloss>
+                    </item>    
+   
+                <!-- ******************* termini foglio 15 ***************************************  -->
+                    
+                    <label>
+                        <term xml:id="discgeo" xml:lang="fr">Discontinuité géographique</term> <!-- FRANCESE -->
+                        <term ref="#discgeo" xml:lang="it">Discontinuità geografica</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#discgeo" xml:lang="it" source="https://www.treccani.it/vocabolario/discontinuità/">
+                            Mancanza di continuità pertinente alla geografia, interruzione che si ripete nel tempo e nello spazio per uno spazio geografico.
+                        </gloss>
+                    </item>
+                    
+                    
+                    <label>
+                        <term xml:id="absolue" xml:lang="fr">Absolue</term> <!-- FRANCESE -->
+                        <term ref="#absolue" xml:lang="it">Assoluta</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#absolue" xml:lang="it" source="https://www.treccani.it/vocabolario/assoluta/">
+                            Che non ammette limitazioni, restrizioni o condizioni relativamente a sé stesso, alla propria volontà o alle proprie attribuzioni
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="representer" xml:lang="fr">Représenter</term> <!-- FRANCESE -->
+                        <term ref="#representer" xml:lang="it">Rappresentare</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#representer" xml:lang="it" source="https://www.treccani.it/vocabolario/rappresentare/">
+                            Avere il significato di, costituire, equivalere. Raffigurare un’idea astratta, un’entità non visibile mediante un segno o una figura simbolica.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="condition" xml:lang="fr">Condition</term> <!-- FRANCESE -->
+                        <term ref="#condition" xml:lang="it">Condition</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#condition" xml:lang="it" source="https://www.treccani.it/vocabolario/condizione/">
+                            Qualità, requisito, situazione o presupposto necessari a un determinato scopo.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="reguliere" xml:lang="fr">Régulière</term> <!-- FRANCESE -->
+                        <term ref="#reguliere" xml:lang="it">Regolare</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#reguliere" xml:lang="it" source="https://www.treccani.it/vocabolario/regolare/">
+                            Conforme a una norma o ad una pratica consuetudinaria o convenzionale.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="divergence" xml:lang="fr">Divergence</term> <!-- FRANCESE -->
+                        <term ref="#divergence" xml:lang="it">Divergenza</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#divergence" xml:lang="it" source="https://www.treccani.it/vocabolario/divergenza/ ">
+                            Differenza, disparità, soprattutto nel modo di pensare e di giudicare.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="casparticulier" xml:lang="fr">Cas particulier</term> <!-- FRANCESE -->
+                        <term ref="#casparticulier" xml:lang="it">Caso particolare</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#casparticulier" xml:lang="it" source="https://www.treccani.it/vocabolario/caso particolare/">
+                            Avvenimento speciale che ha caratteri propri, distintivi.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="etude" xml:lang="fr">Etude</term> <!-- FRANCESE -->
+                        <term ref="#etude" xml:lang="it">Studio</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#etude" xml:lang="it" source="https://www.treccani.it/vocabolario/studio/">
+                            Applicazione volta all’apprendimento di quanto è stato sperimentato da altri in un ramo dello scibile, in un’arte, in un’attività pratica, allo scopo di fare proprie tali esperienze, ed eventualmente superarle, proponendo soluzioni nuove nel campo teorico o pratico.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="isolling" xml:lang="fr">Isolement linguistique</term> <!-- FRANCESE -->
+                        <term ref="#isolling" xml:lang="it">Isolamento linguistico</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#isolling" xml:lang="it" source="https://www.treccani.it/vocabolario/isolamento linguistico/">
+                            Isolamento che riguarda la lingua, il linguaggio e le manifestazioni linguistiche, da tutte le altre esperienze significative, così da ridurne al minimo le possibilità di accesso nel campo della coscienza.
+                        </gloss>
+                    </item>
+                    
+                    
+                    <label>
+                        <term xml:id="communaute" xml:lang="fr">Communauté</term> <!-- FRANCESE -->
+                        <term ref="#communaute" xml:lang="it">Comunità</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#communaute" xml:lang="it" source="https://www.treccani.it/vocabolario/comunità/">
+                            Collettività, insieme di persone che hanno comunione di vita sociale, condividono gli stessi comportamenti e interessi.
+                        </gloss>
+                    </item>
+                    
+                    
+                    <label>
+                        <term xml:id="double" xml:lang="fr">Double</term> <!-- FRANCESE -->
+                        <term ref="#double" xml:lang="it">Duplice</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#double" xml:lang="it" source="https://www.treccani.it/vocabolario/duplice/">
+                            Che si compone di due parti, di due elementi, non necessariamente uguali.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="irection" xml:lang="fr">Direction</term> <!-- FRANCESE -->
+                        <term ref="#direction" xml:lang="it">Direzione</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#direction" xml:lang="it" source="https://www.treccani.it/vocabolario/direzione/">
+                            La parte o il punto verso cui è diretta una persona o si muove una cosa
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="contact" xml:lang="fr">Contact</term> <!-- FRANCESE -->
+                        <term ref="#contact" xml:lang="it">Contatto</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#contatto" xml:lang="it" source="https://www.treccani.it/vocabolario/contatto/">
+                            Relazione, rapporto.
+                        </gloss>
+                    </item>
+                    
+                    
+                    <label>
+                        <term xml:id="masse" xml:lang="fr">Masse</term> <!-- FRANCESE -->
+                        <term ref="#masse" xml:lang="it">Massa</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#masse" xml:lang="it" source="https://www.treccani.it/vocabolario/massa/">
+                            Moltitudine qualificata di persone che costituiscono un insieme più o meno organico.
+                        </gloss>
+                    </item>
+                    
+                    
+                    <label>
+                        <term xml:id="exceptionnel" xml:lang="fr">Exceptionnel</term> <!-- FRANCESE -->
+                        <term ref="#exceptionnel" xml:lang="it">Exceptionnel</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#exceptionnel" xml:lang="it" source="https://www.treccani.it/vocabolario/eccezionale/">
+                            Che costituisce un’eccezione, quindi straordinario, singolare, insolito.
+                        </gloss>
+                    </item>
+                    
+                    
+                    <label>
+                        <term xml:id="etudespeciale" xml:lang="fr">Etude spéciale</term> <!-- FRANCESE -->
+                        <term ref="#etudespeciale" xml:lang="it">Studio speciale</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#etudespeciale" xml:lang="it" source="https://www.treccani.it/vocabolario/studio speciale/">
+                            Studio non comune, fuori dell’ordinario, di genere particolare.
+                        </gloss>
+                    </item>
+                    
+                    
+                    <label>
+                        <term xml:id="precisement" xml:lang="fr">Précisément</term> <!-- FRANCESE -->
+                        <term ref="#precisement" xml:lang="it">Idee ben chiare</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#precisement" xml:lang="it" source="https://dizionario.internazionale.it/parola/avere-le-idee-chiare">
+                            Sapere ciò che si vuole
+                        </gloss>
+                    </item>
+                    
+                    
+                    <label>
+                        <term xml:id="differenciation" xml:lang="fr">Différenciation</term> <!-- FRANCESE -->
+                        <term ref="#differenciation" xml:lang="it">Differenze</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#differenciation" xml:lang="it" source="https://www.treccani.it/vocabolario/differenziazione/">
+                            Il fatto di differenziare, cioè di rendere differente o di trattare in modo differente, si acquistano cioè caratteri distintivi.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="corps" xml:lang="fr">Corps</term> <!-- FRANCESE -->
+                        <term ref="#corps" xml:lang="it">Corpo</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#corps" xml:lang="it" source="https://www.treccani.it/vocabolario/corpo/">
+                            Consistenza, concretezza, forma (con valore astratto);
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="lingcont" xml:lang="fr">Linguistique continu</term> <!-- FRANCESE -->
+                        <term ref="#lingcont" xml:lang="it">Linguistico continua</term> <!-- ITALIANO -->
+                    </label>
+                    <item>
+                        <gloss target="#lingcont" xml:lang="it" source="https://www.treccani.it/vocabolario/linguistico continuo/">
+                            Che riguarda la lingua, il linguaggio, come fatto sociale, o particolari aspetti, caratteri e manifestazioni della lingua non interrotto nel tempo.
+                        </gloss>
+                    </item>
+
+ 
+            </list>
+        </back>
+    </text>   
+</TEI>
