@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Esercizio 8: marcare un testo plain text di circa 3000 caratteri a piacere 
+    1 inserire prologo XML 
+    2 marcare la struttura usando gli elementi fin qui descritti in particolare marcare 
+    tutti i paragrafi usando <p> e la struttura editoriale usando <div> 
+    3 verificare che sia ben formato con xmllint ( o xerces con domCounter)
+    4 salvare il file XML su github 
+-->
+<!DOCTYPE TEI SYSTEM "tei_lite.dtd">
+<!--  <TEI> elemento radice  -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader> <!-- intestazione -->
+        <fileDesc>
+            <titleStmt> <!-- blocco titolo -->
+                <title>The Works of Edgar Allan Poe
+                </title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura</resp> 
+                    <name>Aurora Baroni</name>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt> <!-- blocco modo diffusione -->
+                <publisher>Project Gutenberg</publisher> 
+                <date>19 maggio 2008</date>
+                <!-- https://www.gutenberg.org/cache/epub/25525/pg25525.txt 
+                     https://www.gutenberg.org/ebooks/25525
+                -->
+            </publicationStmt>
+
+            <sourceDesc> <!-- blocco fonte originaria -->
+                <bibl>
+                    <title>The Works of Edgar Allan Poe, Raven Edition</title>
+                    <author>Edgar Allan Poe</author>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text> <!-- inizio gerarchia -->
+
+        <front> <!-- materiale che precede il testo (figlio di text) -->
+            <p>The Project Gutenberg eBook of The Works of Edgar Allan Poe, The Raven Edition, by Edgar Allan Poe</p>
+            <p> This eBook is for the use of anyone anywhere in the United States and
+                most other parts of the world at no cost and with almost no restrictions
+                whatsoever. You may copy it, give it away or re-use it under the terms
+                of the Project Gutenberg License included with this eBook or online at
+                www.gutenberg.org. If you are not located in the United States, you
+                will have to check the laws of the country where you are located before
+                using this eBook.
+            </p>
+        </front>
+
+        <body> <!-- testo codificato (figlio di text) -->
+            <div> <!-- inizio struttura editoriale -->
+                <head>Volume 2, The Black Cat</head>
+                <opener>
+                    <dateline>1843</dateline>
+                </opener>
+                <p>  <!-- marcatura PARAGRAFO -->
+                    For the most wild, yet most homely narrative which I am about to
+                    pen, I neither expect nor solicit belief. Mad indeed would I be
+                    to expect it, in a case where my very senses reject their own
+                    evidence. Yet, mad am I not—and very surely do I not dream. But
+                    to-morrow I die, and to-day I would unburthen my soul. My
+                    immediate purpose is to place before the world, plainly,
+                    succinctly, and without comment, a series of mere household
+                    events. In their consequences, these events have terrified—have
+                    tortured—have destroyed me. Yet I will not attempt to expound
+                    them. To me, they have presented little but horror—to many they
+                    will seem less terrible than <hi rend="italic">barroques</hi>. Hereafter, perhaps,
+                    some intellect may be found which will reduce my phantasm to the
+                    common-place—some intellect more calm, more logical, and far less
+                    excitable than my own, which will perceive, in the circumstances
+                    I detail with awe, nothing more than an ordinary succession of
+                    very natural causes and effects.
+                </p>
+
+                <p> <!-- marcatura PARAGRAFO -->
+                    From my infancy I was noted for the docility and humanity of my
+                    disposition. My tenderness of heart was even so conspicuous as to
+                    make me the jest of my companions. I was especially fond of
+                    animals, and was indulged by my parents with a great variety of
+                    pets. With these I spent most of my time, and never was so happy
+                    as when feeding and caressing them. This peculiarity of character
+                    grew with my growth, and in my manhood, I derived from it one of
+                    my principal sources of pleasure. To those who have cherished an
+                    affection for a faithful and sagacious dog, I need hardly be at
+                    the trouble of explaining the nature or the intensity of the
+                    gratification thus derivable. There is something in the unselfish
+                    and self-sacrificing love of a brute, which goes directly to the
+                    heart of him who has had frequent occasion to test the paltry
+                    friendship and gossamer fidelity of mere <hi rend="italic">Man</hi>.
+                </p> 
+
+                <p> <!-- marcatura PARAGRAFO -->
+                    I married early, and was happy to find in my wife a disposition
+                    not uncongenial with my own. Observing my partiality for domestic
+                    pets, she lost no opportunity of procuring those of the most
+                    agreeable kind. We had birds, gold-fish, a fine dog, rabbits, a
+                    small monkey, and <hi rend="italic">a cat</hi>.
+                </p>
+            </div> <!-- inizio struttura editoriale -->
+        </body>  
+    </text> <!-- fine gerarchia -->
+
+</TEI>
+
+
+
+
+

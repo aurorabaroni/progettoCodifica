@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- esercizio 6
+nomeFile: esercizioDTD2.xml 
+Nome: Aurora Baroni 602308 
+Matricola: 602308 -->
+<!DOCTYPE TEI SYSTEM "esempioDTD2.dtd">
+
+<TEI>
+    <header type="intestazione">Esercizio 6</header> 
+
+    <facsimile source="sorgente" ref="ident">
+    facsimile, questa come prova
+    </facsimile> 
+
+    <text id="ident" type="testo"> 
+    Text prova, con ID e Mixed Content 
+    Esercizio svolto il agosto 2022, 
+    corso di Codifica di Testi.
+
+    <seg>inserimento di un TAG seg</seg>
+    </text>
+</TEI>

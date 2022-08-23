@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<!-- esercizio 11:
+     trascrivere e codificare un frammento di lettera di Bellini (facsimile)-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettera di Bellini a un amico</title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura</resp> 
+                    <name>Aurora Baroni</name> <!-- nome cognome -->
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>angelodel80</publisher> <!-- nome utente GitHub del docente -->
+                <date when="2020-05-11">11 maggio 2020</date>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <title>Lettera di Bellini a un amico</title>
+                    <author>Vincenzo Bellini</author>
+                    <date when="24 nov">24 nov</date>
+                    <pubPlace>Milano</pubPlace>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <pb facs="#page1" n="1" xml:id="page-1"/>
+            <div facs="nota" xml:id="nota">
+                <note>Questo sembra un appunto inserito in un secondo momento con uno strumento diverso da quello usato per scrivere la lettera</note>
+                <p>AM840</p>
+            </div>
+            <div facs="date" xml:id="date">
+                <p><name type="place">Milano</name> <date>28 <choice><abbr>Nov<pc>:</pc></abbr><expan>novembre</expan></choice></date></p>
+            </div> 
+            <div facs="saluto" xml:id="saluto">
+                <p>Mio caro amico</p>
+            </div>
+            <div facs="corpo1" xml:id="corpo1">
+                <note>Trascrizione di una parte del corpo della lettera</note>
+                <p>
+                Son sicuro che mi <supplied>sgridereste</supplied> se non vi <supplied>raccomandassi</supplied> la mia amica <name type="person"><gap reason="illegible"/> Levis</name>
+                <pc>,</pc> la quale si porta in <gap reason="illegible"/> in qualità di prima donna al <name type="org">teatro della Fenice</name><pc>.</pc>
+                </p>
+            </div>
+
+            <pb facs="#page2" n="2" xml:id="page-2" />
+            <div facs="corpo2" xml:id="corpo2">
+                <note>Continuo corpo della lettera nella seconda pagina</note>
+            </div>
+            <div facs="firma" xml:id="firma">
+                <note>firma di Vincenzo Bellini alla fine della lettera</note>
+            </div>
+        </body>
+    </text>
+
+    <facsimile>
+        <surface xml:id="pag1" start="#page-1">
+            <graphic url="./img/pag1.jpg" width='1519px' height='2453px' />
+            <zone xml:id="notaZone" start="#nota" ulx="75" uly="45" lrx="240" lry="95">
+                <figure>
+                    <graphic url="./img/zone/nota.jpg"/>
+                    <note>Appunto inserito all'angolo in alto a sinistra della lettera</note>
+                </figure>
+            </zone>
+            <zone xml:id="dateZone" start="#date" ulx="778" uly="99" lrx="1342" lry="234">
+                <figure>
+                    <graphic url="./img/zone/data.jpg"/>
+                    <note>Data di quando Bellini ha scritto la lettera e da dove è stata scritta</note>
+                </figure>
+            </zone>
+            <zone xml:id="salutoZone" start="#saluto" ulx="333" uly="291" lrx="844" lry="423">
+                <figure>
+                    <graphic url="./img/zone/saluto.jpg"/>
+                    <p>Mio caro amico</p>
+                    <note>Bellini inizia la lettera con un saluto al suo amico</note>
+                </figure>
+            </zone>
+            <zone xml:id="corpo1Zone" start="#corpo1" ulx="201" uly="491" lrx="1464" lry="2408">
+                <figure>
+                    <graphic url="./img/zone/corpo1.jpg"/>
+                    <note>Corpo della lettera - pagina 1</note>
+                </figure>
+            </zone>
+        </surface>
+
+        <surface xml:id="pag2" start="page-2">
+            <graphic url="./img/pag2.jpg" width='1541px' height='2468px' />
+            <zone xml:id="corpo2Zone" start="corpo2" ulx="87" uly="490" lrx="1515" lry="1398">
+                <figure>
+                    <graphic url="./img/zone/corpo2.jpg"/>
+                    <note>Corpo della lettera - pagina 2</note>
+                </figure>
+            </zone>
+            <zone xml:id="firmaZone" start="#firma" ulx="915" uly="1414" lrx="1421" lry="1688" >
+                <figure>
+                    <graphic url="./img/zone/firma.jpg"/>
+                    <note>Firma di Vincenzo Bellini</note>
+                </figure>
+            </zone>
+        </surface>
+    </facsimile>
+</TEI>

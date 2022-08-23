@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Esercizio 2: scrivere e fare il check di un xml 
+     non opportunamente annidato-->
+
+<root>
+    <element>
+        <p>XML non opportunamente annidato</element>
+    </p> 
+
+    <element> 
+        <p>XML opportunamente annidato</p> 
+    </element> 
+</root>

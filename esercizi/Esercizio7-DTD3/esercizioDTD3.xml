@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE POKEMON SYSTEM "esempioDTD3.dtd">
+
+<POKEMON> 
+    <Pokedex id="Numero001">
+        <nome>Bulbasaur</nome> 
+        <tipo>Erba/Veleno</tipo>
+        <descrizione>Bulbasaur è un Pokémon di doppio tipo Erba/Veleno introdotto in prima generazione. 
+        Si evolve in Ivysaur a partire dal livello 16 e quindi in Venusaur a partire dal livello 32. 
+        Insieme a Charmander e Squirtle, Bulbasaur è uno dei tre Pokémon iniziali di Kanto disponibili in Pokémon Rosso e Verde, Pokémon Blu, Pokémon Rosso Fuoco e Verde Foglia.
+        </descrizione> 
+    </Pokedex>
+
+    <Pokedex id="Numero002">
+        <nome>Ivysaur</nome>
+        <tipo>Erba/Veleno</tipo>
+        <descrizione> Ivysaur è un Pokémon di doppio tipo Erba/Veleno introdotto in prima generazione. 
+        Si evolve da Bulbasaur a partire dal livello 16 e successivamente in Venusaur a partire dal livello 32.
+        </descrizione>
+    </Pokedex>
+
+</POKEMON>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc> 
+    <tag> <!-- Esercizio 3, correggere il file 
+               non opportunamente annidato-->
+        <!-- L'errore:
+         <noWell>
+            <noWellNested>
+        </noWell>
+            </noWellNested>
+        </noWell> non è correttamente annidato
+        -->
+        <noWell>
+            <noWellNested>
+            </noWellNested>
+        <!-- ora il documento XML è correttamente annidato -->  
+        </noWell>
+        <!-- aggiungere un figlio ad un elemento-->
+        <element>
+            <child/>
+        </element>
+        <!-- aggiungere un sibling ad un elemento -->
+        <sibling/>
+    </tag>
+</doc>

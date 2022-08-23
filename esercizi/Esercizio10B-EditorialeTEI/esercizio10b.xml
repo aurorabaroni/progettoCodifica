@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<!-- Esercizio 10b: trascrivere e codificare un 
+    frammento di lettera di Bellini ad un amico -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- header -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettera di Bellini a un amico</title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura</resp> 
+                    <name>Aurora Baroni</name> <!-- nome cognome-->
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>angelodel80</publisher> <!-- nome utente GitHub del docente -->
+                <date when="2020-05-11">11 maggio 2020</date>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <title>Lettera di Bellini a un amico</title>
+                    <author>Vincenzo Bellini</author>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <p>
+                <w>mio</w>
+                <w>caro</w>
+                <w>amico</w>
+                </p>
+            </div>
+
+            <div>
+                <p>
+                Mi affretto a rapportavi che le pellicce sono di 
+                <w>u<subst><del><gap reason="illegible" unit="character"/></del><add place="supralinear">n</add></subst>a</w> 
+                <!-- nella parola "una" è stata sostituita una lettera illeggibile con la lettera n dall'autore --> 
+                <w>pro-<lb break="no"/>prietà</w> mediante sedici <gap reason="illegible"/><pc>:</pc> siete contento<pc>?</pc>
+                <gap reason="illegible"/> spero <add resp="Aurora Baroni">di</add> vedervi in teatro<pc>.</pc>
+                <choice><orig>V'è</orig><reg>Vi è</reg></choice> il ballo <choice><orig>novo</orig><reg>nuovo</reg></choice><pc>,</pc>
+                <w><gap reason="illegible"/></w> la povera <name type="name">Sofia</name> vi deve <gap reason="illegible"/><pc>,</pc>
+                </p>
+            </div>   
+        </body>
+    </text>
+</TEI>

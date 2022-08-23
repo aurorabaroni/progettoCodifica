@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
+<!-- Esercizio 1: creare un file .xml ed inserire un prologo con: 
+    a. dichiarazione XML; 
+    b. un commento con le vostre informazioni;
+    c. salvare il file su github nel repository del progetto.
+-->
 <!-- 
     this document contains data on Codifica di Testi
     Filename: prologo.xml 
-    Nome e cognome: Aurora Baroni 
+    Nome e cognome: Aurora Baroni
     Matricola: 602318
-    Date: 04/08/2022
+    Date: 13/07/1999
 -->

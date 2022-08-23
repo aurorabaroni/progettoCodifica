@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- esercizio 5: definire elemento root TEI 
+    ed elementi figli
+HEADER - FACSIMILE - TEXT 
+nomeFile: EsercizioDTD.xml 
+Nome: Aurora Baroni 602318 
+Matricola: 602318 -->
+
+<!DOCTYPE TEI SYSTEM "esempioDTD.dtd">
+
+<!-- body -->
+<TEI>
+
+    <!-- header -->
+
+    <header>Header - occorrenza obbligatoria  </header> 
+
+    <!--FACSIMILE (occorrenza opzionale) -->
+
+    <!-- testo  -->
+    
+    <text>Prova testo, prova dtd</text> 
+    <text>L'elemento text occorre almeno una volta</text>
+    
+</TEI> 

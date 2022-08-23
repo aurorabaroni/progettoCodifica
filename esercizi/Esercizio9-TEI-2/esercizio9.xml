@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_lite.dtd">
+
+<!-- esercizio 9: esempio utilizzo: puntatori, note,lista, glossario .
+                  esempio marcare: nomi, rs,  term
+-->
+
+<!-- struttura documento tei:
+    <TEI> elemento radice 
+    <teiHeader> intestazione 
+    <text> 
+-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Esercizio 9</title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura</resp> 
+                    <name>Aurora Baroni</name> <!-- nome cognome-->
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>aurorabaroni</publisher> <!-- nome utente di GitHub -->
+                <date>10 agosto 2022</date>
+            </publicationStmt>
+
+            <sourceDesc>
+                <p>Originale</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text> 
+        <front>
+            <p>Utilizzare puntatori, note, lista, glossario, nomi, rs, term</p>
+        </front>
+
+        <body>
+            <div>
+                <list type="simple"> <!-- schedule settimanale -->
+                    <head>Schedule settimanale</head>
+                    <label>Lunedì</label>
+                    <item>Lezione UNIPI</item>
+                    <label>Martedì</label>
+                    <item>Palestra<rs type="person">istruttore</rs> <name>nomeIstruttore</name></item>
+                    <label>Mercoledì</label>
+                    <item>Lezione UNIPI</item> 
+                    <label>Giovedì</label>
+                    <item>ripasso lezioni seguite</item>
+                    <label>Venerdì</label>
+                    <item>Lezione UNIPI</item>
+                </list> 
+            </div>
+
+            <div>
+                <p>Esempio di puntatore (come 'ancora' HTML):<ptr target="www.google.it"/>, per un collegamento (link) esterno</p>
+                <p>Altrimenti, <ptr target="#list"/> per un collegamento (link) interno al testo</p>
+            </div>
+
+            <div>
+                <note n="1">Esempio di nota</note>
+            </div>
+
+            <div>
+                <p>Gloss è una spiegazione/glossa riguardo il testo, <gloss>Pippo</gloss></p>
+                <p> oppure possiamo utilizzare <term>per un termine tecnico</term> </p>
+            </div>
+        </body>
+    </text>
+</TEI>

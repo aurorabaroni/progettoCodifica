@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- Esercizio 4: scrivere un frammento di 
+    codice HTML inserendo CDATA 
+filename = Es4.xml
+Nome e cognome: Aurora Baroni 
+Matricola: 602318 -->
+
+<document>
+    <htmlCode> 
+        <![CDATA [ 
+            <h1>CDATA</h1>
+            <p>prova frammento HTML</p>
+        ]]>
+    </htmlCode> 
+</document> 
+

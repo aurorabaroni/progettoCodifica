@@ -1,0 +1,2 @@
+./progettoCodifica/esercizioDTD2.xml: 29;4;0 ms 
+(5 elems, 5 attrs, 20 spaces, 174 chars)

@@ -1,0 +1,8 @@
+<!ELEMENT POKEMON (Pokedex)*> <!-- elemento radice -->
+
+<!ELEMENT Pokedex (nome, tipo+, descrizione?)>
+<!ATTLIST Pokedex id ID #REQUIRED>
+
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT descrizione (#PCDATA)>

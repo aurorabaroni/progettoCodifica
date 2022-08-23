@@ -1,0 +1,32 @@
+body {
+    background-color: aqua; /*aqua; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    font-family: fantasy;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+    margin: 0;
+}
+
+div #titoli {
+
+    margin: auto;
+    width: 60%;
+    border: 5px solid green;
+    padding: 10px;
+    border-radius: 10%;
+    background-image: url("img1.jpg");
+
+}
