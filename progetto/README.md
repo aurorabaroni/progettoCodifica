@@ -22,9 +22,12 @@ e trasformati con il software: 'SaxonHE10-3J'
 $ java -jar ./SaxonHE10-3J/saxon-he-10.3.jar -s:prolusioni.xml -xsl:stile.xsl -o:prolusioni.html
 ```
 ## Anteprima
-https://www.aurorabaroni99.altervista.org/codificaTesti/esempiProg/auroraBaroni2/prolusioni.html
+https://aurorabaroni99.altervista.org/codificaTesti/progetto/prolusioni.html
+
 #####################################################################
+
 <b>ESERCITAZIONI</b>
+
 #####################################################################
 #####  
 1.  __Esercizio prologo:__ creare un file _.xml_ e inserire un prologo con la dichiarazione XML e un commento con le nostre informazioni
