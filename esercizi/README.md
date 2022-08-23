@@ -4,10 +4,9 @@ _Corso di Codifica di Testi_
 Anno accademico 2021/22
 Aurora Baroni
 
-## Progetto esame 
-_wip_
+##  
 
-## Esercizi svolti 
+## Esercizi svolti per il corso
 * Esercizio 1: <b>Prologo</b>
     * Creare un file .xml ed inserire un prologo con la dichiarazione e un commento con le vostre informazioni
 
