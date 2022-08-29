@@ -1,133 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prolusioniCodifica14e15.xsl"?>
 <!DOCTYPE TEI SYSTEM "tei_all.dtd">
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title type="main">Trois premières conférences à l'Université</title>
-                <title xml:lang="fr" type="sub">(cours d'ouverture, <date when="1891-11">novembre 1891</date>)</title>
-                <title xml:lang="it" type="sub">Edizione digitale</title>
-                <author ref="#FdS" role="author">Ferdinand de Saussure</author>
-                <respStmt>
-                    <resp>Responsabilità di: </resp>
+        <fileDesc>            
+            <titleStmt> <!-- Titolo, autore e responsabilità del contenuto del file-->
+                <title type="main">Trois premières conférences à l'Université </title>               
+                <title type="sub">(cours d'ouverture, <date when="1891-11">novembre 1891</date>)</title>
+                <author xml:id="FDS" role="author">Ferdinand de Saussure</author>
+                <respStmt>                    
+                    <resp>Traduzione di</resp>
+                    <name ref="#EF">Emanuele Fadda</name>
+                </respStmt>
+                <respStmt>                   
+                    <resp>Codifica realizzata da</resp>
                     <name ref="#AB">Aurora Baroni</name>
                 </respStmt>
             </titleStmt>
 
-            <editionStmt>   
-                <edition>Edizione digitale 
-                    <date when="2022-07">settembre 2022</date>
+            <editionStmt>  <!--Informazioni sull'edizione digitale del testo-->
+                <edition>
+                    Edizione digitale realizzata nel
+                    <date when="2022-09"> settembre 2022 </date>
                 </edition>
-
                 <respStmt>
-                    <resp>Trascritto da:</resp>
-                    <persName ref="#SB"> 
-                        <forename>Simon</forename>
-                        <surname>Bouquet</surname>
-                    </persName>
-                    <persName ref="#RE"> 
-                        <forename>Rudolf</forename>
-                        <surname>Engler</surname>
-                    </persName>
+                    <resp>Testo codificato da: </resp>
+                    <name xml:id="AB">Aurora Baroni </name>
+                 </respStmt>
+                <respStmt>
+                    <resp>Progetto universitario gestito da: </resp>
+                    <name xml:id="AMDG">Angelo Mario Del Grosso</name>
                 </respStmt>
-
-                <respStmt>
-                    <resp>Tradotto dal francese all'italiano da:</resp>
-                    <persName> 
-                        <forename ref="#EF">Emanuele</forename>
-                        <surname>Fadda</surname>
-                    </persName>
-                </respStmt>
-
-                <respStmt>
-                    <resp>Codificato in XML da:</resp>
-                    <persName ref="#AB"> 
-                        <forename>Aurora</forename>
-                        <surname>Baroni</surname>
-                    </persName>
-                </respStmt>            
             </editionStmt>
 
-            <publicationStmt>
-                <publisher>
-                    <orgName><name type="role">Università</name> di <name type="city">Pisa</name></orgName>
-                </publisher>
+            <publicationStmt>  <!--Informazioni sulla pubblicazione dell'edizione digitale-->
+                <publisher> Università di Pisa </publisher>
+                <pubPlace>Pisa, PI</pubPlace>
+                <address>
+                    <postCode>56127</postCode>
+                    <name>Italia</name>
+                </address>
                 <availability>
                     <p>Opera ad accesso libero</p>
                 </availability>
-                <date when="2022">2022</date>
+                <date when="2022-09">Settembre 2022</date>
             </publicationStmt>
 
-            <sourceDesc>
+            <sourceDesc>  <!--Informazioni sulla fonte originale di cui è stata fatta l'edizione digitale-->
                 <msDesc>
                     <msIdentifier>
-                        <country>Svizzera</country>    
+                        <country>Svizzera</country>
                         <settlement>Ginevra</settlement>
                         <institution>Biblioteca di Ginevra</institution>
-                        <repository role="library" ref="https://archives.bge-geneve.ch/ark:/17786/vta01d046d929f231ba">Biblioteca di Ginevra</repository>
-                        <collection>Archivi Ferdinand de Saussure</collection>
+                        <repository role="library" ref="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef/dao/0/111">Biblioteca di Ginevra</repository>
+                        <collection>Archives Ferdinand de Saussure</collection>
                         <idno type="inventory">BGE Ms. fr. 3951/1.1-3</idno>
                     </msIdentifier>
 
                     <msContents>
                         <msItem>
-                            <author ref="#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
-                            <title xml:lang="fr" type="sub">1&#x1D49;&#x02B3; cours d'ouverture</title>
-                            <docDate when="1891-11-06">06/11/1891</docDate>
-                            <textLang mainLang="fr">Francese</textLang>
-                        </msItem>
-                        <msItem>
-                            <author ref="#FdS">Ferdinand de Saussure</author>
-                            <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
-                            <title xml:lang="fr" type="sub">Cours d'ouverture 2</title>
-                            <docDate when="1891-11-10">10/11/1891</docDate>
-                            <textLang mainLang="fr">Francese</textLang>                           
-                        </msItem>
-                        <msItem>
-                            <author ref="#FdS">Ferdinand de Saussure</author>
-                            <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
-                            <title xml:lang="fr" type="sub">Cours d'ouverture 3</title>
+                            <title xml:lang="fr" type="sub">Troisième conférence</title>
+                            <author xml:lang="fr" ref="#FDS">Ferdinand de Saussure</author>
                             <docDate when="1891-11-13">13/11/1891</docDate>
                             <textLang mainLang="fr">Francese</textLang>
-                        </msItem>                   
+                        </msItem>
                     </msContents>
 
                     <physDesc>
-                        <objectDesc form="folio">
-                            <supportDesc source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef">
+                        <objectDesc form="manuscript">
+                            <supportDesc>
                                 <support>
-                                    <material>Carta a quadretti</material>
+                                    fogli di
+                                    <material>carta</material>
                                 </support>
-
                                 <extent>
-                                    <measureGrp unit="page" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef"> 
+                                    <measureGrp type="notebook" unit="pages" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef/dao/0/111">
                                         <measure quantity="30">30 pagine +</measure>
                                         <measure quantity="15">15 pagine +</measure>
-                                        <measure quantity="22">22 pagine</measure>
+                                        <measure quantity="22">22 pagine +</measure>
+                                        <measure quantity="1">1 foglietto</measure>
                                     </measureGrp>
                                 </extent>
-
-                                <foliation>Le pagine sono numerate a mano in alto a sinistra. Ogni pagina è scritta su un foglio diverso.</foliation>
-
-                                <condition>Le carte sono in buone condizioni.</condition>
                             </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="25 30">
+                                    <p> Le pagine contengono tra le 25 e le 30 righe scritte a mano. 
+                                    E' assente qualunque tipo di linea stampata nella pagina</p>
+                                </layout>
+                            </layoutDesc>
                         </objectDesc>
-
                         <handDesc hands="1">
-                            <handNote xml:id="h1">Il testo è scritto a mano solo da <persName ref="#FdS">Ferdinand de Saussure</persName>.</handNote>
+                            <handNote>
+                                Queste pagine sono state interamente scritte a mano da
+                                <persName ref="#FDS">Ferdinand de Saussure</persName>
+                            </handNote>
                         </handDesc>
+                        <typeDesc>
+                            <p> Le pagine sono scritte in caratteri corsivi, di comprensione non immediata dato il numero di cancellature e correzioni</p>
+                        </typeDesc>
                     </physDesc>
 
                     <history>
-                        <origin notAfter="1891-11">
-                            <p><objectType>Appunti</objectType> scritti per le prime conferenze all’<orgName><name type="role">Università</name> di <name type="city">Ginevra</name></orgName>, in parte utilizzati per le prime lezioni del corso di <foreign xml:lang="fr">Phonétique du grec et du latin</foreign> 1891.</p>
+                        <summary>Questo manoscritto si compone di 3 parti, ognuna corrispondente a una prolusione ginevrina.</summary>
+                        <origin>
+                            <p>
+                                Contiene gli appunti scritti da
+                                <persName>Ferdinand De Saussure</persName>
+                                che vennero in parte utilizzati per le prime tre lezioni del corso di fonetica greca e latina 
+                           del
+                                <date when="1891-11-06">6 novembre 1891</date>
+                                , del
+                                <date when="1891-11-10"> 10 novembre 1891</date>
+                                e del
+                                <date when="1891-11-13">13 novembre 1891</date>
+                                presso l'Università di
+                                <placeName>Ginevra</placeName>
+                                .
+                           Probabilmente erano destinati alla pubblicazione di una brochure.
+                            </p>
                         </origin>
-                        <acquisition notBefore="1955" notAfter="1988">
-                            <p>Acquisito dalla <orgName>Biblioteca di Ginevra</orgName> <date notBefore="1955" notAfter="1988">tra il 1955 e il 1988</date>.</p>
-                        </acquisition>
                     </history>
+
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -135,600 +130,407 @@
         <profileDesc>
             <langUsage>
                 <language ident="fr">Francese</language>
-                <language ident="fp">Franco-Provenzale</language>
-                <language ident="lt">Latino</language>
             </langUsage>
-
-            <creation>
-                <date when="1891">1891</date>
-
-                <listChange ordered="true">
-                    <change who="#FdS" status="draft" xml:id="CHG-3" cert="low">Aggiunte scritte a mano da Ferdinand de Saussure successive alla prima stesura.</change>
-                    <change who="#FdS" status="draft" xml:id="CHG-2">Aggiunte e/o cancellature scritte a mano da Ferdinand de Saussure durante la prima stesura.</change>
-                    <change who="#FdS" status="draft" xml:id="CHG-1">Prima stesura, scritta a mano da Ferdinand de Saussure.</change>
-                </listChange>
-            </creation>
+            <textDesc>
+                <channel mode="w">Testo scritto a mano</channel>
+                <constitution type="single" /> <!-- composizione interna del testo-->
+                <derivation type="original" /> <!-- derivazione del testo-->
+                <domain type="education" /> <!-- contesto sociale cui il testo è destinato-->
+                <factuality type="fact" /> <!-- misura in cui il testo può essere considerato aderente alla realtà o di fantasia-->
+                <interaction type="partial" active="singular" passive="group" /> <!-- natura dell'interazione tra chi ha prodotto il testo e chi ne fruisce-->
+                <preparedness type="draft">Testo in redazione quasi finale, con correzioni, cancellature, aggiunte interlineari e frasi incomplete.</preparedness> <!-- livello di compimento-->
+                <purpose type="inform" degree="high" /> <!-- funzione comunicativa del testo-->
+            </textDesc>
+            <settingDesc>
+                <setting>
+                    <p>
+                        Lezione universitaria tenuta da
+                        <persName>Ferdinand De Saussure</persName>
+                        presso l'Università di
+                        <placeName>Ginevra</placeName>
+                        nel
+                        <date when="1891-11">Novembre 1891</date>                        .
+                    </p>
+                </setting>
+            </settingDesc>
         </profileDesc>
 
         <encodingDesc>
-            <projectDesc>
-                <p>Il testo è stato codificato per l'esame di Codifica di Testi 
-                    del corso di laurea in Informatica Umanistica dell'
-                    <orgName>
-                        <name type="role">Università</name> di <name type="city">Pisa</name>
-                    </orgName>.
-                </p>
-            </projectDesc>
-
-            <editorialDecl>
-                <punctuation marks="some" placement="external">
-                    <p>Alcuni segni di punteggiatura nella trascrizione di Bouquet ed Engler non rispecchiano 
-                        quelli presenti nel manoscritto. 
-                        In quei casi, sono state codificate entrambe le versioni all'interno di un 
-                        <gi scheme="TEI">choice</gi>
+            <editorialDecl> <!-- contiene i dettagli sulle scelte editoriali-->
+                <hyphenation eol="some">
+                    <!--come abbiamo gestito la SILLABAZIONE (parole che vanno a capo)-->
+                    <p>
+                    Gli indicatori di sillabazione sono stati rimossi dalla codifica. E' stato però inserito un indicatore nell'elemento
+                    <gi>lb</gi> che ha come valore dell'attributo <att>break</att> "no" quando si è verificata la sillabazione.
                     </p>
-                </punctuation>
-
-                <normalization method="markup">
-                    <p>Nel manoscritto sono presenti alcune abbreviazioni che sono state sciolte nella trascrizione di Bouquet ed Engler. 
-                        In quei casi, sono state codificate entrambe le versioni all'interno di un <gi scheme="TEI">choice</gi></p>
-                </normalization>
-
-                <segmentation>
-                    <ab>
-                        <list>
-                            <head>Pericopi nelle carte 14 e 15 di Prolusioni 3</head>
-
-                            <!--PERICOPE 1-->
-                            <item n="1" corresp="#pericope1">
-                                <seg>
-                                    Je pourrais naturellement multiplier à l’infini les exemples. 
-                                </seg>
-                            </item>
-
-                            <!--PERICOPE 2-->
-                            <item n="2" corresp="#pericope2">
-                                <seg>
-                                    Pour en prendre un plus loin de nous : il pouvait sembler au commencement du siècle que la langue zende conservée par les livres sacrés des Pârsis nous représentât la langue de l’Iran- Achéménides, deux dialectes iraniens, et il en existait certainement une multitude d’autres.
-                                </seg>
-                            </item>
-
-                            <!--PERICOPE 3-->
-                            <item n="3" corresp="#pericope3">
-                                <seg>
-                                    Au milieu de cette immense multiplicité de formes,il serait faux de supposer que nous ayons de la peine à nous retrouver, et qu’on ait devant soi le tableau d’un immense désordre.
-                                </seg>
-                            </item>
-
-                            <!--PERICOPE 4 - Nota a margine -->
-                            <item n="4" corresp="#pericope4">
-                                <seg>
-                                    je fais cette remarque pour éviter une fausse représentation,
-                                </seg>
-                            </item>
-
-                            <!--PERICOPE 5-->
-                            <item n="5" corresp="#pericope5">
-                                <seg>
-                                    Si nous prenons chacun des termes d’arrivée B' B" B'", nous retrouvons pour chacune exactement le même point de départ A, modifié dans des directions différentes, mais d’une manière parfaitement précise. 
-                                </seg>
-                            </item>    
-
-                            <!--PERICOPE 6-->
-                            <item n="6" corresp="#pericope6">
-                                <seg>
-                                    Ainsi tsa?i - ?ãté – château .
-                                </seg>
-                            </item>
-
-                            <!--PERICOPE 7-->
-                            <item n="7" corresp="#pericope7">
-                                <seg>
-                                    Tout cela remonte mathématiquement à castellum [latino] : tsat?i - tsã - ?ãté – ?ã , château , champ : -st > ? : tî?a.
-                                </seg>
-                            </item>
-
-                            <!--PERICOPE 8-->
-                            <item n="8" corresp="#pericope8">
-                                <seg>
-                                    On voit dès maintenant combien était éloignée de la vérité l’idée qui a dominé toute la première période des études linguistiques, à savoir que, pour qu’une langue ou un parler arrivât à se différencier d’une autre, il était nécessaire qu’une séparation géographique se produisît, par exemple l’idée que l’anglais ne diffère de l’allemand que parce que [ ].
-                                </seg>
-                            </item>
-
-                            <!--PERICOPE 9-->
-                            <item n="9" corresp="#pericope9">
-                                <seg>
-                                    Le cas de la séparation géographique, j’entends de la discontinuité géographique absolue, ce cas, bien loin de représenter la condition régulière pour qu’il y ait divergence, constitue un cas particulier demandant à être examiné à part et que j’exclus complètement de notre étude présente.                                </seg>
-                            </item>
- 
-                            <!--PERICOPE 10  - Nota a margine -->
-                            <item n="10" corresp="#pericope10">
-                                <seg>
-                                    être examiné à part et que j’exclus complètement de notre étude présente.                                </seg>
-                            </item>
- 
-                            <!--PERICOPE 11-->
-                            <item n="11" corresp="#pericope11">
-                                <seg>
-                                    L’effet de l’isolement linguistique d’une certaine communauté est probablement double
-                                </seg>
-                            </item>
-                            
-                            <!--PERICOPE 12-->
-                            <item n="12" corresp="#pericope12">
-                                <seg>
-                                    : d’une part les différences se produisent plus rapidement, et de l’autre ces différences se produisent dans une autre direction que si la communauté était restée en contact avec la masse.
-                                </seg>
-                            </item> 
-                            
-                            <!--PERICOPE 13-->
-                            <item n="13" corresp="#pericope13">
-                                <seg>
-                                    Mais, je le répète, c’est là un cas sinon exceptionnel, du moins réclamant une étude spéciale et qui ne peut être abordé qu’à condition d’être d’abord au clair précisément sur la différenciation qui s’accomplit dans un corps linguistique continu.
-                                </seg>
-                            </item>                            
-                            
-                         </list>
-                    </ab>
-                </segmentation>
+                </hyphenation>
             </editorialDecl>
         </encodingDesc>
+
     </teiHeader>
 
-    <facsimile>
-        <!--CARTA 14-->
-        <surface>
-            <graphic url='ms_fr_03951_01_3_f014v_015.jpg' xml:id="pag14" width='1000px' height='800px' />
+    <facsimile> <!--rappresentazione della fonte scritta sotto forma di un insieme di immagini o parti di esse-->
+        <surface> <!-- PAGINA 14 -->
             
-            <zone ulx="498" uly="20" lrx="979" lry="785" xml:id="fullPage14"/> <!-- solo pagina (destra) manoscritta -->
+            <graphic url='ms_fr_03951_01_3_f014.jpg' width='1000px' height='800px' xml:id="Pag14" /> <!-- solo pagina (destra) manoscritta -->
             
-            <zone ulx="522" uly="27" lrx="577" lry="75" xml:id="p14Num"/> <!--   numero 14 -->
+            <zone ulx="522" uly="27" lrx="577" lry="75" rendition="hotspot" xml:id="Pag14_num" /> <!--   numero 14 -->
             
-            <zone ulx="586" uly="33" lrx="942" lry="60" xml:id="p14R1"/>
-            <zone ulx="579" uly="60" lrx="960" lry="87" xml:id="p14R2"/>
-            <zone ulx="580" uly="83" lrx="972" lry="114" xml:id="p14R3"/>
-            <zone ulx="582" uly="110" lrx="963" lry="134" xml:id="p14R4"/>
-            <zone ulx="583" uly="135" lrx="969" lry="162" xml:id="p14R5"/>
-            <zone ulx="588" uly="164" lrx="957" lry="186" xml:id="p14R6"/>
-            <zone ulx="591" uly="188" lrx="772" lry="207" xml:id="p14R7"/>
-            <zone ulx="624" uly="212" lrx="966" lry="236" xml:id="p14R8"/>
-            <zone ulx="576" uly="234" lrx="967" lry="263" xml:id="p14R9"/>
-            <zone ulx="568" uly="260" lrx="964" lry="284" xml:id="p14R10"/>
-            <zone points = ' 505,255 634,258 582,299 538,351 501,353 ' xml:id="p14R10a"/> <!-- NOTA a MARGINE -->
-            <zone ulx="574" uly="284" lrx="957" lry="311" xml:id="p14R11"/>
-            <zone ulx="576" uly="308" lrx="949" lry="333" xml:id="p14R12"/>
-            <zone ulx="571" uly="327" lrx="964" lry="359" xml:id="p14R13"/>
-            <zone ulx="579" uly="363" lrx="973" lry="386" xml:id="p14R14"/>
-            <zone ulx="579" uly="389" lrx="972" lry="411" xml:id="p14R15"/>
-            <zone ulx="582" uly="411" lrx="972" lry="435" xml:id="p14R16"/>
-            <zone ulx="579" uly="440" lrx="958" lry="467" xml:id="p14R17"/>
-            <zone ulx="576" uly="471" lrx="955" lry="494" xml:id="p14R18"/>
-            <zone ulx="585" uly="495" lrx="960" lry="525" xml:id="p14R19"/>
-            <zone ulx="589" uly="524" lrx="952" lry="561" xml:id="p14R20"/>
-            <zone ulx="628" uly="563" lrx="973" lry="603" xml:id="p14R21"/>
-            <zone ulx="589" uly="596" lrx="961" lry="623" xml:id="p14R22"/>
-            <zone ulx="589" uly="621" lrx="975" lry="648" xml:id="p14R23"/>
-            <zone ulx="589" uly="648" lrx="940" lry="675" xml:id="p14R24"/>
-            <zone ulx="597" uly="678" lrx="951" lry="704" xml:id="p14R25"/>
-            <zone ulx="613" uly="701" lrx="964" lry="726" xml:id="p14R26"/>
-            <zone ulx="603" uly="731" lrx="939" lry="752" xml:id="p14R27"/>
-            <zone ulx="612" uly="750" lrx="975" lry="773" xml:id="p14R28"/>
-            <zone ulx="774" uly="765" lrx="963" lry="782" xml:id="p14R29"/>
+            <!--  pericopi -->
+            <zone points = ' 582,33 954,26 952,60 714,68 714,90 582,93 '  xml:id="P14_p1" />
+            <zone points = ' 711,57 969,48 973,201 586,215 582,93 711,89 '  xml:id="P14_p2" />
+            <zone points = ' 574,212 969,201 969,303 904,305 904,335 573,348 ' xml:id="P14_p3" /> 
+            <zone points = ' 504,258 633,257 631,288 579,291 579,333 502,333 ' xml:id="P14_p3a" /> <!-- Nota a margine -->
+            <zone points = ' 901,303 970,302 970,426 715,434 714,462 576,468 571,341 903,335 ' xml:id="P14_p4" />
+            <zone points = ' 715,435 966,426 966,470 669,473 669,500 577,504 573,462 714,461 '  xml:id="P14_p5" />
+            <zone points = ' 664,465 964,458 966,558 573,564 571,473 664,474 ' xml:id="P14_p6" />
+            <zone points = ' 588,566 973,558 976,783 589,786 ' xml:id="P14_p7" />
             
-            <!-- mappa - PERICOPE Trascrizione e Traduzione Italiano -->
-            
-            <zone points = ' 582,33 954,26 952,60 714,68 714,90 582,93 ' xml:id="peric1" corresp="#pericope1 #pericope1_ita"/>
-            <zone points = ' 711,57 969,48 973,201 586,215 582,93 711,89 ' xml:id="peric2" corresp="#pericope2 #pericope2_ita"/>
-            <zone points = ' 574,212 969,201 969,303 904,305 904,335 573,348 ' xml:id="peric3" corresp="#pericope3 #pericope3_ita"/>
-            <zone points = ' 504,258 633,257 631,288 579,291 579,333 502,333 ' xml:id="peric3a" corresp="#pericope3a #pericope3a_ita"/> <!-- Nota a margine -->
-            <!-- zone points = ' 505,212 969,198 970,326 502,341 ' xml:id="peric3bis" corresp="#pericope3bis #pericope3bis_ita"/>  PericopeConNotaMargine -->
-            <zone points = ' 901,303 970,302 970,426 715,434 714,462 576,468 571,341 903,335 ' xml:id="peric4" corresp="#pericope4 #pericope4_ita"/>
-            <zone points = ' 715,435 966,426 966,470 669,473 669,500 577,504 573,462 714,461 '  xml:id="peric5" corresp="#pericope5 #pericope5_ita"/>
-            <zone points = ' 664,465 964,458 966,558 573,564 571,473 664,474 ' xml:id="peric6" corresp="#pericope6 #pericope6_ita"/>
-            <zone points = ' 588,566 973,558 976,783 589,786 '  xml:id="peric7" corresp="#pericope7 #pericope7_ita"/>
+            <!-- linee di testo-->
+            <zone ulx="586" uly="33" lrx="942" lry="60" rendition="line" xml:id="P14_l1" />
+            <zone ulx="579" uly="60" lrx="960" lry="87" rendition="line" xml:id="P14_l2" />
+            <zone ulx="580" uly="83" lrx="972" lry="114" rendition="line" xml:id="P14_l3" />
+            <zone ulx="582" uly="110" lrx="963" lry="134" rendition="line" xml:id="P14_l4" />
+            <zone ulx="583" uly="135" lrx="969" lry="162" rendition="line" xml:id="P14_l5" />
+            <zone ulx="588" uly="164" lrx="957" lry="186" rendition="line" xml:id="P14_l6" />
+            <zone ulx="591" uly="188" lrx="772" lry="207" rendition="line" xml:id="P14_l7" />
+            <zone ulx="624" uly="212" lrx="966" lry="236" rendition="line" xml:id="P14_l8" />
+            <zone ulx="576" uly="234" lrx="967" lry="263" rendition="line" xml:id="P14_l9" />
+            <zone ulx="568" uly="260" lrx="964" lry="284" rendition="line" xml:id="P14_l10" />
+            <zone points = ' 505,255 634,258 582,299 538,351 501,353 ' rendition="line" xml:id="P14_l10a" /> <!-- NOTA a MARGINE -->
+            <zone ulx="574" uly="284" lrx="957" lry="311" rendition="line" xml:id="P14_l11" />
+            <zone ulx="576" uly="308" lrx="949" lry="333" rendition="line" xml:id="P14_l12" />
+            <zone ulx="571" uly="327" lrx="964" lry="359" rendition="line" xml:id="P14_l13" />
+            <zone ulx="579" uly="363" lrx="973" lry="386" rendition="line" xml:id="P14_l14" />
+            <zone ulx="579" uly="389" lrx="972" lry="411" rendition="line" xml:id="P14_l15" />
+            <zone ulx="582" uly="411" lrx="972" lry="435" rendition="line" xml:id="P14_l16" />
+            <zone ulx="579" uly="440" lrx="958" lry="467" rendition="line" xml:id="P14_l17" />
+            <zone ulx="576" uly="471" lrx="955" lry="494" rendition="line" xml:id="P14_l18" />
+            <zone ulx="585" uly="495" lrx="960" lry="525" rendition="line" xml:id="P14_l19" />
+            <zone ulx="589" uly="524" lrx="952" lry="561" rendition="line" xml:id="P14_l20" />
+            <zone ulx="628" uly="563" lrx="973" lry="603" rendition="line" xml:id="P14_l21" />
+            <zone ulx="589" uly="596" lrx="961" lry="623" rendition="line" xml:id="P14_l22" />
+            <zone ulx="589" uly="621" lrx="975" lry="648" rendition="line" xml:id="P14_l23" />
+            <zone ulx="589" uly="648" lrx="940" lry="675" rendition="line" xml:id="P14_l24" />
+            <zone ulx="597" uly="678" lrx="951" lry="704" rendition="line" xml:id="P14_l25" />
+            <zone ulx="613" uly="701" lrx="964" lry="726" rendition="line" xml:id="P14_l26" />
+            <zone ulx="603" uly="731" lrx="939" lry="752" rendition="line" xml:id="P14_l27" />
+            <zone ulx="612" uly="750" lrx="975" lry="773" rendition="line" xml:id="P14_l28" />
+            <zone ulx="774" uly="765" lrx="963" lry="782" rendition="line" xml:id="P14_l29" />
         </surface>
 
-        <!--CARTA 15 -->
-        <surface>
-            <graphic url="ms_fr_03951_01_3_f015v_014.jpg" xml:id="pag15" width='1000px' height='800px'/>
+        <surface> <!--PAGINA 15-->
             
-            <zone ulx="489" uly="29" lrx="979" lry="779" xml:id="fullPage15"/>
+            <graphic url='ms_fr_03951_01_3_f015.jpg' width='1000px' height='800px' xml:id="Pag15" /> <!-- solo pagina (destra) manoscritta -->
             
-            <zone ulx="534" uly="36" lrx="588" lry="77" xml:id="p15Num"/> <!--   numero 15 -->
+            <zone ulx="534" uly="36" lrx="588" lry="77" rendition="hotspot" xml:id="Pag15_num" /> <!--   numero 15 -->
+
+            <!--  pericopi-->
+            <zone points = ' 589,54 969,50 969,212 777,215 777,243 586,240 583,153 522,155 520,108 588,107 '  xml:id="P15_p8" />
+            <zone points = ' 774,210 973,210 973,261 924,261 922,285 582,291 580,239 774,242 ' xml:id="P15_p9" />
+            <zone points = ' 919,260 975,258 975,389 678,392 678,419 589,422 585,266 ' xml:id="P15_p10" />
+            <zone points = ' 678,387 973,383 972,566 576,566 571,419 678,416 ' xml:id="P15_p11" />
             
-            <zone ulx="589" uly="56" lrx="960" lry="99" xml:id="p15R1"/>
-            <zone ulx="583" uly="89" lrx="970" lry="128" xml:id="p15R2"/>
-            <zone ulx="519" uly="113" lrx="966" lry="149" xml:id="p15R3"/>
-            <zone ulx="588" uly="140" lrx="943" lry="168" xml:id="p15R4"/>
-            <zone ulx="582" uly="162" lrx="970" lry="200" xml:id="p15R5"/>
-            <zone ulx="583" uly="188" lrx="955" lry="216" xml:id="p15R6"/>
-            <zone ulx="585" uly="210" lrx="970" lry="248" xml:id="p15R7"/>
-            <zone ulx="583" uly="239" lrx="967" lry="270" xml:id="p15R8"/>
-            <zone ulx="576" uly="266" lrx="975" lry="297" xml:id="p15R9"/>
-            <zone points = ' 496,209 586,209 583,335 496,338 ' xml:id="p15R9a"/> <!-- NOTA a MARGINE  -->
-            <zone ulx="580" uly="288" lrx="963" lry="318" xml:id="p15R10"/>
-            <zone ulx="582" uly="317" lrx="961" lry="345" xml:id="p15R11"/>
-            <zone ulx="580" uly="342" lrx="963" lry="368" xml:id="p15R12"/>
-            <zone ulx="588" uly="365" lrx="970" lry="393" xml:id="p15R13"/>
-            <zone ulx="580" uly="392" lrx="967" lry="417" xml:id="p15R14"/>
-            <zone ulx="591" uly="416" lrx="966" lry="440" xml:id="p15R15"/>
-            <zone ulx="594" uly="441" lrx="973" lry="464" xml:id="p15R16"/>
-            <zone ulx="591" uly="461" lrx="976" lry="483" xml:id="p15R17"/>
-            <zone ulx="589" uly="480" lrx="964" lry="506" xml:id="p15R18"/>
-            <zone ulx="586" uly="510" lrx="973" lry="533" xml:id="p15R19"/>
-            <zone ulx="585" uly="531" lrx="751" lry="564" xml:id="p15R20"/>
-            
-            <!-- mappa PERICOPE Trascrizione e Traduzione Italiano -->
-            
-            <zone points = ' 589,54 969,50 969,212 777,215 777,243 586,240 583,153 522,155 520,108 588,107 ' xml:id="peric8" corresp="#pericope8 #pericope8_ita"/>
-            <zone points = ' 498,209 582,209 579,324 495,326 ' xml:id="peric8b" corresp="#pericope8b #pericope8b_ita"/> <!-- Nota a margine -->
-            <!-- <zone points = ' 501,62 969,57 972,212 775,216 774,242 585,243 583,332 493,333 ' xml:id="peric8bis" corresp="#pericope8bis #pericope8bis_ita"/> 
-PericopeConNotaMargine -->
-            <zone points = ' 774,210 973,210 973,261 924,261 922,285 582,291 580,239 774,242 ' xml:id="peric9" corresp="#pericope9 #pericope9_ita"/>
-            <zone points = ' 919,260 975,258 975,389 678,392 678,419 589,422 585,266 ' xml:id="peric10" corresp="#pericope10 #pericope10_ita"/>
-            <zone points = ' 678,387 973,383 972,566 576,566 571,419 678,416 ' xml:id="peric11" corresp="#pericope11 #pericope11_ita"/>
+            <!--linee di testo-->
+            <zone ulx="589" uly="56" lrx="960" lry="99" rendition="line" xml:id="P15_l1" />
+            <zone ulx="583" uly="89" lrx="970" lry="128" rendition="line" xml:id="P15_l2" />
+            <zone ulx="519" uly="113" lrx="966" lry="149"  rendition="line" xml:id="P15_l3" />
+            <zone ulx="588" uly="140" lrx="943" lry="168"  rendition="line" xml:id="P15_l4" />
+            <zone ulx="582" uly="162" lrx="970" lry="200" rendition="line" xml:id="P15_l5" />
+            <zone ulx="583" uly="188" lrx="955" lry="216" rendition="line" xml:id="P15_l6" />
+            <zone ulx="585" uly="210" lrx="970" lry="248" rendition="line" xml:id="P15_l7" />
+            <zone ulx="583" uly="239" lrx="967" lry="270" rendition="line" xml:id="P15_l8" />
+            <zone ulx="576" uly="266" lrx="975" lry="297" rendition="line" xml:id="P15_l9" />
+            <zone points = ' 496,209 586,209 583,335 496,338 '  rendition="line" xml:id="P15_l9a" /> <!-- NOTA a MARGINE  -->
+            <zone ulx="580" uly="288" lrx="963" lry="318" rendition="line" xml:id="P15_l10" />
+            <zone ulx="582" uly="317" lrx="961" lry="345" rendition="line" xml:id="P15_l11" />
+            <zone ulx="580" uly="342" lrx="963" lry="368" rendition="line" xml:id="P15_l12" />
+            <zone ulx="588" uly="365" lrx="970" lry="393"  rendition="line" xml:id="P15_l13" />
+            <zone ulx="580" uly="392" lrx="967" lry="417" rendition="line" xml:id="P15_l14" />
+            <zone ulx="591" uly="416" lrx="966" lry="440"  rendition="line" xml:id="P15_l15" />
+            <zone ulx="594" uly="441" lrx="973" lry="464" rendition="line" xml:id="P15_l16" />
+            <zone ulx="591" uly="461" lrx="976" lry="483" rendition="line" xml:id="P15_l17" />
+            <zone ulx="589" uly="480" lrx="964" lry="506" rendition="line" xml:id="P15_l18" />
+            <zone ulx="586" uly="510" lrx="973" lry="533" rendition="line" xml:id="P15_l19" />
+            <zone ulx="585" uly="531" lrx="751" lry="564" rendition="line" xml:id="P15_l20" />
         </surface>
     </facsimile>
+   
+    <text xml:lang="fr" xml:id="Pericope3" subtype="manuscript">  
+        <!--Contiene la CODIFICA del testo originale francese-->
+        <body xml:lang="fr" source="#Bouquet-Engler2002">
+            
+<!--Inizio CODIFICA - Pagina 14 -->
+            <pb n="1" facs="#Pag14" />
+            <!--Numero della prima pagina scritto a mano in alto a sx-->
+            <fw type="pageNum" xml:id="PageNum-14" place="top left" facs="#Pag14_num"> 14 </fw>
 
-    <text>
-        <group>
-            <text xml:lang="fr" source="#Bouquet-Engler2002">
-                <body>
-                    <!--INIZIO CARTA 14-->
-                    <pb facs="#fullPage14"/>
-                    <fw type="pageNum" place="top left" facs="#p14Num" hand="#h1">14</fw>
-                    
-                    <!--Prima pericope-->
-                    <ab type="pericope" n="1" xml:id="pericope1" corresp="#pericope1_ita" hand="#h1" facs="#peric1" change="#CHG-1">
-                        <lb facs="#p14R1"/>
+            <!--PAGINA 14 PARAGRAFO 1-->
+            <div facs="#Pag14_par1" n="1">
+
+                <!--PERICOPE 1-->
+                <ab type="pericope" n="1" xml:id="Per1" facs="#P14_p1">
+                    <lb n="1" facs="#P14_l1" />
                         Je pourrais naturellement multiplier à
-                        <lb facs="#p14R2"/>
+                    <lb n="2" facs="#P14_l2" />
                         l’infini les <term ref="#exemple"><abbr>ex<am>.</am></abbr><expan><ex>exemples</ex></expan></term>.
-                    </ab>
-                    <!--Seconda pericope-->
-                    <ab type="pericope" n="2" xml:id="pericope2" corresp="#pericope2_ita" hand="#h1" facs="#peric2" change="#CHG-1">
-                        <lb facs="#p14R3"/>
-                        Pour en prendre un <abbr>+</abbr><expan>plus</expan> loin de nous : il pouvait sembler <add resp="#FDS" place="above"> <date when="1891-11-13">au commencement du siècle</date></add> que la <term ref="#languezende"><mentioned xml:lang="fr" rend="underline">langue zende</mentioned></term>
-                        <lb facs="#p14R4"/>
+                 </ab>
+
+                <!--PERICOPE 2-->
+                <ab type="pericope" n="2" xml:id="Per2" facs="#P14_p2">
+                    Pour en prendre un <abbr>+</abbr><expan>plus</expan> loin de
+                    <lb n="3" facs="#P14_l3" />
+                        nous : il pouvait sembler <add resp="#FDS" place="above"> <date when="1891-11-13">au commencement du siècle</date></add> que la <term ref="#languezende"><mentioned xml:lang="fr" rend="underline">langue zende</mentioned></term>
+                    <lb n="4" facs="#P14_l4" />
                         conservée par les <term ref="#livresacre">livres sacrés</term> des Pârsis <choice><orig>,</orig><reg resp="#SB #RE"> </reg></choice> nous
-                        <lb facs="#p14R5"/>
+                    <lb n="5" facs="#P14_l5" />
                         représentât la <term ref="#langue">langue</term> de l’<emph rend="underline"><geogName>Iran</geogName></emph> - <geogName>Achéménides</geogName>.
-                        <lb facs="#p14R6"/>
+                    <lb n="6" facs="#P14_l6" />
                         <abbr>2</abbr><expan><ex>deux</ex></expan> <term ref="#dialectiraniens"><mentioned xml:lang="fr" rend="underline">dialectes iraniens</mentioned></term>, et il en existait <abbr>cert<am>.</am></abbr><expan><ex>ainement</ex></expan>
-                        <lb facs="#p14R7"/>
+                    <lb n="7" facs="#P14_l7" />
                         une multitude d’autres.
-                    </ab>
-                    <!--Terza pericope-->
-                    <ab type="pericope" n="3" xml:id="pericope3" corresp="#pericope3_ita" hand="#h1" facs="#peric3" change="#CHG-1">
-                        <lb facs="#p14R8"/>
+               </ab>
+            </div>
+
+            <!--PAGINA 14 PARAGRAFO 2  -->
+            <div facs="#Pag14_par2" n="2">
+
+                <!--PERICOPE 3-->
+                <ab type="pericope" n="3" xml:id="Per3" facs="#P14_p3">
+                    <lb n="8" facs="#P14_l8" />
                         Au milieu de cette immense multiplicité
-                        <lb facs="#p14R9"/>
-                        de <term ref="#formes">formes</term>, <choice><orig><del rend="overstrike">nous ne vojons aucunne desordre,</del></orig><reg resp="#SB #RE"> </reg></choice>
-                        <lb facs="#p14R10"/>
-                        <choice><orig><del rend="overstrike">arcunne</del></orig><reg resp="#SB #RE"> </reg></choice>il serait faux de supposer que nous
-                        <lb facs="#p14R11"/>
-                        ayons de la peine à nous retrouver, et qu’on ait 
-                        <lb facs="#p14R12"/>
-                        devant soi le tableau d’ <abbr>i</abbr><expan><ex>un</ex></expan>immense <term ref="#desordre">désordre</term>.
-                    </ab>
-                    <!--Quarta pericope: Nota a margine-->
-                    <ab type="pericope" n="4" xml:id="pericope4" corresp="#pericope4_ita" hand="#h1" facs="#peric4" change="#CHG-1">
-                        <add resp="#FDS" place="margin">                 
-                            je fais cette remarque 
-                            pour éviter 
-                            <term ref="#fausserepresentation">fausse représentation</term>    
-                        </add>
-                    </ab>     
-                    <!--Quinta pericope-->
-                    <ab type="pericope" n="5" xml:id="pericope5" corresp="#pericope5_ita" hand="#h1" facs="#peric5" change="#CHG-1">    
-                        Si
-                        <lb facs="#p14R13"/>
-                        nous prenons chacun des <term ref="#termesdarrivee">termes d'arrivée</term> B'
-                        <lb facs="#p14R14"/>
-                        B'' B''', nous retrouvons pour chacune exactement
-                        <lb facs="#p14R15"/>
-                        le même <term ref="#pointdedepart">point de départ</term> A, modifié
-                        <lb facs="#p14R16"/>
-                        dans des directions <abbr>differ</abbr><expan><term ref="#differentes">differentes</term></expan>, mais d’ <abbr>i<am>.</am></abbr><expan><ex>une</ex></expan> manière 
-                        <lb facs="#p14R17"/>
-                        <abbr>parf<am>.</am></abbr><expan><ex>aitement</ex></expan> précise.
-                    </ab>
-                    <!--Sesta pericope-->
-                    <ab type="pericope" n="6" xml:id="pericope6" corresp="#pericope6_ita" hand="#h1" facs="#peric6" change="#CHG-1">
-                        Ainsi <mentioned xml:lang="fp" rend="underline"> - tsaθi - θãté - </mentioned> 
-                        <lb facs="#p14R18"/>
-                        <mentioned xml:lang="fr" rend="underline">château</mentioned> 
-                    </ab>
-                    <!--Settima pericope-->
-                    <ab type="pericope" n="7" xml:id="pericope7" corresp="#pericope7_ita" hand="#h1" facs="#peric7" change="#CHG-1">
-                        Tout cela remonte mathématiquement
-                        <lb facs="#p14R19"/>
-                        à <mentioned xml:lang="lt" rend="underline">castellum:</mentioned> - <mentioned xml:lang="fr" rend="underline"> tsatθi - tsã - θãté – θã, </mentioned>  
-                        <lb facs="#p14R20"/>
-                        <mentioned xml:lang="fr" rend="underline">château,</mentioned> <mentioned xml:lang="fr" rend="underline">champ</mentioned><choice><orig>;</orig><reg resp="#SB #RE">:</reg></choice> - st > θ <choice><orig>;</orig><reg resp="#SB #RE">:</reg></choice><mentioned xml:lang="fr" rend="underline">tîθa</mentioned>.
-                    </ab>
-                    <!--Ottava pericope-->
-                    <ab type="pericope" n="8" xml:id="pericope8" corresp="#pericope8_ita" hand="#h1" facs="#peric8" change="#CHG-3">
-                        <lb facs="#p14R21"/>
-                        <choice><orig><del rend="overstrike">La</del></orig><reg resp="#SB #RE"> </reg></choice> On voit dès maintenant combien
-                        <lb facs="#p14R22"/>
-                        était éloignée de la <term ref="#verite">vérité</term> l'<term ref="#idee">idée</term> qui a 
-                        <lb facs="#p14R23"/>
-                        dominé toute la <choice><orig>1</orig><reg resp="#SB #RE">première</reg></choice>période des <term ref="#etudeslinguistiques">études linguistiques</term>.
-                        <lb facs="#p14R24"/>
-                        <choice><orig>tiques ;</orig><reg resp="#SB #RE"> </reg></choice> à savoir que, pour<del rend="overstrike"><gap reason="illegible" extent="5" atLeast="10" atMost="12" unit="chars"/></del>
-                        <lb facs="#p14R25"/>
-                        qu’une <term ref="#langue">langue</term> ou un <term ref="#parler"><emph rend="underline">parler</emph></term> arrivât
-                        <lb facs="#p14R26"/>
-                        à se <term ref="#differencier">différencier</term> d’ <abbr>i</abbr><expan>une</expan>  autre, il était <term ref="#necessaire">nécessaire</term>
-                        <lb facs="#p14R27"/>
-                        qu’une <term ref="#separation">séparation</term> <term ref="#geographique">géographique</term><choice><orig><del rend="overstrike">,</del></orig><reg resp="#SB #RE"></reg> </choice> se 
-                        <lb facs="#p14R28"/>
-                        produisît, <abbr>par<am>.</am></abbr> <abbr>ex<am>.</am></abbr><term ref="#exemple"><expan><ex>emple</ex></expan></term> <choice><orig><del rend="overstrike">que</del></orig><reg resp="#SB #RE"></reg></choice>l’<term ref="#idee">idée</term> que l’<lang>anglais</lang> ne
-                        <lb facs="#p14R29"/>
-                        ne <term ref="#differe">diffère</term> de l’<abbr>all<am>.</am></abbr><lang><expan><ex>allemand</ex></expan></lang> que parce que [ ]
-                    </ab> 
-                   
-                    <!--INIZIO CARTA 15-->
-                    <pb facs="#fullPage15"/>
-                    <fw type="pageNum" place="top left" facs="#p15Num" hand="#h1">15</fw>
-                    <!--Nona pericope-->
-                    <ab type="pericope" n="9" xml:id="pericope9" corresp="#pericope9_ita" hand="#h1" facs="#peric9" change="#CHG-3">    
-                        <lb facs="#p15R1"/>
-                            Le cas de la <term ref="#separgeo">séparation géographique</term>,
-                        <lb facs="#p15R2"/>
-                            j’entends de la <term ref="#discgeo"><emph rend="underline">discontinuité</emph> géographique</term>
-                        <lb facs="#p15R3"/>
-                            <term ref="#absolue">absolue</term>,
-                        <lb facs="#p15R4"/>
-                            ce cas, bien loin de <term ref="#representer">représenter</term> la
-                        <lb facs="#p15R5"/>
-                            <term ref="#condition">condition</term> <term ref="#reguliere">régulière</term>pour qu’il y ait <term ref="#divergence">divergence</term>,
-                        <lb facs="#p15R6"/>
-                            constitue un <term ref="#casparticulier"><emph rend="underline">cas particulier</emph></term> demandant à 
-                        <lb facs="#p15R7"/>
-                            être examiné à part.
-                    </ab>
-                    <!--Decima pericope - Nota a margine -->
-                    <ab type="pericope" n="10" xml:id="pericope10" corresp="#pericope10_ita" hand="#h1" facs="#peric10" change="#CHG-3">    
-                        <add resp="#FDS" place="margin">                 
-                            et que 
-                            j’exclus 
-                            complètement 
-                            de notre 
-                            <term ref="#etude">étude</term>
-                            <date when="1891-11-13">présente</date>.    <!-- evento databile -->
-                        </add>
-                    </ab>
-                    <!--Undicesima pericope -->
-                    <ab type="pericope" n="11" xml:id="pericope11" corresp="#pericope11_ita" hand="#h1" facs="#peric11" change="#CHG-3">
-                        L’effet
-                        <lb facs="#p15R8"/>
-                        de l’<term ref="#isolling">isolement linguistique</term>d’<abbr>i</abbr><expan resp="#SB #RE">une</expan> certaine
-                        <lb facs="#p15R9"/>
-                        <term ref="#communaute">communauté</term> est probablement <term ref="#double">double</term>
-                    </ab>
-                        <!--Dodicesima pericope -->
-                        <ab type="pericope" n="12" xml:id="pericope12" corresp="#pericope12_ita" hand="#h1" facs="#peric12" change="#CHG-3">    
-                        : d’une 
-                        <lb facs="#p15R10"/>
-                        part les <term ref="#differences">différences</term> se produisent plus
-                        <lb facs="#p15R11"/>
-                        rapidement, et de l’autre ces <term ref="#differences">différences</term> se
-                        <lb facs="#p15R12"/>
-                        produisent dans une autre <term ref="#direction">direction</term> que si 
-                        <lb facs="#p15R13"/>
-                        la <term ref="#communaute">communauté</term> était restée en <term ref="#contact">contact</term> avec 
-                        <lb facs="#p15R14"/>
-                        la <term ref="#masse">masse</term>.
-                    </ab>
-                    <!--Tredicesima pericope -->
-                    <ab type="pericope" n="13" xml:id="pericope13" corresp="#pericope13_ita" hand="#h1" facs="#peric13" change="#CHG-3">    
-                        Mais, je le répète, c’est là un cas 
-                        <lb facs="#p15R15"/>
-                        sinon <term ref="#exceptionnel">exceptionnel</term>,
-                        <lb facs="#p15R16"/>
-                        du moins réclamant une <term ref="#etudespeciale">étude spéciale</term>
-                        <lb facs="#p15R17"/>
-                        et qui ne peut être abordé qu’à <term ref="#condition">condition</term>
-                        <lb facs="#p15R18"/>
-                        d’être <add resp="#FDS" place="above">d’abord</add> au clair <term ref="#precisement">précisément</term> sur
-                        <lb facs="#p15R19"/>
-                        la <term ref="#differenciation">différenciation</term> qui s’accomplit dans un <term ref="#corps">corps</term>
-                        <lb facs="#p15R20"/>
-                        <term ref="#lingcont">linguistique continu</term>.
-                    </ab>
-                </body>
-            </text>
+                    <lb n="9" facs="#P14_l9" />
+                    de <term ref="#formes">formes</term>, <choice><orig><del rend="overstrike">nous ne vojons aucunne desordre,</del></orig><reg resp="#SB #RE">je fais cette remarque pour éviter une fausse <term ref="#fausserepresentation">fausse représentation</term>,</reg></choice> 
+                    <!--  *********************** da RIVEDERE perchè e' una sostituzione dell'autore a MArgine sinistro -->
+                    <lb n="10" facs="#P1_l10" />
+                    <choice><orig><del rend="overstrike">arcunne</del></orig><reg resp="#SB #RE"> </reg></choice>il serait faux de supposer que nous
+                    <!--  *********************** da RIVEDERE perchè e' una CANCELLAZIONE dell'autore NON riportata dai trascrittori -->
+                    <lb n="11" facs="#P1_l11" />
+                    ayons de la peine à nous retrouver, et qu’on ait 
+                    <lb n="12" facs="#P1_l12" />
+                    devant soi le tableau d’ <abbr>i</abbr><expan><ex>un</ex></expan>immense <term ref="#desordre">désordre</term>.
+                </ab>
+                <!--Nota a margine : je fais cette remarque pour éviter fausse représentation -->
 
-            <!-- traduzione ITALIANO -->
+                <!--PERICOPE 4-->      
+                <ab type="pericope" n="4" xml:id="Per4" facs="#P14_p4">
+                    Si
+                    <lb n="13" facs="#P1_l13" />
+                    nous prenons chacun des <term ref="#termesdarrivee">termes d'arrivée</term> B'
+                    <lb n="14" facs="#P1_l14" />
+                    B'' B''', nous retrouvons pour chacune exac-
+                    <!-- ******************* parola divisa a capo ***************** 'exactement' -->
+                    <lb n="15" facs="#P1_l15" />
+                    tement le même <term ref="#pointdedepart">point de départ</term> A, modifié
+                    <lb n="16" facs="#P1_l16" />
+                    dans des directions <abbr>differ</abbr><expan><term ref="#differentes">differentes</term></expan>, mais d’ <abbr>i<am>.</am></abbr><expan><ex>une</ex></expan> manière 
+                    <lb n="17" facs="#P1_l17" />
+                    <abbr>parf<am>.</am></abbr><expan><ex>aitement</ex></expan> précise.
+                </ab>
 
-            <text xml:lang="it">
-                <body source="#Fadda2006" resp="#EF">
-                    <!--Prima pericope-->
-                    <ab type="pericope" n="1" xml:id="pericope1_ita" corresp="#pericope1" facs="#peric1">
-                    Naturalmente potrei moltiplicare all’infinito gli esempi.    
-                    </ab>
+                <!--PERICOPE 5-->
+                <ab type="pericope" n="5" xml:id="Per5" facs="#P1_p5">
+                    Ainsi <mentioned xml:lang="fp" rend="underline"> - tsaθi - θãté - </mentioned> 
+                    <lb n="18" facs="#P1_l18" />
+                    <mentioned xml:lang="fr" rend="underline">château</mentioned>
+                </ab>
 
-                    <!--Seconda pericope-->
-                    <ab type="pericope" n="2" xml:id="pericope2_ita" corresp="#pericope2" facs="#peric2">
-                    Per prenderne uno più lontano da noi: poteva sembrare all’inizio del secolo che la lingua zenda conservata attraverso i libri sacri di Parsi rappresentasse per noi la lingua dell’Iran – Achemenide, due dialetti iraniani, e ce n’era certamente una moltitudine d’altri.   
-                    </ab>
-
-                    <!--Terza pericope-->
-                    <ab type="pericope" n="3" xml:id="pericope3_ita" corresp="#pericope3" facs="#peric3">
-                    In mezzo a questa immensa molteplicità di forme (faccio questa osservazione per evitare una falsa rappresentazione), sarebbe falso supporre che noi abbiamo problemi a raccapezzarci, e che si abbia davanti a sé il quadro di un immenso disordine.    
-                    </ab>
-
-                    <!--Quarta pericope - Nota a margine-->
-                    <ab type="pericope" n="4" xml:id="pericope4_ita" corresp="#pericope4" facs="#peric4a #peric4b">
-                    (faccio questa osservazione per evitare una falsa rappresentazione)    
-                    </ab>
-
-                    <!--Quinta pericope-->
-                    <ab type="pericope" n="5" xml:id="pericope5_ita" corresp="#pericope5" facs="#peric5">
-                    Se noi prendiamo ognuno dei termini d’arrivo B’, B’’, B’’’, ritroviamo per ciascuno esattamente lo stesso punto di partenza A, modificato in direzioni differenti, ma in una maniera perfettamente precisa.
-                    </ab>
-
-                    <!--Sesta pericope-->
-                    <ab type="pericope" n="6" xml:id="pericope6_ita" corresp="#pericope6" facs="#peric6">
-                    Così abbiamo tsaθi - θãté – château.    
-                    </ab>
-
-                    <!--Settima pericope-->
-                    <ab type="pericope" n="7" xml:id="pericope7_ita" corresp="#pericope7" facs="#peric7">
-                    Tutto ciò risale matematicamente a castellum: tsatθi - tsã - θãté – θã, château, champ: -st > θ : tîθa.    
-                    </ab>
-
-                    <!--Ottava pericope-->
-                    <ab type="pericope" n="8" xml:id="pericope8_ita" corresp="#pericope8" facs="#peric8">
-                    Si vede subito quanto fosse lontana dalla verità l’idea che ha dominato tutto il primo periodo degli studi linguistici, e cioè che, perché una lingua o una parlata [parler] arrivasse a differenziarsi da un’altra, era necessario che si producesse una separazione geografica, per esempio l’idea che l’inglese differisce dal tedesco solo perché [ ].    
-                    </ab>
-                    
-                    <!--Nona pericope-->
-                    <ab type="pericope" n="9" xml:id="pericope9_ita" corresp="#pericope9" facs="#peric9">
-                        Il caso della separazione geografica, intendo della discontinuità geografica assoluta, questo caso, ben lungi dal rappresentare una condizione regolare perché ci sia divergenza, costituisce un caso particolare che richiede di essere esaminato a parte e che io escludo completamente dal nostro presente studio.    
-                    </ab>
-                    
-                    <!--Dieci pericope  - Nota a margine -->
-                    <ab type="pericope" n="10" xml:id="pericope10_ita" corresp="#pericope10" facs="#peric10">
-                        a parte e che io escludo completamente dal nostro presente studio.
-                    </ab>
-                    
-                    <!--Undici pericope-->
-                    <ab type="pericope" n="11" xml:id="pericope11_ita" corresp="#pericope11" facs="#peric11">
-                        L’effetto dell’isolamento linguistico di una certa comunità è probabilmente duplice    
-                    </ab>
-                    
-                    <!--Dodici pericope-->
-                    <ab type="pericope" n="12" xml:id="pericope12_ita" corresp="#pericope12" facs="#peric12">
-                        : da una parte le differenze si producono più rapidamente, e dall’altra queste differenze si producono in un’altra direzione rispetto a quella che avrebbe preso se la comunità fosse rimasta in contatto con la massa.    
-                    </ab>
-                    
-                    <!--Tredici pericope-->
-                    <ab type="pericope" n="13" xml:id="pericope13_ita" corresp="#pericope13" facs="#peric13">
-                        Ma, lo ripeto, si tratta di un caso che, se non è eccezionale, quantomeno reclama uno studio speciale e che può essere affrontato solo a condizione di avere anzitutto le idee ben chiare sulla differenziazione che si compie in un corpo linguistico continuo.   
-                    </ab>
-                </body>
-            </text>
-        </group>
- <!-- ******************** APPENDICE - Bibliografia - Persone - Glossario  ******************* -->
-        <back>
-            <!-- Bibliografia -->
-            <listBibl>
-                <head>Bibliografia</head>
-
-                <bibl xml:id="Bouquet-Engler2002"> 
-                    <title>Écrits de linguistique générale</title>
-                    <author>
-                        <persName ref="#FdS">
-                            <forename>Ferdinand </forename> 
-                            <surname>de Saussure</surname>
-                        </persName>
-                    </author>
-                    <author>
-                        <persName ref="#SB">
-                            <forename>Simon </forename>
-                            <surname>Bouquet</surname>
-                        </persName>
-                    </author>
-                    <author>
-                        <persName ref="#RE">
-                            <forename>Rudolf </forename>
-                            <surname>Engler</surname>
-                        </persName>
-                    </author>
-                    <author>
-                        <persName ref="#AW">
-                            <forename>Antoinette </forename>
-                            <surname>Weil</surname>
-                        </persName>
-                    </author>
-                    <date when="2002">2002</date>
-                    <publisher>Gallimard</publisher>
-                    <pubPlace>Parigi</pubPlace>
-                    <citedRange unit="page" from="143" to="172">pp. 143-172</citedRange>
-                    <note>
-                        Per la trascrizione del manoscritto
-                    </note>
-                </bibl>
-
-                <bibl xml:id="Fadda2006">
-                    <title type="main">Lingua e mente sociale. </title>
-                    <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
-                    <author>
-                        <persName ref="#EF">
-                            <forename>Emanuele </forename>
-                            <surname>Fadda</surname>
-                        </persName>
-                    </author>
-                    <date when="2002">2006</date> 
-                    <publisher>Bonanno Editore</publisher>
-                    <pubPlace>Acireale - Roma</pubPlace>
-                    <idno type="ISBN">ISBN 887796276-3</idno>
-                    <citedRange unit="page" from="85" to="121">pp. 85-121</citedRange>
-                    <note>
-                        Per la traduzione dal francese all'italiano
-                    </note>
-                </bibl>
-            </listBibl>
-
-            <!-- Persone -->
-            <listPerson>
-                <head>Persone</head>
+                <!--PERICOPE 6-->
+                <ab type="pericope" n="6" xml:id="Per6" facs="#P1_p6">
+                    Tout cela remonte mathématiquement
+                    <lb n="19" facs="#P1_l19" />
+                    à <mentioned xml:lang="lt" rend="underline">castellum:</mentioned> - <mentioned xml:lang="fr" rend="underline"> tsatθi - tsã - θãté – θã, </mentioned>  
+                    <lb n="20" facs="#P1_l20" />
+                    <mentioned xml:lang="fr" rend="underline">château,</mentioned> <mentioned xml:lang="fr" rend="underline">champ</mentioned><choice><orig>;</orig><reg resp="#SB #RE">:</reg></choice> - st > θ <choice><orig>;</orig><reg resp="#SB #RE">:</reg></choice><mentioned xml:lang="fr" rend="underline">tîθa</mentioned>.
+                </ab>
                 
-                <person xml:id="FdS" > 
-                    <persName role="author">
-                        <forename>Ferdinand</forename>
-                        <surname>de Saussure</surname>
-                    </persName>
-                    <occupation> linguistic </occupation>
-                    <sex>M</sex> 
-                </person>
+                <!--PERICOPE 7-->
+                <ab type="pericope" n="7" xml:id="Per7" facs="#P1_p7">
+                    <lb n="21" facs="#P1_l21" />
+                    <choice><orig><del rend="overstrike">La</del></orig><reg resp="#SB #RE"> </reg></choice> On voit dès maintenant combien
+                    <lb n="22" facs="#P1_l22" />
+                    était éloignée de la <term ref="#verite">vérité</term> l'<term ref="#idee">idée</term> qui a
+                    <lb n="23" facs="#P1_l23" />
+                    dominé toute la <choice><orig>1</orig><reg resp="#SB #RE">première</reg></choice>période des <term ref="#etudeslinguistiques">études linguistiques</term>.
+                    <lb n="24" facs="#P1_l24" />
+                    <choice><orig>tiques ;</orig><reg resp="#SB #RE"> </reg></choice> à savoir que, pour<del rend="overstrike"><gap reason="illegible" extent="5" atLeast="10" atMost="12" unit="chars"/></del>
+                    <!-- *************************** controllare se GAP va messo un  CHOICE ****************** -->
+                    <lb n="25" facs="#P1_l25" />
+                    qu’une <term ref="#langue">langue</term> ou un <term ref="#parler"><emph rend="underline">parler</emph></term> arrivât
+                    <lb n="26" facs="#P1_l26" />
+                    à se <term ref="#differencier">différencier</term> d’ <abbr>i</abbr><expan>une</expan>  autre, il était <term ref="#necessaire">nécessaire</term>
+                    <lb n="27" facs="#P1_l27" />
+                    qu’une <term ref="#separation">séparation</term> <term ref="#geographique">géographique</term><choice><orig><del rend="overstrike">,</del></orig><reg resp="#SB #RE"></reg> </choice> se
+                    <lb n="28" facs="#P1_l28" />
+                    produisît, <abbr>par<am>.</am></abbr> <abbr>ex<am>.</am></abbr><term ref="#exemple"><expan><ex>emple</ex></expan></term> <choice><orig><del rend="overstrike">que</del></orig><reg resp="#SB #RE"></reg></choice>l’<term ref="#idee">idée</term> que l’<lang>anglais</lang> ne
+                    <lb n="29" facs="#P1_l29" />
+                    ne <term ref="#differe">diffère</term> de l’<abbr>all<am>.</am></abbr><lang><expan><ex>allemand</ex></expan></lang> que parce que [ ]
+                </ab>
+            </div>
 
-                <person xml:id="SB"> 
-                    <persName> 
-                        <forename>Simon</forename>
-                        <surname>Bouquet</surname>
-                    </persName>
-                    <sex>M</sex> 
-                </person>
+<!-- Fine CODIFICA - Pagina 14 -->
 
-                <person xml:id="RE"> 
-                    <persName> 
-                        <forename>Rudolf</forename>
-                        <surname>Engler</surname>
-                    </persName>
-                    <sex>M</sex>
-                </person>
+<!-- Inizio CODIFICA - Pagina 15 -->
+            <pb n="2" facs="#Pag2" />
+            <!--Numero della seconda pagina scritto a mano in alto a sx-->
+            <fw type="pageNum" xml:id="PageNum-15" place="top-left" facs="#Pag15_num"> 15 </fw>
 
-                <person xml:id="EF"> 
-                    <persName> 
-                        <forename>Emanuele</forename>
-                        <surname>Fadda</surname>
-                    </persName>
-                    <sex>M</sex> 
-                </person>
+            <!--PAGINA 15 PARAGRAFO 1-->
+            <div facs="#Pag2_par1" n="3">
 
-                <person xml:id="AB"> 
-                    <persName> 
-                        <forename>Aurora</forename>
-                        <surname>Baroni</surname>
-                    </persName>
-                    <sex>F</sex> 
-                </person>
-            </listPerson>
+                <!--PERICOPE 8-->
+                <ab type="pericope" n="8" xml:id="Per8" facs="#P2_p8">
+                    <lb n="1" facs="#P2_l1" />
+                    Le cas de la <term ref="#separgeo">séparation géographique</term>,
+                    <lb n="2" facs="#P2_l2" />
+                    j’entends de la <term ref="#discgeo"><emph rend="underline">discontinuité</emph> géographique</term>
+                    <lb n="3" facs="#P2_l3" />
+                    <term ref="#absolue">absolue</term>,
+                    <!-- **************** SEGUE frase cancellata NOn trascritta ILLEGGIBILE , anche la prima parola sotto **********+ -->
+                    <lb n="4" facs="#P2_l4" />
+                    ce cas, bien loin de <term ref="#representer">représenter</term> la
+                    <lb n="5" facs="#P2_l5" />
+                    <term ref="#condition">condition</term> <term ref="#reguliere">régulière</term>pour qu’il y ait <term ref="#divergence">divergence</term>,
+                    <lb n="6" facs="#P2_l6" />
+                    constitue un <term ref="#casparticulier"><emph rend="underline">cas particulier</emph></term> demandant à 
+                    <lb n="7" facs="#P2_l7" />
+                    être examiné à part.
+                    <!--Nota a margine -->
+                    <add resp="#FDS" place="margin">                 
+                        et que 
+                        j’exclus 
+                        complètement 
+                        de notre 
+                        <term ref="#etude">étude</term>
+                        <date when="1891-11-13">présente</date>.<!-- evento databile -->
+                    </add>
+                 </ab>
+            </div>
 
-            <!-- Glossario -->
-            <list>
-                <head>Glossario</head>
-                  
+            <!--PAGINA 15 PARAGRAFO 2-->
+            <div facs="#Pag2_par2" n="4">
+                <!--PERICOPE 9-->
+                <ab type="pericope" n="9" xml:id="Per9" facs="#P2_p7">
+                    <!-- ****************+ frase NON trascritta ILLEGGIBILE ***************************** -->
+                    L’effet
+                    <lb n="8" facs="#P2_l8" />
+                    de l’<term ref="#isolling">isolement linguistique</term>d’<abbr>i</abbr><expan resp="#SB #RE">une</expan> certaine com-
+                    <!-- ********************* parola a capo -->
+                    <lb n="9" facs="#P2_l9" />
+                    munauté<term ref="#communaute">communauté</term> est probablement <term ref="#double">double</term>
+                </ab>
+
+                <!--PERICOPE 10 -->
+                <ab type="pericope" n="10" xml:id="Per10" facs="#P2_p8">
+                    : d’une 
+                    <lb n="10" facs="#P2_l10" />
+                    part les <term ref="#differences">différences</term> se produisent plus
+                    <lb n="11" facs="#P2_l11" />
+                    rapidement, et de l’autre ces <term ref="#differences">différences</term> se
+                    <lb n="12" facs="#P2_l12" />
+                    produisent dans une autre <term ref="#direction">direction</term> que si 
+                    <lb n="13" facs="#P2_l13" />
+                    la <term ref="#communaute">communauté</term> était restée en <term ref="#contact">contact</term> avec 
+                    <lb n="14" facs="#P2_l14" />
+                    la <term ref="#masse">masse</term>.
+                </ab>
+
+                <!--PERICOPE 11-->
+                <ab type="pericope" n="11" xml:id="Per11" facs="#P2_p9">
+                    Mais, je le répète, c’est là un cas
+                    <lb n="15" facs="#P2_l15" />
+                    sinon <term ref="#exceptionnel">exceptionnel</term>,
+                    <!-- cancellatura LEGGIBILE NON trascritta -->
+                    <lb n="16" facs="#P2_l16" />
+                    du moins réclamant une <term ref="#etudespeciale">étude spéciale</term>
+                    <lb n="17" facs="#P2_l17" />
+                    et qui ne peut être abordé qu’à <term ref="#condition">condition</term>
+                    <lb n="18" facs="#P2_l18" />
+                    d’être <add resp="#FDS" place="above">d’abord</add> <!-- ************+ CANCELLATA NON LEGGIBILE **********+ --> au clair <term ref="#precisement">précisément</term> sur
+                    <lb n="19" facs="#P2_l19" />
+                    la <term ref="#differenciation">différenciation</term> qui s’accomplit dans un <term ref="#corps">corps</term>
+                    <lb n="20" facs="#P2_l20" />
+                    <term ref="#lingcont">linguistique continu</term>.
+                </ab>
+            </div>
+<!-- Fine CODIFICA - Pagina 15 -->
+            
+<!--Traduzione in ITALIANO -->
+
+            <div type="traduzione" source="#Fadda2006" resp="#EF">
+<!-- ******************** TRADUZIONE - Pagina 14 ***************************************** -->
+                <ab xml:id="Pericope1_ITA" corresp="#Per1" xml:lang="it">
+                    Naturalmente potrei moltiplicare all’infinito gli esempi.
+                </ab>
+
+                <ab xml:id="Pericope2_ITA" corresp="#Per2" xml:lang="it">
+                    Per prenderne uno più lontano da noi: poteva sembrare all’inizio del secolo che la lingua zenda conservata attraverso i libri sacri di 
+                    Parsi rappresentasse per noi la lingua dell’Iran – Achemenide, 
+                    due dialetti iraniani, e ce n’era certamente una moltitudine d’altri.
+                </ab>
+
+                <ab xml:id="Pericope3_ITA" corresp="#Per3" xml:lang="it">
+                    In mezzo a questa immensa molteplicità di forme (faccio questa osservazione per evitare una falsa rappresentazione), 
+                    sarebbe falso supporre che noi abbiamo problemi a raccapezzarci, e che si abbia davanti a sé il quadro di un immenso disordine.
+                </ab>
+
+                <ab xml:id="Pericope4_ITA" corresp="#Per4" xml:lang="it">
+                    Se noi prendiamo ognuno dei termini d’arrivo B’, B’’, B’’’, ritroviamo per ciascuno esattamente lo stesso punto di partenza A, 
+                    modificato in direzioni differenti, ma in una maniera perfettamente precisa.
+                </ab>
+
+                <ab xml:id="Pericope5_ITA" corresp="#Per5" xml:lang="it">
+                    Così abbiamo tsaθi - θãté – château.
+                </ab>
+
+                <ab xml:id="Pericope6_ITA" corresp="#Per6" xml:lang="it">
+                    Tutto ciò risale matematicamente a castellum: tsatθi - tsã - θãté – θã, château, champ: -st > q : tîθa.
+                </ab>
+
+                <ab xml:id="Pericope7_ITA" corresp="#Per7" xml:lang="it">
+                    Si vede subito quanto fosse lontana dalla verità l’idea che ha dominato tutto il primo periodo degli studi linguistici, e cioè che, 
+                    perché una lingua o una parlata [parler] arrivasse a differenziarsi da un’altra, 
+                    era necessario che si producesse una separazione geografica, per esempio l’idea che l’inglese differisce dal tedesco solo perché [ ].
+                </ab>
+                
+<!-- ******************** TRADUZIONE - Pagina 15 ***************************************** -->
+                
+                <ab xml:id="Pericope8_ITA" corresp="#Per8" xml:lang="it">
+                    Il caso della separazione geografica, intendo della discontinuità geografica assoluta, questo caso, ben lungi dal rappresentare 
+                    una condizione regolare perché ci sia divergenza, 
+                    costituisce un caso particolare che richiede di essere esaminato a parte e che io escludo completamente dal nostro presente studio. 
+                </ab>
+
+                <ab xml:id="Pericope9_ITA" corresp="#Per9" xml:lang="it">
+                    L’effetto dell’isolamento linguistico di una certa comunità è probabilmente duplice:
+                </ab>
+
+                <ab xml:id="Pericope10_ITA" corresp="#Per10" xml:lang="it">
+                    da una parte le differenze si producono più rapidamente, e dall’altra queste differenze si producono in un’altra direzione 
+                    rispetto a quella che avrebbe preso se la comunità fosse rimasta in contatto con la massa. 
+                </ab>
+
+                <ab xml:id="Pericope11_ITA" corresp="#Per11" xml:lang="it">
+                    Ma, lo ripeto, si tratta di un caso che, se non è eccezionale, quantomeno reclama uno studio speciale e che può essere affrontato 
+                    solo a condizione di avere anzitutto le idee ben chiare sulla differenziazione che si compie in un corpo linguistico continuo.
+                </ab>
+            </div>
+
+        </body>
+
+<!-- ******************** APPENDICE - Glossario -  Bibliografia - Eventi -   ******************* -->
+        <back>
+            <div type="addList">
+
+<!-- GLOSSARIO -->
+                <list type="terminology" rend="numbered">
+<!-- *************** Glossario - Pagina 14 ******************************** -->
                     <label>
                         <term xml:id="exemple" xml:lang="fr">Exemple</term> <!-- FRANCESE -->
                         <term ref="#exemple" xml:lang="it">Esempio</term> <!-- ITALIANO -->
                     </label>
                     <item>
-                        <gloss target="#esemple" xml:lang="it" source="https://www.treccani.it/vocabolario/esempio/">
+                        <gloss target="#exemple" xml:lang="it" source="https://www.treccani.it/vocabolario/esempio/">
                            Fatto particolare che serve a illustrare un’affermazione generica, a dare evidenza a un principio teorico.
                         </gloss>
                     </item>
@@ -931,8 +733,8 @@ PericopeConNotaMargine -->
                             Esser differente, avere qualche cosa di diverso.
                         </gloss>
                     </item>    
-   
-                <!-- ******************* termini foglio 15 ***************************************  -->
+
+<!-- *************** Glossario - Pagina 15 ******************************** -->
                     
                     <label>
                         <term xml:id="discgeo" xml:lang="fr">Discontinuité géographique</term> <!-- FRANCESE -->
@@ -1048,7 +850,7 @@ PericopeConNotaMargine -->
                     </item>
                     
                     <label>
-                        <term xml:id="irection" xml:lang="fr">Direction</term> <!-- FRANCESE -->
+                        <term xml:id="direction" xml:lang="fr">Direction</term> <!-- FRANCESE -->
                         <term ref="#direction" xml:lang="it">Direzione</term> <!-- ITALIANO -->
                     </label>
                     <item>
@@ -1062,7 +864,7 @@ PericopeConNotaMargine -->
                         <term ref="#contact" xml:lang="it">Contatto</term> <!-- ITALIANO -->
                     </label>
                     <item>
-                        <gloss target="#contatto" xml:lang="it" source="https://www.treccani.it/vocabolario/contatto/">
+                        <gloss target="#contact" xml:lang="it" source="https://www.treccani.it/vocabolario/contatto/">
                             Relazione, rapporto.
                         </gloss>
                     </item>
@@ -1141,9 +943,80 @@ PericopeConNotaMargine -->
                             Che riguarda la lingua, il linguaggio, come fatto sociale, o particolari aspetti, caratteri e manifestazioni della lingua non interrotto nel tempo.
                         </gloss>
                     </item>
+                </list>
+<!-- Bibliografia -->
+                <listBibl xml:id="Prolusioni3_bibl">
+                    <head>Bibliografia</head>
+<!-- *************** Bibliografia - Libro 1 - Bouquet-Engler2002 ******************************** -->
+<!--Bouquet-Engler2002-->
+                    <bibl xml:id="Bouquet-Engler2002">
+                        <title>Écrits de linguistique générale</title>
+                        <author>
+                            <persName ref="#FDS">
+                                <forename>Ferdinand</forename>
+                                <surname>de Saussure</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName xml:id="SB">
+                                <forename>Simon</forename>
+                                <surname>Bouquet</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName xml:id="RE">
+                                <forename>Rudolf</forename>
+                                <surname>Engler</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName xml:id="AW">
+                                <forename>Antoinette</forename>
+                                <surname>Weil</surname>
+                            </persName>
+                        </author>
+                        <date when="2002">2002</date>
+                        <publisher>Gallimard</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <citedRange unit="page" from="143" to="172">143-172</citedRange>
+                        <note> Trascrizione francese del manoscritto </note>
+                    </bibl>
+<!-- *************** Bibliografia - Libro 2 -  E.Fadda 2006 ******************************** -->
+<!--E.Fadda 2006-->
+                    <bibl xml:id="Fadda2006">
+                        <title type="main">Lingua e mente sociale</title>
+                        <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
+                        <author>
+                            <persName xml:id="EF">
+                                <forename>Emanuele</forename>
+                                <surname>Fadda</surname>
+                            </persName>
+                        </author>
+                        <date when="2006">2006</date>
+                        <publisher>Bonanno Editore</publisher>
+                        <pubPlace>Acireale - Roma</pubPlace>
+                        <idno type="ISBN">887796276-3</idno>
+                        <citedRange unit="page" from="85" to="121">85-121</citedRange>
+                        <note> Trascrizione italiana del manoscritto </note>
+                    </bibl>
+                </listBibl>
 
- 
-            </list>
+<!-- EVENTI citati nel testo-->
+   
+                <listEvent>
+<!-- *************** Conferenza 1  ******************************** -->
+                    <event type="conference" n="1" xml:id="first-conf" when="1891-11-06">
+                        <label>Prima conferenza</label>
+                        <desc>Prima conferenza tenuta da Ferdinand de Saussure all'Università di Ginevra</desc>
+                    </event>
+<!-- *************** Conferenza 2  ******************************** -->
+                    <event type="conference" n="2" xml:id="second-conf" when="1891-11-10">
+                        <label>Seconda conferenza</label>
+                        <desc>Seconda conferenza tenuta da Ferdinand de Saussure all'Università di Ginevra</desc>
+                    </event>
+                </listEvent>
+
+            </div>
         </back>
-    </text>   
+    </text>
 </TEI>
