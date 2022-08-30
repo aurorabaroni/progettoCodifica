@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI>
+    <teiHeader>
+        <fileDesc>
+                <titleStmt>
+                    <title>xml:sort</title>
+                    <respStmt>
+                        <resp>Esperimento fatto da</resp> 
+                        <name>Aurora Baroni</name> <!-- nome cognome -->
+                    </respStmt>
+                </titleStmt>
+            </fileDesc>
+        </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                1 parte uno
+            </div>
+        </body>
+    </text>
+ 
+    <text>
+        <body>
+            <div>
+                2 parte due
+            </div>
+        </body>
+    </text>
+ 
+    <text>
+        <body>
+            <div>
+                3 parte tre
+            </div>
+        </body>
+    </text>
+  
+    <text>
+        <body>
+            <div>
+                4 parte quattro
+            </div>
+        </body>
+    </text>
+</TEI>
