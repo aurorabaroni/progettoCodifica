@@ -9,7 +9,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         <head>
             <link rel="stylesheet" href="style.css"/>
             <link rel="icon" type="image/x-icon" href="favicon.ico"/>
-            <title>Fogli 14 e 15 - Prolusioni 3</title>
+            <title>Fogli 14 - Prolusioni 3</title>
         </head>
 
         <body>
@@ -19,7 +19,6 @@ xmlns="http://www.w3.org/1999/xhtml">
                     <ul> 
                         <li><a class="button" href = "#Intro">Informazioni</a></li>
                         <li><a class="button" href = "#Pag14">Pagina 14</a></li> 
-                        <li><a class="button" href = "#Pag15">Pagina 15</a></li>
                         <li><a class="button" href = "#Keywords">Glossario</a></li>
                         <li><a class="button" href = "#Info">Bibliografia</a></li>
                     </ul>
@@ -44,7 +43,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                     <p><li class="cancellazioni">Cancellazioni</li></p>
                 </div>                              
             </div>    
-<!-- ************************ PAGINA 14 ************************ -->        
+<!-- ************************ PAGINA 14 - Immagine foglio 14 ************************ -->        
             <div class="containerP1" id="Pag14">
                 <h2>pagina 14</h2>
                 <div class="img-prolusione">
@@ -55,7 +54,8 @@ xmlns="http://www.w3.org/1999/xhtml">
                         <xsl:attribute name="id">pag14</xsl:attribute>
                     </xsl:element>
                 </div>
-<!-- ************************ PAGINA 14 - Trascrizione ************************ --> 
+            </div>
+            <!-- ************************ PAGINA 14 - Trascrizione foglio 14 ************************ --> 
                 <div class="testo-fr">
                     <h3>Trascrizione francese</h3>
                     <xsl:apply-templates select="//tei:text/tei:body/tei:fw[@xml:id='PageNum-14']"/>
@@ -65,55 +65,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                     <xsl:apply-templates select="//tei:text/tei:body/tei:div[@n='4']"/> <br/>
                     <xsl:apply-templates select="//tei:text/tei:body/tei:div[@n='5']"/> <br/>
                 </div> 
-<!-- ************************ PAGINA 14 - TRADUZIONE in Italiano  ************************ --> 
-                <div class="testo-it">
-                    <button id="pulsanteTraduzione">TRADUZIONE ITALIANA</button>
-                    <span id="testoTraduzione" class="hidden"> 
-                        <div class ="testo-fr">
-                            <h3>Traduzione in italiano</h3>
-                            <xsl:apply-templates select="//tei:text/tei:body/tei:div/tei:ab[@corresp='#Per1']"/>
-                            <xsl:apply-templates select="//tei:text/tei:body/tei:div/tei:ab[@corresp='#Per2']"/>
-                            <xsl:apply-templates select="//tei:text/tei:body/tei:div/tei:ab[@corresp='#Per3']"/>
-                            <xsl:apply-templates select="//tei:text/tei:body/tei:div/tei:ab[@corresp='#Per4']"/>
-                            <xsl:apply-templates select="//tei:text/tei:body/tei:div/tei:ab[@corresp='#Per5']"/>
-                            <xsl:apply-templates select="//tei:text/tei:body/tei:div/tei:ab[@corresp='#Per6']"/>
-                            <xsl:apply-templates select="//tei:text/tei:body/tei:div/tei:ab[@corresp='#Per7']"/>
-                        </div>
-                    </span>
-                </div>
-            </div>
-<!-- ************************ PAGINA 15 ************************ -->  
-            <div class="containerP2" id="Pag15">
-                <h2>pagina 15</h2>
-                <div class="img-prolusione">
-                    <xsl:element name="img">
-                        <xsl:attribute name="src">
-                            <xsl:value-of select="//tei:graphic[@xml:id='Pag15']/@url"/>
-                        </xsl:attribute>
-                        <xsl:attribute name="id">pag15</xsl:attribute>
-                    </xsl:element>
-                </div>
-<!-- ************************ PAGINA 15 - Trascrizione ************************ --> 
-                <div class="testo-fr">
-                    <h3>Trascrizione francese</h3>
-                    <xsl:apply-templates select="//tei:text/tei:body/tei:fw[@xml:id='PageNum-15']"/>
-                    <xsl:apply-templates select="//tei:text/tei:body/tei:div[@n='6']"/> <br/>
-                    <xsl:apply-templates select="//tei:text/tei:body/tei:div[@n='7']"/> <br/>
-                </div> 
-<!-- ************************ PAGINA 15 - TRADUZIONE in Italiano  ************************ -->
-                <div class="testo-it">
-                    <button id="pulsanteTraduzione2">TRADUZIONE ITALIANA</button>
-                    <span id="testoTraduzione2" class="hidden">
-                        <div class ="testo-fr">
-                            <h3>Traduzione in italiano</h3>
-                            <xsl:apply-templates select="//tei:text/tei:body/tei:div/tei:ab[@corresp='#Per8']"/>
-                            <xsl:apply-templates select="//tei:text/tei:body/tei:div/tei:ab[@corresp='#Per9']"/>
-                            <xsl:apply-templates select="//tei:text/tei:body/tei:div/tei:ab[@corresp='#Per10']"/>
-                            <xsl:apply-templates select="//tei:text/tei:body/tei:div/tei:ab[@corresp='#Per11']"/>
-                       </div>
-                   </span>
-                </div>
-            </div>
+            <!-- ************************ PAGINA 14 - TRADUZIONE in Italiano - foglio 14 ************************ --> 
 <!-- ************************ GLOSSARIO  ************************ -->
             <div class="container-key" id="Keywords">
                 <h2>Glossario</h2>

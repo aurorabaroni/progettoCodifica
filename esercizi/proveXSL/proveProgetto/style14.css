@@ -52,7 +52,7 @@ body {
     font-family: 'Nuosu SIL', serif;
 }
 /* ------------------------------------------- */
-.containerP1, .containerP2 {
+.containerP1{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr 5fr;
@@ -123,10 +123,6 @@ button:active {
     border-bottom: 1px solid black;
 }
 /* ------------------------------------------- */
-#Pag15 {
-    background-color: antiquewhite;/*#edcc8b*/
-    border-bottom: 1px solid black;
-}
 /* ------------------------------------------- */
 #Keywords { /* glossario */
     background-color: white; /*#bdd1c5;*/

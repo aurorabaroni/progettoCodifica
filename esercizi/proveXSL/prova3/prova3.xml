@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Il mondo dei poponi</title>
+                <respStmt>
+                    <resp>Esperimento fatto da:</resp> 
+                    <name>Aurora Baroni</name> <!-- nome cognome-->
+                </respStmt>
+            </titleStmt>
+        </fileDesc>
+    </teiHeader>
+</TEI>

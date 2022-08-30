@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prolusioniCodifica14e15.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>            
+            <titleStmt> <!-- TITOLO, AUTORE e RESPONSABILITA contenuto file-->
+                <title type="main">Trois premières conférences à l'Université </title>               
+                <title xml:lang="fr" type="sub">(cours d'ouverture, <date when="1891-11">novembre 1891</date>)</title>
+                <title xml:lang="it" type="sub">Edizione digitale</title>
+                <author xml:id="FDS" role="author">Ferdinand de Saussure</author>
+            </titleStmt>
+
+            <editionStmt>  <!--Informazioni EDIZIONE digitale del testo-->
+                <edition>
+                    Edizione digitale realizzata nel
+                    <date when="2022-09"> settembre 2022 </date>
+                </edition>
+                <respStmt>
+                    <resp>Trascritto da:</resp>
+                    <persName ref="#SB"> 
+                        <forename>Simon</forename>
+                        <surname>Bouquet</surname>
+                    </persName>
+                    <persName ref="#RE"> 
+                        <forename>Rudolf</forename>
+                        <surname>Engler</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Tradotto dal francese all'italiano da:</resp>
+                    <persName> 
+                        <forename ref="#EF">Emanuele</forename>
+                        <surname>Fadda</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Progetto universitario gestito da: </resp>
+                    <name xml:id="AMDG" ref="#AMDG">Angelo Mario Del Grosso</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Codificato da:</resp>
+                    <persName ref="#AB"> 
+                        <forename>Aurora</forename>
+                        <surname>Baroni</surname>
+                    </persName>
+                </respStmt>            
+            </editionStmt>
+
+            <publicationStmt>  <!--Informazioni PUBBLICAZIONE edizione digitale-->
+                <publisher>
+                  <orgName><name type="role">Università</name> di <name type="city">Pisa</name></orgName>
+                </publisher>
+                <pubPlace>Pisa, PI</pubPlace>
+                <address>
+                    <postCode>56127</postCode>
+                    <name>Italia</name>
+                </address>
+                <availability>
+                    <p>Opera ad accesso libero</p>
+                </availability>
+                <date when="2022-09">Settembre 2022</date>
+            </publicationStmt>
+
+            <sourceDesc>  <!--Informazioni FONTE ORIGINALE - Edizione Digitale-->
+                <msDesc>
+                    <msIdentifier>
+                        <country>Svizzera</country>
+                        <settlement>Ginevra</settlement>
+                        <institution>Biblioteca di Ginevra</institution>
+                        <repository role="library" ref="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef/dao/0/111">Biblioteca di Ginevra</repository>
+                        <collection>Archives Ferdinand de Saussure</collection>
+                        <idno type="inventory">BGE Ms. fr. 3951/1.1-3</idno>
+                    </msIdentifier>
+
+                    <msContents>
+                        <msItem>
+                            <author ref="#FDS">Ferdinand de Saussure</author>
+                            <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+                            <title xml:lang="fr" type="sub">1&#x1D49;&#x02B3; cours d'ouverture</title>
+                            <docDate when="1891-11-06">06/11/1891</docDate>
+                            <textLang mainLang="fr">Francese</textLang>
+                        </msItem>
+                        <msItem>
+                            <author ref="#FDS">Ferdinand de Saussure</author>
+                            <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+                            <title xml:lang="fr" type="sub">Cours d'ouverture 2</title>
+                            <docDate when="1891-11-10">10/11/1891</docDate>
+                            <textLang mainLang="fr">Francese</textLang>                           
+                        </msItem>
+                        <msItem>
+                            <author ref="#FDS">Ferdinand de Saussure</author>
+                            <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+                            <title xml:lang="fr" type="sub">Cours d'ouverture 3</title>
+                            <docDate when="1891-11-13">13/11/1891</docDate>
+                            <textLang mainLang="fr">Francese</textLang>
+                        </msItem>                   
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="manuscript">
+                            <supportDesc source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef">
+                                <support>
+                                    fogli di
+                                    <material>carta</material>
+                                </support>
+                                <extent>
+                                    <measureGrp type="notebook" unit="pages" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef/dao/0/111">
+                                        <measure quantity="30">30 pagine +</measure>
+                                        <measure quantity="15">15 pagine +</measure>
+                                        <measure quantity="22">22 pagine +</measure>
+                                        <measure quantity="1">1 foglietto</measure>
+                                    </measureGrp>
+                                </extent>
+                                <foliation>Le pagine sono numerate a mano in alto a sinistra. Ogni pagina è scritta su un foglio diverso.</foliation>
+                                <condition>Le carte sono in buone condizioni.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="25 30">
+                                    <p> Le pagine contengono tra le 25 e le 30 righe scritte a mano. 
+                                    E' assente qualunque tipo di linea stampata nella pagina</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote>
+                                Queste pagine sono state interamente scritte a mano da
+                                <persName ref="#FDS">Ferdinand de Saussure</persName>
+                            </handNote>
+                        </handDesc>
+                        <typeDesc>
+                            <p> Le pagine sono scritte in caratteri corsivi, di comprensione non immediata dato il numero di cancellature e correzioni</p>
+                        </typeDesc>
+                    </physDesc>
+
+                    <history>
+                        <summary>Questo manoscritto si compone di 3 parti, ognuna corrispondente a una prolusione ginevrina.</summary>
+                        <origin notAfter="1891-11">
+                            <p><objectType>Appunti</objectType> scritti da <persName>Ferdinand De Saussure</persName>
+                                che vennero in parte utilizzati per le prime tre lezioni del corso di <foreign xml:lang="fr">Phonétique du grec et du latin</foreign>
+                                del
+                                <date when="1891-11-06">6 novembre 1891</date>
+                                , del
+                                <date when="1891-11-10"> 10 novembre 1891</date>
+                                e del
+                                <date when="1891-11-13">13 novembre 1891</date>
+                                presso l'<orgName><name type="role">Università</name> di
+                                <placeName>Ginevra</placeName></orgName>.
+                                Probabilmente erano destinati alla pubblicazione di una brochure.
+                            </p>
+                        </origin>
+                        <acquisition notBefore="1955" notAfter="1988">
+                            <p>Acquisito dalla <orgName>Biblioteca di Ginevra</orgName> <date notBefore="1955" notAfter="1988">tra il 1955 e il 1988</date>.</p>
+                        </acquisition>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">Francese</language>
+                <!-- <language ident="fp">Franco-Provenzale</language>
+                <language ident="lt">Latino</language> -->
+            </langUsage>
+            <textDesc>
+                <channel mode="w">Testo scritto a mano</channel>
+                <constitution type="single" /> <!-- COMPOSIZIONE interna del testo-->
+                <derivation type="original" /> <!-- DERIVAZIONE del testo-->
+                <domain type="education" /> <!-- CONTESTO SOCIALE cui il testo è destinato-->
+                <factuality type="fact" /> <!-- MISURA in cui il testo può essere considerato aderente alla realtà o di fantasia-->
+                <interaction type="partial" active="singular" passive="group" /> <!-- NATURA dell'interazione tra chi ha prodotto il testo e chi ne fruisce-->
+                <preparedness type="draft">Testo in redazione quasi finale, con correzioni, cancellature, aggiunte interlineari e frasi incomplete.</preparedness> <!-- LIVELLO COMPIMENTO-->
+                <purpose type="inform" degree="high" /> <!-- FUNZIONE COMUNICATIVA del testo-->
+            </textDesc>
+            <settingDesc>
+                <setting>
+                    <p>
+                        Lezione universitaria tenuta da
+                        <persName>Ferdinand De Saussure</persName>
+                        presso l'Università di
+                        <placeName>Ginevra</placeName>
+                        nel
+                        <date when="1891-11">Novembre 1891</date>                        .
+                    </p>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>Il testo è stato codificato per l'esame di Codifica di Testi 
+                    del corso di laurea in Informatica Umanistica dell'
+                    <orgName>
+                        <name type="role">Università</name> di <name type="city">Pisa</name>
+                    </orgName>.
+                </p>
+            </projectDesc>
+            <editorialDecl> <!-- DETTAGLI Scelte Editoriali-->
+                
+                <hyphenation eol="some">
+                    <!-- gestione SILLABAZIONE (parole che vanno a capo)-->
+                    <p>
+                    Gli indicatori di sillabazione sono stati rimossi dalla codifica. E' stato però inserito un indicatore nell'elemento
+                    <gi>lb</gi> che ha come valore dell'attributo <att>break</att> "no" quando si è verificata la sillabazione.
+                    </p>
+                </hyphenation>
+                
+                <punctuation marks="some" placement="external">
+                    <p>Alcuni segni di punteggiatura nella trascrizione di Bouquet ed Engler non rispecchiano 
+                        quelli presenti nel manoscritto. 
+                        In quei casi, sono state codificate entrambe le versioni all'interno di un 
+                        <gi scheme="TEI">choice</gi>
+                    </p>
+                </punctuation>
+                
+                <normalization method="markup">
+                    <p>Nel manoscritto sono presenti alcune abbreviazioni che sono state sciolte nella trascrizione di Bouquet ed Engler. 
+                        In quei casi, sono state codificate entrambe le versioni all'interno di un <gi scheme="TEI">choice</gi></p>
+                </normalization>
+                
+            </editorialDecl>
+            
+        </encodingDesc>
+
+    </teiHeader>
+<!--rappresentazione della fonte scritta sotto forma di un insieme di immagini o parti di esse-->
+ 
+    <text xml:lang="fr" xml:id="Pericope3" subtype="manuscript"> <!--Contiene la CODIFICA del testo originale francese-->
+        <body xml:lang="fr" source="#Bouquet-Engler2002">
+            <div> </div>
+<!--Inizio CODIFICA - Pagina 14 -->
+<!--Numero della prima pagina scritto a mano in alto a sx-->
+<!--PAGINA 14 PARAGRAFO 1-->
+<!--PERICOPE 1-->
+<!--PERICOPE 2-->
+<!--PAGINA 14 PARAGRAFO 2  -->
+<!--PERICOPE 3-->
+<!--PAGINA 14 PARAGRAFO 3  -->
+<!--PERICOPE 4-->      
+<!--PAGINA 14 PARAGRAFO 4  -->
+<!--PERICOPE 5-->
+<!--PERICOPE 6-->
+<!--PAGINA 14 PARAGRAFO 5  -->
+<!--PERICOPE 7-->
+<!-- Fine CODIFICA - Pagina 14 -->
+<!--Traduzione in ITALIANO - Pagina 14 -->
+<!-- TRADUZIONE - Pagina 14 ***************************************** -->
+        </body>
+<!-- ******************** APPENDICE - Glossario -  Bibliografia - Eventi  ******************* -->
+        <back>
+            <div type="addList">
+<!-- GLOSSARIO -->
+<!-- *************** Glossario - Pagina 14 ******************************** -->
+<!-- *************** BIBLIOGRAFIA ******************************** -->
+<!-- Bibliografia -->
+        <listBibl xml:id="Prolusioni3_bibl">
+            <head>Bibliografia</head>
+            
+<!--Bouquet-Engler2002-->
+            <bibl xml:id="Bouquet-Engler2002">
+                <title>Écrits de linguistique générale</title>
+                <author>
+                    <persName ref="#FDS">
+                        <forename>Ferdinand</forename>
+                        <surname>de Saussure</surname>
+                    </persName>
+                </author>
+                <author>
+                    <persName xml:id="SB" ref="#SB">
+                        <forename>Simon</forename>
+                        <surname>Bouquet</surname>
+                    </persName>
+                </author>
+                <author>
+                    <persName xml:id="RE" ref="#RE">
+                        <forename>Rudolf</forename>
+                        <surname>Engler</surname>
+                    </persName>
+                </author>
+                <author>
+                    <persName xml:id="AW" ref="#AW">
+                        <forename>Antoinette</forename>
+                        <surname>Weil</surname>
+                    </persName>
+                </author>
+                <date when="2002">2002</date>
+                <publisher>Gallimard</publisher>
+                <pubPlace>Paris</pubPlace>
+                <citedRange unit="page" from="143" to="172">143-172</citedRange>
+                <note> Trascrizione francese del manoscritto </note>
+            </bibl>
+<!-- *************** Bibliografia - E.Fadda 2006 ******************************** -->
+<!--E.Fadda 2006-->
+            <bibl xml:id="Fadda2006">
+                <title type="main">Lingua e mente sociale</title>
+                <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
+                <author>
+                    <persName xml:id="EF" ref="#EF">
+                        <forename>Emanuele</forename>
+                        <surname>Fadda</surname>
+                    </persName>
+                </author>
+                <date when="2006">2006</date>
+                <publisher>Bonanno Editore</publisher>
+                <pubPlace>Acireale - Roma</pubPlace>
+                <idno type="ISBN">887796276-3</idno>
+                <citedRange unit="page" from="85" to="121">85-121</citedRange>
+                <note> Traduzione italiana del manoscritto </note>
+            </bibl>
+        </listBibl>     
+        
+<!-- EVENTI citati nel testo-->
+<!-- *************** Conferenza 1  ******************************** -->
+<!-- *************** Conferenza 2  ******************************** -->
+<!-- *************** ************  ******************************** -->
+            </div>
+        </back>
+    </text>
+</TEI>
