@@ -103,7 +103,7 @@
                             <supportDesc source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef">
                                 <support>
                                     fogli di
-                                    <material>carta</material>
+                                    <material>carta.</material>
                                 </support>
                                 <extent>
                                     <measureGrp type="notebook" unit="pages" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef/dao/0/111">
@@ -119,7 +119,7 @@
                             <layoutDesc>
                                 <layout columns="1" writtenLines="25 30">
                                     <p> Le pagine contengono tra le 25 e le 30 righe scritte a mano. 
-                                    E' assente qualunque tipo di linea stampata nella pagina</p>
+                                    E' assente qualunque tipo di linea stampata nella pagina.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -161,7 +161,7 @@
         <profileDesc>
             <langUsage>
                 <language ident="fr">Francese</language>
-                <!-- <language ident="fp">Franco-Provenzale</language>
+                <!-- <language ident="fp">Franco-Provenzale</language> 
                 <language ident="lt">Latino</language> -->
             </langUsage>
             <textDesc>
@@ -330,22 +330,22 @@
                     <lb n="1" facs="#P14_l1" />
                         Je pourrais naturellement multiplier à
                     <lb n="2" facs="#P14_l2" />
-                        l’infini les <term ref="#exemple"><abbr>ex<am>.</am></abbr><expan><ex>exemples</ex></expan></term>.
+                        l'infini les <term ref="#exemple"><choice><abbr resp="#FDS">ex<am>.</am></abbr><expan resp="#SB #RE"><ex>exemples</ex></expan></choice></term>.
                  </ab>
 
                 <!--PERICOPE 2-->
                 <ab type="pericope" n="2" xml:id="Per2" facs="#P14_p2">
-                    Pour en prendre un <abbr>+</abbr><expan>plus</expan> loin de
+                    Pour en prendre un <choice><abbr resp="#FDS">+</abbr><expan resp="#SB #RE">plus</expan></choice> loin de
                     <lb n="3" facs="#P14_l3" />
                         nous : il pouvait sembler <add resp="#FDS" place="above"> <date when="1891-11-13">au commencement du siècle</date></add> que la <term ref="#languezende"><mentioned xml:lang="fr" rend="underline">langue zende</mentioned></term>
                     <lb n="4" facs="#P14_l4" />
-                        conservée par les <term ref="#livresacre">livres sacrés</term> des Pârsis <choice><orig>,</orig><reg resp="#SB #RE"> </reg></choice> nous
+                    conservée par les <term ref="#livresacre">livres sacrés</term> des Pârsis <choice><orig>,</orig><reg resp="#SB #RE"> </reg></choice> nous
                     <lb n="5" facs="#P14_l5" />
-                        représentât la <term ref="#langue">langue</term> de l’<emph rend="underline"><geogName>Iran</geogName></emph> - <geogName>Achéménides</geogName>.
+                        représentât la <term ref="#langue">langue</term> de l'<emph rend="underline"><name type="place">Iran</name></emph> - <name type="place">Achéménides</name>.
                     <lb n="6" facs="#P14_l6" />
-                        <abbr>2</abbr><expan><ex>deux</ex></expan> <term ref="#dialectiraniens"><mentioned xml:lang="fr" rend="underline">dialectes iraniens</mentioned></term>, et il en existait <abbr>cert<am>.</am></abbr><expan><ex>ainement</ex></expan>
+                    <choice><abbr resp="#FDS">2</abbr><expan resp="#SB #RE"><ex>deux</ex></expan></choice> <term ref="#dialectiraniens"><mentioned xml:lang="fr" rend="underline">dialectes iraniens</mentioned></term>, et il en existait <choice><abbr resp="#FDS">cert<am>.</am></abbr><expan><ex>certainement</ex></expan></choice>
                     <lb n="7" facs="#P14_l7" />
-                        une multitude d’autres.
+                        une multitude d'autres.
                </ab>
             </div>
 
@@ -357,77 +357,79 @@
                     <lb n="8" facs="#P14_l8" />
                         Au milieu de cette immense multiplicité
                     <lb n="9" facs="#P14_l9" />
-                    de <term ref="#formes">formes</term>, <choice><orig><del rend="overstrike">nous ne vojons aucunne desordre,</del></orig><reg resp="#SB #RE">je fais cette remarque pour éviter une fausse <term ref="#fausserepresentation">fausse représentation</term>,</reg></choice> 
-                    <!--  *********************** da RIVEDERE perchè e' una sostituzione dell'autore a MArgine sinistro -->
+                    de <term ref="#formes">formes</term>, <choice><orig><del rend="overstrike">nous ne vojons aucunne desordre,</del></orig>
+                        <reg resp="#SB #RE"><add change="#FDS" place="margin left"> 
+                            je fais cette remarque 
+                            pour éviter une <term ref="#fausserepresentation">fausse représentation</term></add>,</reg></choice> 
+                    <!--  *********************** ??????? da RIVEDERE perchè e' una sostituzione dell'autore a margine sinistro ???? -->
                     <lb n="10" facs="#P1_l10" />
                     <choice><orig><del rend="overstrike">arcunne</del></orig><reg resp="#SB #RE"> </reg></choice>il serait faux de supposer que nous
-                    <!--  *********************** da RIVEDERE perchè e' una CANCELLAZIONE dell'autore NON riportata dai trascrittori -->
+                    <!--  *********************** ???? da RIVEDERE perchè e' una CANCELLAZIONE dell'autore NON riportata dai trascrittori ??? -->
                     <lb n="11" facs="#P1_l11" />
-                    ayons de la peine à nous retrouver, et qu’on ait 
+                    ayons de la peine à nous retrouver, et qu'on ait 
                     <lb n="12" facs="#P1_l12" />
-                    devant soi le tableau d’ <abbr>i</abbr><expan><ex>un</ex></expan>immense <term ref="#desordre">désordre</term>.
+                    devant soi le tableau d'<choice><abbr>i<am></am></abbr><expan resp="#SB #RB"><ex>un</ex></expan></choice> immense <term ref="#desordre">désordre</term>.
                 </ab>
-                <!--Nota a margine : je fais cette remarque pour éviter fausse représentation -->
+                <!--Nota a margine : je fais cette remarque pour éviter fausse représentation (RISOLTA (?)-->
             </div>
            <!--PAGINA 14 PARAGRAFO 3  -->
            <div facs="#Pag14_par3" n="3">
                 <!--PERICOPE 4-->      
                 <ab type="pericope" n="4" xml:id="Per4" facs="#P14_p4">
-                    Si
                     <lb n="13" facs="#P1_l13" />
-                    nous prenons chacun des <term ref="#termesdarrivee">termes d'arrivée</term> B'
-                    <lb n="14" facs="#P1_l14" />
-                    B'' B''', nous retrouvons pour chacune exac-
+                    Si nous prenons chacun des <term ref="#termesdarrivee">termes d'arrivée</term> B'
+                    <lb n="14" facs="#P1_l14" break="no"/>
+                     B'' B''', nous retrouvons pour chacune exac-
                     <!-- ******************* parola divisa a capo ***************** 'exactement' -->
                     <lb n="15" facs="#P1_l15" />
                     tement le même <term ref="#pointdedepart">point de départ</term> A, modifié
                     <lb n="16" facs="#P1_l16" />
-                    dans des directions <abbr>differ</abbr><expan><term ref="#differentes">differentes</term></expan>, mais d’ <abbr>i<am>.</am></abbr><expan><ex>une</ex></expan> manière 
+                    dans des directions <choice><abbr resp="#FDS">differ<am>.</am></abbr><expan resp="#SB #RE"><term ref="#differentes">differentes</term></expan></choice>, mais d'<choice><abbr>i</abbr><expan>une</expan></choice> manière 
                     <lb n="17" facs="#P1_l17" />
-                    <abbr>parf<am>.</am></abbr><expan><ex>aitement</ex></expan> précise.
+                    <choice><abbr>parf<am>.</am></abbr><expan><ex>parfaitement</ex></expan></choice> précise.
                 </ab>
            </div>
           <!--PAGINA 14 PARAGRAFO 4  -->
                <div facs="#Pag14_par4" n="4">
                 <!--PERICOPE 5-->
                 <ab type="pericope" n="5" xml:id="Per5" facs="#P1_p5">
-                    Ainsi <mentioned xml:lang="fp" rend="underline"> - tsaθi - θãté - </mentioned> 
+                    Ainsi <mentioned xml:lang="fp">-<emph rend="underline">tsaθi - θãté - </emph></mentioned> 
                     <lb n="18" facs="#P1_l18" />
-                    <mentioned xml:lang="fr" rend="underline">château</mentioned>
+                    <mentioned xml:lang="fr"><emph rend="underline">château</emph></mentioned>
                 </ab>
 
                 <!--PERICOPE 6-->
                 <ab type="pericope" n="6" xml:id="Per6" facs="#P1_p6">
-                    Tout cela remonte mathématiquement
+                    <choice><abbr resp="#FDS">Tt</abbr><expan resp="#SB #RE">Tout</expan></choice> cela remonte mathématiquement
                     <lb n="19" facs="#P1_l19" />
-                    à <mentioned xml:lang="lt" rend="underline">castellum:</mentioned> - <mentioned xml:lang="fr" rend="underline"> tsatθi - tsã - θãté – θã, </mentioned>  
+                    à <mentioned xml:lang="lt"><emph rend="underline">castellum</emph></mentioned><choice><orig resp="#FDS">.</orig><reg resp="#SB #RE">:</reg></choice> - <mentioned xml:lang="fp"><emph rend="underline"> tsatθi - tsã - θãté – θã</emph></mentioned><choice><orig resp="#FDS"> </orig><reg resp="#SB #RE">,</reg></choice>
                     <lb n="20" facs="#P1_l20" />
-                    <mentioned xml:lang="fr" rend="underline">château,</mentioned> <mentioned xml:lang="fr" rend="underline">champ</mentioned><choice><orig>;</orig><reg resp="#SB #RE">:</reg></choice> - st > θ <choice><orig>;</orig><reg resp="#SB #RE">:</reg></choice><mentioned xml:lang="fr" rend="underline">tîθa</mentioned>.
+                    <mentioned xml:lang="fr"><emph rend="underline">château</emph><choice><orig resp="#FDS">-</orig><reg resp="#SB #RE">,</reg></choice></mentioned><mentioned xml:lang="fr"><emph rend="underline">champ</emph></mentioned><choice><orig>;</orig><reg resp="#SB #RE">:</reg></choice><emph rend="italic">- st </emph> > θ <choice><orig resp="#FDS">;</orig><reg resp="#SB #RE">:</reg></choice><emph rend="underline"><mentioned xml:lang="fp">tîθa</mentioned></emph><choice><orig resp="#FDS">-.</orig><reg resp="#SB #RE">.</reg></choice>
                 </ab>
                </div>
           <!--PAGINA 14 PARAGRAFO 5  -->
                 <div facs="#Pag14_par5" n="5">       
                 <!--PERICOPE 7-->
                 <ab type="pericope" n="7" xml:id="Per7" facs="#P1_p7">
-                    <lb n="21" facs="#P1_l21" />
+                    <lb n="21" facs="#P1_l21"/>
                     <choice><orig><del rend="overstrike">La</del></orig><reg resp="#SB #RE"> </reg></choice> On voit dès maintenant combien
                     <lb n="22" facs="#P1_l22" />
                     était éloignée de la <term ref="#verite">vérité</term> l'<term ref="#idee">idée</term> qui a
                     <lb n="23" facs="#P1_l23" />
-                    dominé toute la <choice><orig>1</orig><reg resp="#SB #RE">première</reg></choice>période des <term ref="#etudeslinguistiques">études linguistiques</term>.
-                    <lb n="24" facs="#P1_l24" />
-                    <choice><orig>tiques ;</orig><reg resp="#SB #RE"> </reg></choice> à savoir que, pour<del rend="overstrike"><gap reason="illegible" extent="5" atLeast="10" atMost="12" unit="chars"/></del>
-                    <!-- *************************** controllare se GAP va messo un  CHOICE ****************** -->
+                    dominé<choice><abbr resp="#FDS">tte</abbr><expan resp="#SB #RE">toute</expan></choice> la <choice><orig resp="#FDS">1°</orig><reg resp="#SB #RE">première</reg></choice> période des <term ref="#etudeslinguistiques">études linguis
+                    <lb n="24" facs="#P1_l24" break="no"/> <!-- controllare se va bene questa modifica -->
+                        tiques</term><choice><orig resp="#FDS">;</orig><reg resp="#SB #RE">,</reg></choice> à savoir que, pour <del rend="overstrike"><gap quantity="5" reason="illegible" extent="5" atLeast="3" atMost="5" unit="chars"/></del> <!-- tolto <del rend="overstrike"> per vedere gap -->
+                    <!-- *************************** controllare se GAP va messo un  CHOICE (NO) ****************** -->
                     <lb n="25" facs="#P1_l25" />
-                    qu’une <term ref="#langue">langue</term> ou un <term ref="#parler"><emph rend="underline">parler</emph></term> arrivât
+                    qu'une <term ref="#langue">langue</term> ou un <term ref="#parler"><emph rend="underline">parler</emph></term> arrivât
                     <lb n="26" facs="#P1_l26" />
-                    à se <term ref="#differencier">différencier</term> d’ <abbr>i</abbr><expan>une</expan>  autre, il était <term ref="#necessaire">nécessaire</term>
+                    à se <term ref="#differencier">différencier</term> d'<choice><abbr>i</abbr><expan>une</expan></choice> autre, il était <term ref="#necessaire">nécessaire</term>
                     <lb n="27" facs="#P1_l27" />
-                    qu’une <term ref="#separation">séparation</term> <term ref="#geographique">géographique</term><choice><orig><del rend="overstrike">,</del></orig><reg resp="#SB #RE"></reg> </choice> se
+                    qu'une <term ref="#separation">séparation</term> <term ref="#geographique">géographique</term> <del rend="overstrike" resp="#FDS">,</del> se
                     <lb n="28" facs="#P1_l28" />
-                    produisît, <abbr>par<am>.</am></abbr> <abbr>ex<am>.</am></abbr><term ref="#exemple"><expan><ex>emple</ex></expan></term> <choice><orig><del rend="overstrike">que</del></orig><reg resp="#SB #RE"></reg></choice>l’<term ref="#idee">idée</term> que l’<lang>anglais</lang> ne
+                    produisît, <choice><orig resp="#FDS">par.</orig><reg resp="#SB #RE">par</reg></choice><choice><abbr>ex<am>.</am></abbr></choice><term ref="#exemple"><expan><ex>exemple</ex></expan></term> <choice><orig><del rend="overstrike" resp="#FDS">que</del></orig></choice> l'<term ref="#idee">idée</term> que l'<lang>anglais</lang> ne <!-- anglais -->
                     <lb n="29" facs="#P1_l29" />
-                    ne <term ref="#differe">diffère</term> de l’<abbr>all<am>.</am></abbr><lang><expan><ex>allemand</ex></expan></lang> que parce que [ ]
+                    <term ref="#differe">diffère</term> de l'<abbr>all<am>.</am></abbr><lang><expan><ex>allemand</ex></expan></lang> que parce que [ ]
                 </ab>
             </div>
 
@@ -446,22 +448,22 @@
                     <lb n="1" facs="#P2_l1" />
                     Le cas de la <term ref="#separgeo">séparation géographique</term>,
                     <lb n="2" facs="#P2_l2" />
-                    j’entends de la <term ref="#discgeo"><emph rend="underline">discontinuité</emph> géographique</term>
+                    j'entends de la <term ref="#discgeo"><emph rend="underline">discontinuité</emph> géographique</term>
                     <lb n="3" facs="#P2_l3" />
-                    <term ref="#absolue">absolue</term>,
+                    <term ref="#absolue">absolue</term>, <gap quantity="7" atLeast="5" atMost="8" unit="chars" reason="illegible"/> <!-- tolto il del per vedere segnalazione del gap sul web -->
                     <!-- **************** SEGUE frase cancellata NOn trascritta ILLEGGIBILE , anche la prima parola sotto **********+ -->
                     <lb n="4" facs="#P2_l4" />
-                    ce cas, bien loin de <term ref="#representer">représenter</term> la
+                    <gap quantity="1" unit="chars"/> ce cas, bien loin de <term ref="#representer">représenter</term> la
                     <lb n="5" facs="#P2_l5" />
-                    <term ref="#condition">condition</term> <term ref="#reguliere">régulière</term>pour qu’il y ait <term ref="#divergence">divergence</term>,
+                    <term ref="#condition">condition</term> <term ref="#reguliere">régulière</term> pour qu'il y ait <term ref="#divergence">divergence</term>,
                     <lb n="6" facs="#P2_l6" />
                     constitue un <term ref="#casparticulier"><emph rend="underline">cas particulier</emph></term> demandant à 
                     <lb n="7" facs="#P2_l7" />
-                    être examiné à part.
+                    être examiné à part
                     <!--Nota a margine -->
-                    <add resp="#FDS" place="margin">                 
+                    <add resp="#FDS" place="left margin">                 
                         et que 
-                        j’exclus 
+                        j'exclus 
                         complètement 
                         de notre 
                         <term ref="#etude">étude</term>
@@ -475,21 +477,21 @@
                 <!--PERICOPE 9-->
                 <ab type="pericope" n="9" xml:id="Per9" facs="#P2_p7">
                     <!-- ****************+ frase NON trascritta ILLEGGIBILE ***************************** -->
-                    L’effet
-                    <lb n="8" facs="#P2_l8" />
-                    de l’<term ref="#isolling">isolement linguistique</term>d’<abbr>i</abbr><expan resp="#SB #RE">une</expan> certaine com-
+                    <gap quantity="3" unit="chars" reason="illegible"/> L'effet <!-- tolgo del per verificare gap <del rend="overstrike"><gap quantity="3" unit="chars" reason="illegible"/></del-->
+                    <lb n="8" facs="#P2_l8"/>
+                    de l'<term ref="#isolling">isolement linguistique</term> d'<choice><abbr>i</abbr><expan resp="#SB #RE">une</expan></choice> certaine <term ref="#communaute">com-
                     <!-- ********************* parola a capo -->
                     <lb n="9" facs="#P2_l9" />
-                    munauté<term ref="#communaute">communauté</term> est probablement <term ref="#double">double</term>
+                    munauté</term> est <del rend="overstrike">double</del> probablement <term ref="#double">double</term>
                 </ab>
 
                 <!--PERICOPE 10 -->
                 <ab type="pericope" n="10" xml:id="Per10" facs="#P2_p8">
-                    : d’une 
+                    : d'une 
                     <lb n="10" facs="#P2_l10" />
                     part les <term ref="#differences">différences</term> se produisent plus
                     <lb n="11" facs="#P2_l11" />
-                    rapidement, et de l’autre ces <term ref="#differences">différences</term> se
+                    rapidement <del rend="overstrike">,</del><reg resp="#SB #RE">,</reg> et de l'autre ces <term ref="#differences">différences</term> se
                     <lb n="12" facs="#P2_l12" />
                     produisent dans une autre <term ref="#direction">direction</term> que si 
                     <lb n="13" facs="#P2_l13" />
@@ -500,18 +502,19 @@
 
                 <!--PERICOPE 11-->
                 <ab type="pericope" n="11" xml:id="Per11" facs="#P2_p9">
-                    Mais, je le répète, c’est là un cas
+                    Mais, je le répète, c'est là un cas
                     <lb n="15" facs="#P2_l15" />
                     sinon <term ref="#exceptionnel">exceptionnel</term>,
                     <!-- cancellatura LEGGIBILE NON trascritta -->
+                    <del rend="overstrike"><gap quantity="3" atLeast="3" atMost="4" unit="words" reason="cancelled"/> du mains completement</del> <!-- AGGIUNGERE QUI CERTEZZA -->
                     <lb n="16" facs="#P2_l16" />
                     du moins réclamant une <term ref="#etudespeciale">étude spéciale</term>
                     <lb n="17" facs="#P2_l17" />
-                    et qui ne peut être abordé qu’à <term ref="#condition">condition</term>
+                    et qui ne peut être abordé qu'à <term ref="#condition">condition</term>
                     <lb n="18" facs="#P2_l18" />
-                    d’être <add resp="#FDS" place="above">d’abord</add> <!-- ************+ CANCELLATA NON LEGGIBILE **********+ --> au clair <term ref="#precisement">précisément</term> sur
+                    d'être <add resp="#FDS" place="above">d'abord</add><del rend="overstrike"><gap quantity="3" atLeast="3" atMost="4" unit="words" reason="illegible"/></del> <!-- ************ CANCELLATA NON LEGGIBILE DA SISTEMARE **********+ --> au clair <term ref="#precisement">précisément</term> sur
                     <lb n="19" facs="#P2_l19" />
-                    la <term ref="#differenciation">différenciation</term> qui s’accomplit dans un <term ref="#corps">corps</term>
+                    la <term ref="#differenciation">différenciation</term> qui s'accomplit dans un <term ref="#corps">corps</term>
                     <lb n="20" facs="#P2_l20" />
                     <term ref="#lingcont">linguistique continu</term>.
                 </ab>
@@ -523,13 +526,13 @@
             <div type="traduzione" source="#Fadda2006" resp="#EF">
 <!-- ******************** TRADUZIONE - Pagina 14 ***************************************** -->
                 <ab xml:id="Pericope1_ITA" corresp="#Per1" xml:lang="it">
-                    Naturalmente potrei moltiplicare all’infinito gli esempi.
+                    Naturalmente potrei moltiplicare all'infinito gli esempi.
                 </ab>
 
                 <ab xml:id="Pericope2_ITA" corresp="#Per2" xml:lang="it">
-                    Per prenderne uno più lontano da noi: poteva sembrare all’inizio del secolo che la lingua zenda conservata attraverso i libri sacri di 
-                    Parsi rappresentasse per noi la lingua dell’Iran – Achemenide, 
-                    due dialetti iraniani, e ce n’era certamente una moltitudine d’altri.
+                    Per prenderne uno più lontano da noi: poteva sembrare all'inizio del secolo che la lingua zenda conservata attraverso i libri sacri di 
+                    Parsi rappresentasse per noi la lingua dell'<hi rend="italic">Iran</hi> – Achemenide, 
+                    due dialetti iraniani, e ce n'era certamente una moltitudine d'altri.
                 </ab>
 
                 <ab xml:id="Pericope3_ITA" corresp="#Per3" xml:lang="it">
@@ -538,38 +541,38 @@
                 </ab>
 
                 <ab xml:id="Pericope4_ITA" corresp="#Per4" xml:lang="it">
-                    Se noi prendiamo ognuno dei termini d’arrivo B’, B’’, B’’’, ritroviamo per ciascuno esattamente lo stesso punto di partenza A, 
+                    Se noi prendiamo ognuno dei termini d'arrivo <hi rend="italic">B', B'', B'''</hi>, ritroviamo per ciascuno esattamente lo stesso punto di partenza <hi rend="italic">A</hi>, 
                     modificato in direzioni differenti, ma in una maniera perfettamente precisa.
                 </ab>
 
                 <ab xml:id="Pericope5_ITA" corresp="#Per5" xml:lang="it">
-                    Così abbiamo tsaθi - θãté – château.
+                    Così abbiamo <hi rend="italic">tsaθi</hi> - <hi rend="italic">θãté</hi> – <hi rend="italic">château</hi>.
                 </ab>
 
                 <ab xml:id="Pericope6_ITA" corresp="#Per6" xml:lang="it">
-                    Tutto ciò risale matematicamente a castellum: tsatθi - tsã - θãté – θã, château, champ: -st > q : tîθa.
+                    Tutto ciò risale matematicamente a <hi rend="italic">castellum</hi>: <hi rend="italic">tsatθi - tsã - θãté – θã</hi>, château, champ: <hi rend="italic">-st > q : tîθa</hi>.
                 </ab>
 
                 <ab xml:id="Pericope7_ITA" corresp="#Per7" xml:lang="it">
-                    Si vede subito quanto fosse lontana dalla verità l’idea che ha dominato tutto il primo periodo degli studi linguistici, e cioè che, 
-                    perché una lingua o una parlata [parler] arrivasse a differenziarsi da un’altra, 
-                    era necessario che si producesse una separazione geografica, per esempio l’idea che l’inglese differisce dal tedesco solo perché [ ].
+                    Si vede subito quanto fosse lontana dalla verità l'idea che ha dominato tutto il primo periodo degli studi linguistici, e cioè che, 
+                    perché una lingua o una <hi rend="italic">parlata [parler]</hi> arrivasse a differenziarsi da un'altra, 
+                    era necessario che si producesse una separazione geografica, per esempio l'idea che l'inglese differisce dal tedesco solo perché [ ].
                 </ab>
                 
 <!-- ******************** TRADUZIONE - Pagina 15 ***************************************** -->
                 
                 <ab xml:id="Pericope8_ITA" corresp="#Per8" xml:lang="it">
-                    Il caso della separazione geografica, intendo della discontinuità geografica assoluta, questo caso, ben lungi dal rappresentare 
+                    Il caso della separazione geografica, intendo della <hi rend="italic">discontinuità</hi> geografica assoluta, questo caso, ben lungi dal rappresentare 
                     una condizione regolare perché ci sia divergenza, 
-                    costituisce un caso particolare che richiede di essere esaminato a parte e che io escludo completamente dal nostro presente studio. 
+                    costituisce un <hi rend="italic">caso particolare</hi> che richiede di essere esaminato a parte e che io escludo completamente dal nostro presente studio. 
                 </ab>
 
                 <ab xml:id="Pericope9_ITA" corresp="#Per9" xml:lang="it">
-                    L’effetto dell’isolamento linguistico di una certa comunità è probabilmente duplice:
+                    L'effetto dell'isolamento linguistico di una certa comunità è probabilmente duplice:
                 </ab>
 
                 <ab xml:id="Pericope10_ITA" corresp="#Per10" xml:lang="it">
-                    da una parte le differenze si producono più rapidamente, e dall’altra queste differenze si producono in un’altra direzione 
+                    da una parte le differenze si producono più rapidamente, e dall'altra queste differenze si producono in un'altra direzione 
                     rispetto a quella che avrebbe preso se la comunità fosse rimasta in contatto con la massa. 
                 </ab>
 
@@ -585,13 +588,14 @@
 <!-- GLOSSARIO -->
                 <list type="terminology" rend="numbered">
 <!-- *************** Glossario - Pagina 14 ******************************** -->
+                    <!-- bisogna eliminare da <label> riga 591 a 595 e stessa cosa per altri termini? -->
                     <label>
                         <term xml:id="exemple" xml:lang="fr">Exemple</term> <!-- FRANCESE -->
                         <term ref="#exemple" xml:lang="it">Esempio</term> <!-- ITALIANO -->
                     </label>
                     <item>
                         <gloss target="#exemple" xml:lang="it" source="https://www.treccani.it/vocabolario/esempio/">
-                            Esempio: Fatto particolare che serve a illustrare un’affermazione generica, a dare evidenza a un principio teorico.
+                          Esempio: Fatto particolare che serve a illustrare un'affermazione generica, a dare evidenza a un principio teorico.
                         </gloss>
                     </item>
                     
@@ -626,7 +630,7 @@
                     <item>
                         <gloss target="#langue" xml:lang="it" source="https://www.treccani.it/vocabolario/lingua/">
                             Lingua: Sistema di suoni articolati distintivi e significanti (fonemi), di elementi lessicali, cioè parole e locuzioni (lessemi e sintagmi), e di forme 
-                            grammaticali (morfemi), accettato e usato da una comunità etnica, politica o culturale come mezzo di comunicazione per l’espressione e lo scambio di 
+                            grammaticali (morfemi), accettato e usato da una comunità etnica, politica o culturale come mezzo di comunicazione per l'espressione e lo scambio di 
                             pensieri e sentimenti, con caratteri tali da costituire un organismo storicamente determinato, con proprie leggi fonetiche, morfologiche e 
                             sintattiche.
                         </gloss>
@@ -670,7 +674,8 @@
                     </label>
                     <item>
                         <gloss target="#desordre" xml:lang="it" source="https://www.treccani.it/vocabolario/disordine/">
-                            Disordine: confusione; mancanza o turbamento dell’ordine, lo stato delle cose disordinate;                        </gloss>
+                            Disordine: confusione; mancanza o turbamento dell'ordine, lo stato delle cose disordinate;                        
+                        </gloss>
                     </item>
                     
                     <label>
@@ -690,7 +695,7 @@
                     </label>
                     <item>
                         <gloss target="#pointdedepart" xml:lang="it" source="https://www.treccani.it/vocabolario/punto di partenza/">
-                            Punto di partenza: punto d’inizio, il momento d’avvio di qualche cosa, o anche la situazione iniziale.
+                            Punto di partenza: punto d'inizio, il momento d'avvio di qualche cosa, o anche la situazione iniziale.
                         </gloss>
                     </item>
                     
@@ -823,7 +828,7 @@
                     </label>
                     <item>
                         <gloss target="#representer" xml:lang="it" source="https://www.treccani.it/vocabolario/rappresentare/">
-                            Rappresentare: avere il significato di, costituire, equivalere. Raffigurare un’idea astratta, un’entità non visibile mediante un segno o una figura simbolica.
+                            Rappresentare: avere il significato di, costituire, equivalere. Raffigurare un'idea astratta, un'entità non visibile mediante un segno o una figura simbolica.
                         </gloss>
                     </item>
                     
@@ -873,7 +878,7 @@
                     </label>
                     <item>
                         <gloss target="#etude" xml:lang="it" source="https://www.treccani.it/vocabolario/studio/">
-                            Studio: applicazione volta all’apprendimento di quanto è stato sperimentato da altri in un ramo dello scibile, in un’arte, in un’attività pratica, allo scopo di fare proprie tali esperienze, ed eventualmente superarle, proponendo soluzioni nuove nel campo teorico o pratico.
+                            Studio: applicazione volta all'apprendimento di quanto è stato sperimentato da altri in un ramo dello scibile, in un'arte, in un'attività pratica, allo scopo di fare proprie tali esperienze, ed eventualmente superarle, proponendo soluzioni nuove nel campo teorico o pratico.
                         </gloss>
                     </item>
                     
@@ -947,7 +952,7 @@
                     </label>
                     <item>
                         <gloss target="#exceptionnel" xml:lang="it" source="https://www.treccani.it/vocabolario/eccezionale/">
-                            Eccezionale: che costituisce un’eccezione, quindi straordinario, singolare, insolito.
+                            Eccezionale: che costituisce un'eccezione, quindi straordinario, singolare, insolito.
                         </gloss>
                     </item>
                     
@@ -958,7 +963,7 @@
                     </label>
                     <item>
                         <gloss target="#etudespeciale" xml:lang="it" source="https://www.treccani.it/vocabolario/studio speciale/">
-                            Studio speciale: studio non comune, fuori dell’ordinario, di genere particolare.
+                            Studio speciale: studio non comune, fuori dell'ordinario, di genere particolare.
                         </gloss>
                     </item>
                     

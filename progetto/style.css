@@ -2,13 +2,13 @@
 /*BARRA DI NAVIGAZIONE*/
 header {
     position:fixed;
-    background-color: green; /*#a26360; */   
+    background-color: #fffacd; /*#a26360; */   
     width: 100%;
     top:0;
     left:0;
-    height: 70px;
+    height: 90px;
     font-family: 'Nuosu SIL', serif;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #f6e1cf;
 }
 /* ------------------------------------------- */
 header h1 {
@@ -19,7 +19,7 @@ header h1 {
     position: fixed;
 }
 /* ------------------------------------------- */
-.button{
+.button{ /* NON SERVE ?? */
     text-decoration: underline;
     color: black;
     border-radius: 2px; 
@@ -30,7 +30,7 @@ nav ul {
     overflow: hidden;
     text-align: right;
     float: right;
-    width: 55%;
+    width: 65%;
     margin-right: 30px;
     font-family: 'Nuosu SIL', serif;
 }
@@ -67,27 +67,32 @@ body {
         overflow-y: scroll;
 }
 /* ------------------------------------------- */
+/* webkit sono estensioni per la fruibilità su Chrome e Safari IO TOGLIEREI */
 ::-webkit-scrollbar {
     width: 20px;
 }
 /* ------------------------------------------- */  
-  /* Track */
+  /* Track * webkit sono estensioni per la fruibilità su Chrome e Safari  IO TOGLIEREI */
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
 /* ------------------------------------------- */  
-  /* Handle */
+  /* Handle * webkit sono estensioni per la fruibilità su Chrome e Safari IO TOGLIEREI*/
   ::-webkit-scrollbar-thumb {
     background: #a26360;
 }
 /* ------------------------------------------- */  
 .container-legenda{
-        background-color: rgba(255, 255, 255, 0.692);
-        width: 30%;
-        border: 5px solid rgb(46, 46, 46);
-        margin-left: 60px;
-        max-width: 275px;
+        background-color: #fbf0e7; /*  rgba(255, 255, 255, 0.692);*/
+        width: 40%;
+        height: 60%;
+        text-align: center;
+        border: 2px solid #edbb92;/*   rgb(46, 46, 46);*/
+        margin-left: 29%;
+        margin-right: 20%;
+        /*  max-width: 275px;*/
         padding: 30px;
+        border-radius:30px;
 }
 /* ------------------------------------------- */
 .container-legenda h5 {
@@ -101,42 +106,45 @@ body {
 }
 /* ------------------------------------------- */
 button {
-    background-color: green; /*#a26360; */
+    background-color: antiquewhite; /*green; #a26360; */
     font-family: 'Nuosu SIL', serif;
     font-weight: bold;
     width: 200px;
     height: 40px;
+    border-radius:10px;
 }
 /* ------------------------------------------- */
 button:active {
-    background-color: #a26360; /*green */
+    background-color: #edbb92; /*#a26360; green */
 }
 /* ------------------------------------------- */
 #Intro {
-    background-color: white;/*#d4a29c*/
+    background-color: antiquewhite; /*white;#d4a29c*/
     padding: 30px;
     border-bottom: 1px solid black;
+    text-align:center;
 }
 /* ------------------------------------------- */
 #Pag14 {
-    background-color: antiquewhite;/*#e8b298*/
+    background-color: #fffacd; /*  antiquewhite; #e8b298*/
     border-bottom: 1px solid black;
 }
 /* ------------------------------------------- */
 #Pag15 {
-    background-color: antiquewhite;/*#edcc8b*/
+    background-color: #fffacd; /* antiquewhite#edcc8b*/
     border-bottom: 1px solid black;
 }
 /* ------------------------------------------- */
 #Keywords { /* glossario */
-    background-color: white; /*#bdd1c5;*/
+    background-color: #f6e1cf; /*white; #bdd1c5;*/
     border-bottom: 1px solid black;
 }
 /* ------------------------------------------- */
 #Info { /*bibliografia */
-    background-color: antiquewhite; /* orange; #9daaa2; */
+    background-color: antiquewhite;  /*orange; #9daaa2; */
     padding: 30px;
 }
+
 /* ------------------------------------------- */
 .titolo{ 
     grid-area: 1 / 1 / 2 / 3; 
@@ -154,7 +162,7 @@ button:active {
 .testo-fr {
     grid-area: 2 / 2 / 3 / 3;
     padding: 10px;
-    border: 2px solid ;
+    border: 2px solid #edbb92;
     background-color: rgba(235, 232, 232, 0.493);
     width: 90%; 
 }
@@ -181,13 +189,18 @@ button:active {
 	background-color: black;
 }
 /* ------------------------------------------- */
-.aggiunte_lat {
-	color: white; /* blue */
-	background-color: blue;
+.aggiunte_lat { /* ???? */
+	color: #008aeb; /* white blue */ /* non può essere white */
+	/*  background-color: blue;*/
 }
 /* ------------------------------------------- */
-.abbreviazioni {
-    color: #770123; /*rgb(215, 140, 0)*/
+.abbreviazioni { /* colore arancione */
+    color: #ff7514; /*#770123; rgb(215, 140, 0)*/
+	/* background-color: blue; */
+}
+/* ------------------------------------------- */
+.orgreg { /* colore  */
+    color:#0FF /*#770123; rgb(215, 140, 0)*/
 	/* background-color: blue; */
 }
 /* ------------------------------------------- */
@@ -202,6 +215,12 @@ button:active {
     text-decoration: underline;
 }
 /* ------------------------------------------- */
+.toponimi {
+    color:white;
+	background-color: #F0C; 
+    /*text-decoration: underline; */
+}
+/* ------------------------------------------- */
 .sottolineato {
     text-decoration: underline;
 }
@@ -211,3 +230,8 @@ button:active {
 	font-weight:bolder;    
 }
 /* ------------------------------------------- */
+.gap { /* ANCORA NON AGGIUNTO A XSL */
+    background-color: purple;
+    color: white;
+}
+

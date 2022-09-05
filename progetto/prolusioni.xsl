@@ -35,13 +35,16 @@ xmlns="http://www.w3.org/1999/xhtml">
                 
                 <div class="container-legenda">
                     <h4>LEGENDA ELEMENTI</h4>
-                    <p><li class ="termini">elementi Terminologici: GIALLO</li></p>
+                    <p><li class ="termini">Elementi Terminologici: GIALLO</li></p>
                     <p><li class="abbreviazioni">Abbreviazioni: ARANCIONE</li></p>
                     <p><li class="corresp">Eventi databili: VERDE</li></p>
                     <p><li class="aggiunte_lat">Aggiunte: BLU</li></p>
                     <p><li class="glottonimi">Glottonimi: MARRONE</li></p>
+                    <p><li class="toponimi">Toponimi: FUSCIA</li></p>
                     <p><li class="correzioni">Correzioni: ROSSO</li></p>
                     <p><li class="cancellazioni">Cancellazioni</li></p>
+                    <p><li class="orgreg">(Originale)/Revisionato</li></p>
+                    <p><li class="gap">Gap: VIOLA</li></p>
                 </div>                              
             </div>    
 <!-- ************************ PAGINA 14 ************************ -->        
@@ -143,7 +146,7 @@ xmlns="http://www.w3.org/1999/xhtml">
         </p>
         <p> <h2>AUTORE</h2>
             <!-- foto di Ferdinand de Saussure -->
-            <div align="left" id="contenitoreRitratto">
+            <div align="center" id="contenitoreRitratto">
                 <img src="fds.jpg" alt="FdS" width="141" height="133"></img>
             </div>
             <i><xsl:value-of select="tei:author"/></i>
@@ -151,27 +154,33 @@ xmlns="http://www.w3.org/1999/xhtml">
     </xsl:template>
 <!-- **************************************************************************+ -->    
     <xsl:template match="tei:sourceDesc/tei:msDesc">    
-        <p> <h2>CONSERVAZIONE</h2> questi manoscritti sono conservati presso la <xsl:value-of select="tei:msIdentifier/tei:institution"/>. <br/>
+        <p> <h2>CONSERVAZIONE</h2> Questi manoscritti sono conservati presso la <xsl:value-of select="tei:msIdentifier/tei:institution"/>. <br/>
             Si tratta di un'opera ad accesso libero della collezione <xsl:value-of select="tei:msIdentifier/tei:collection"/>
             , con identificativo <xsl:value-of select="tei:msIdentifier/tei:idno"/>
         </p>
         <xsl:for-each select="tei:physDesc/tei:objectDesc">
-            <p> <h2>SUPPORTO FISICO</h2> il supporto utilizzato sono dei <xsl:value-of select="tei:supportDesc/tei:support"/></p>
-            <p> <h3>DESCRIZIONE</h3><xsl:value-of select="tei:layoutDesc"/></p>
+            <p> <h2>SUPPORTO FISICO</h2> Il supporto utilizzato sono dei <xsl:value-of select="tei:supportDesc/tei:support"/></p>
+            <p> <h2>DESCRIZIONE</h2><xsl:value-of select="tei:layoutDesc"/></p>
         </xsl:for-each>
-        <p><h2>STORIA</h2> <xsl:value-of select="tei:history"/></p>
+        <p><h2>STORIA</h2> <xsl:value-of select="tei:history"/></p> <!-- non penso vada-->
     </xsl:template>
 <!-- **************************************************************************+ -->     
     <xsl:template match="tei:langUsage">
-        <p> <h3>LINGUA ORIGINALE</h3> <xsl:value-of select="."/></p>
+        <p> <h2>LINGUA ORIGINALE</h2> <xsl:value-of select="tei:language[@ident='fr']"/></p>
     </xsl:template>
 <!-- **************************************************************************+ -->     
     <xsl:template match="tei:editionStmt">
-        <h2>Informazioni sulla codifica</h2>
+        <h1>Informazioni sulla codifica</h1>
         <p><xsl:value-of select="tei:edition"/></p>
         <xsl:for-each select="tei:respStmt">
             <p><xsl:value-of select="."></xsl:value-of></p>
         </xsl:for-each>
+        <br/>
+        <h2>NOTE SULLA CODIFICA</h2>
+        <p><i>* per la sillabazione:</i> <xsl:value-of select="//tei:hyphenation"/></p>
+        <p><i>* per la punteggiatura:</i><xsl:value-of select="//tei:punctuation"/></p>
+        <p><i>* per la normalizzazione:</i><xsl:value-of select="//tei:normalization"/></p>
+        <br/>
     </xsl:template>
 <!-- ********************************** -->
 <!--TEMPLATES - PROLUSIONI francesi-->
@@ -206,8 +215,15 @@ xmlns="http://www.w3.org/1999/xhtml">
     </span>
 </xsl:template>
 <!-- ********************************************************************* -->
-<!-- eventi Databili-->
-<xsl:template match="//tei:seg[@corresp]">  
+<!-- Toponimi -->
+    <xsl:template match="//tei:name[@type='place']">
+        <span class="toponimi">
+            <xsl:value-of select="."/>
+        </span>
+    </xsl:template>
+<!-- ********************************************************************* -->
+<!-- eventi Databili -->
+<xsl:template match="//tei:date"> 
     <span class="corresp">
         <xsl:apply-templates />
     </span>
@@ -219,6 +235,13 @@ xmlns="http://www.w3.org/1999/xhtml">
             [<xsl:value-of select="."/>]
         </span>  
 </xsl:template>
+<!-- ********************************************************************* -->
+<!-- Originale/Revisionato dai responsabili Trascrizione -->
+    <xsl:template match="//tei:orig">  
+        <span class="orgreg">
+            (<xsl:value-of select="."/>)
+        </span>  
+    </xsl:template>
 <!-- ********************************************************************* -->
 <!-- Aggiunte -->
 <xsl:template match="//tei:add">
@@ -236,12 +259,10 @@ xmlns="http://www.w3.org/1999/xhtml">
     </xsl:if>
 </xsl:template>
 <!-- ********************************************************************* -->
-<!-- Correzioni SIC-->
-<xsl:template match="//tei:sic">
-    <span class="correzioni">
-        (<xsl:value-of select="."/>)
-    </span>
-</xsl:template>
+<!-- Gap -->
+    <xsl:template match="tei:gap">
+      <span class="gap">???????</span>
+</xsl:template>    
 <!-- **************************** GLOSSARIO ***************************** -->
     <!-- GLOSSARIO --> 
     <xsl:template match="//tei:list[@type='terminology']">
