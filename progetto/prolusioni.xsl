@@ -25,13 +25,14 @@ xmlns="http://www.w3.org/1999/xhtml">
                     </ul>
                 </nav>           
             </header>
-<!-- ************** INTRODUZIONE ****************** -->
+<!-- ********************************* INTRODUZIONE *************************************** -->
             <div class="container" id="Intro">
-                <h1>Informazioni sulla fonte originale</h1>   
+                <h1><i>Informazioni sulla fonte originale</i></h1>   
                 <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
                 <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc"/>
                 <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:profileDesc/tei:langUsage"/>
-                <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:editionStmt"/>
+            <div class="container" id="Codifica">
+                <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:editionStmt"/></div>
                 
                 <div class="container-legenda">
                     <h4>LEGENDA ELEMENTI</h4>
@@ -41,13 +42,13 @@ xmlns="http://www.w3.org/1999/xhtml">
                     <p><li class="aggiunte_lat">Aggiunte: BLU</li></p>
                     <p><li class="glottonimi">Glottonimi: MARRONE</li></p>
                     <p><li class="toponimi">Toponimi: FUSCIA</li></p>
-                    <p><li class="correzioni">Correzioni: ROSSO</li></p>
+                    <p><li class="correzioni">Correzioni editore: ROSSO</li></p>
                     <p><li class="cancellazioni">Cancellazioni</li></p>
                     <p><li class="orgreg">(Originale)/Revisionato</li></p>
                     <p><li class="gap">Gap: VIOLA</li></p>
-                </div>                              
+              </div>                              
             </div>    
-<!-- ************************ PAGINA 14 ************************ -->        
+<!-- ********************************* PAGINA 14  *************************************** -->        
             <div class="containerP1" id="Pag14">
                 <h2>pagina 14</h2>
                 <div class="img-prolusione">
@@ -58,7 +59,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                         <xsl:attribute name="id">pag14</xsl:attribute>
                     </xsl:element>
                 </div>
-<!-- ************************ PAGINA 14 - Trascrizione ************************ --> 
+<!-- ********************************* PAGINA 14 - Trascrizione ************************ --> 
                 <div class="testo-fr">
                     <h3>Trascrizione francese</h3>
                     <xsl:apply-templates select="//tei:text/tei:body/tei:fw[@xml:id='PageNum-14']"/>
@@ -85,7 +86,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                     </span>
                 </div>
             </div>
-<!-- ************************ PAGINA 15 ************************ -->  
+<!-- ************************************ PAGINA 15 **************************************** -->  
             <div class="containerP2" id="Pag15">
                 <h2>pagina 15</h2>
                 <div class="img-prolusione">
@@ -96,7 +97,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                         <xsl:attribute name="id">pag15</xsl:attribute>
                     </xsl:element>
                 </div>
-<!-- ************************ PAGINA 15 - Trascrizione ************************ --> 
+<!-- ************************ PAGINA 15 - Trascrizione **************************************** --> 
                 <div class="testo-fr">
                     <h3>Trascrizione francese</h3>
                     <xsl:apply-templates select="//tei:text/tei:body/tei:fw[@xml:id='PageNum-15']"/>
@@ -118,7 +119,7 @@ xmlns="http://www.w3.org/1999/xhtml">
                 </div>
             </div>
 <!-- ************************ GLOSSARIO  ************************ -->
-            <div class="container-key" id="Keywords">
+            <div class="container" id="Keywords"> 
                 <h2>Glossario</h2>
                 <xsl:apply-templates select="//tei:back/tei:div[@type='addList']/tei:list[@type='terminology']"/>
             </div>
@@ -135,14 +136,12 @@ xmlns="http://www.w3.org/1999/xhtml">
 <!-- ********************************************************************* -->
 <!-- SEGUONO le definizioni generali dei Template applicati poi sopra -->
 <!-- ********************************************************************* -->
-    <!-- ********************************* -->
-    <!--templates - INTRODUZIONE ******************************** -->
-    <!-- ********************************* -->
+<!--templates - INTRODUZIONE ******************************** -->
+<!-- ********************************* -->
     <xsl:template match="tei:titleStmt">
         <p> <h2>TITOLO ORIGINALE</h2>
-            <xsl:for-each select="tei:title">
-                <xsl:value-of select="."/>
-            </xsl:for-each>
+            <xsl:value-of select="tei:title[@type='main']"/>
+            <xsl:value-of select="tei:title[@xml:lang='fr']"/>
         </p>
         <p> <h2>AUTORE</h2>
             <!-- foto di Ferdinand de Saussure -->
@@ -167,24 +166,25 @@ xmlns="http://www.w3.org/1999/xhtml">
 <!-- **************************************************************************+ -->     
     <xsl:template match="tei:langUsage">
         <p> <h2>LINGUA ORIGINALE</h2> <xsl:value-of select="tei:language[@ident='fr']"/></p>
+        <p> <h2>ALTRE LINGUE</h2> <xsl:value-of select="tei:language[@ident='fp']"/></p>
+        <p> <xsl:value-of select="tei:language[@ident='lt']"/></p>
     </xsl:template>
-<!-- **************************************************************************+ -->     
+<!-- **************************************************************************+ -->   
     <xsl:template match="tei:editionStmt">
-        <h1>Informazioni sulla codifica</h1>
+        <h1><i>Informazioni sulla codifica</i></h1>
         <p><xsl:value-of select="tei:edition"/></p>
         <xsl:for-each select="tei:respStmt">
             <p><xsl:value-of select="."></xsl:value-of></p>
         </xsl:for-each>
-        <br/>
         <h2>NOTE SULLA CODIFICA</h2>
-        <p><i>* per la sillabazione:</i> <xsl:value-of select="//tei:hyphenation"/></p>
-        <p><i>* per la punteggiatura:</i><xsl:value-of select="//tei:punctuation"/></p>
-        <p><i>* per la normalizzazione:</i><xsl:value-of select="//tei:normalization"/></p>
+        <p><i>* per la <b>sillabazione</b>:</i> <xsl:value-of select="//tei:hyphenation"/></p>
+        <p><i>* per la <b>punteggiatura</b>:</i><xsl:value-of select="//tei:punctuation"/></p>
+        <p><i>* per la <b>normalizzazione</b>:</i><xsl:value-of select="//tei:normalization"/></p>
         <br/>
     </xsl:template>
 <!-- ********************************** -->
+<!-- ********************************** -->    
 <!--TEMPLATES - PROLUSIONI francesi-->
-<!-- ********************************** -->
 <!-- ********************************************************************* -->
 <!--divisione RIGHE-->
 <xsl:template match="//tei:lb[@facs]">
@@ -196,75 +196,92 @@ xmlns="http://www.w3.org/1999/xhtml">
 <!-- ********************************************************************* -->
 <!--elementi Terminologici-->
 <xsl:template match="//tei:term"> 
-    <span class="termini"> 
+    <span class="termini" title="elemento terminologico"> 
         <xsl:apply-templates />   
     </span>
 </xsl:template>
 <!-- ********************************************************************* -->
 <!--elementi Sottolineati -->
 <xsl:template match="//tei:emph[@rend='underline']">
-    <span class="sottolineato"> 
+    <span class="sottolineato" title="sottolineato"> 
         <xsl:apply-templates />   
     </span>
 </xsl:template>
 <!-- ********************************************************************* -->
+<!-- elementi in corsivo-->
+<xsl:template match="//tei:hi[@rend='italic']">
+     <span class="corsivo"> 
+          <xsl:apply-templates />   
+     </span>
+    </xsl:template>    
+<!-- ********************************************************************* -->
 <!-- Glottonimi-->
 <xsl:template match="//tei:lang">
-    <span class="glottonimi">
-        <xsl:value-of select="."/>
+    <span class="glottonimi" title="glottonimo">
+        <xsl:apply-templates />
     </span>
 </xsl:template>
 <!-- ********************************************************************* -->
 <!-- Toponimi -->
     <xsl:template match="//tei:name[@type='place']">
-        <span class="toponimi">
-            <xsl:value-of select="."/>
+        <span class="toponimi" title="toponimo">
+            <xsl:apply-templates />
         </span>
     </xsl:template>
 <!-- ********************************************************************* -->
 <!-- eventi Databili -->
 <xsl:template match="//tei:date"> 
-    <span class="corresp">
+    <span class="corresp" title="evento databile">
         <xsl:apply-templates />
     </span>
 </xsl:template>
 <!-- ********************************************************************* -->
 <!-- Abbreviazioni/Espansioni-->
 <xsl:template match="//tei:abbr">  
-        <span class="abbreviazioni">
-            [<xsl:value-of select="."/>]
+    <span class="abbreviazioni" title="abbreviazione con relativa espansione">
+        [<xsl:apply-templates />]
         </span>  
 </xsl:template>
 <!-- ********************************************************************* -->
 <!-- Originale/Revisionato dai responsabili Trascrizione -->
     <xsl:template match="//tei:orig">  
-        <span class="orgreg">
-            (<xsl:value-of select="."/>)
+        <span class="orgreg" title="originale trascrizione">
+            (<xsl:apply-templates/>)
         </span>  
     </xsl:template>
 <!-- ********************************************************************* -->
 <!-- Aggiunte -->
 <xsl:template match="//tei:add">
-    <span class="aggiunte_lat">
+    <span class="aggiunte_lat" title="aggiunta">
         <xsl:apply-templates />
     </span>
 </xsl:template>
 <!-- ********************************************************************* -->
 <!-- Cancellazioni -->
 <xsl:template match="//tei:del">
-    <xsl:if test="@rend='overstrike'">
-        <span class="cancellazioni">
-            <xsl:value-of select="."/>
+        <span class="cancellazioni" title="cancellazione">
+            <xsl:apply-templates/>
         </span>
-    </xsl:if>
+    
 </xsl:template>
 <!-- ********************************************************************* -->
+<!-- Correzioni SIC-->
+<xsl:template match="//tei:sic">
+        <span class="correzioni">
+            <xsl:apply-templates />
+        </span>
+</xsl:template> 
+<!-- ********************************************************************* -->
 <!-- Gap -->
-    <xsl:template match="tei:gap">
-      <span class="gap">???????</span>
+    <xsl:template match="//tei:gap"> 
+        <xsl:if test="@reason='illegible'">
+        <span class="gap" title="testo illeggibile">???????</span>
+        </xsl:if>
 </xsl:template>    
+<!--- *************************************************************** -->
+    
 <!-- **************************** GLOSSARIO ***************************** -->
-    <!-- GLOSSARIO --> 
+<!-- GLOSSARIO --> 
     <xsl:template match="//tei:list[@type='terminology']">
         <xsl:for-each select="tei:item/tei:gloss">
             <xsl:value-of select="." />

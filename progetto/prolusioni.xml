@@ -161,8 +161,8 @@
         <profileDesc>
             <langUsage>
                 <language ident="fr">Francese</language>
-                <!-- <language ident="fp">Franco-Provenzale</language> 
-                <language ident="lt">Latino</language> -->
+                <language ident="fp">Franco-Provenzale</language> 
+                <language ident="lt">Latino</language>
             </langUsage>
             <textDesc>
                 <channel mode="w">Testo scritto a mano</channel>
@@ -202,22 +202,24 @@
                 <hyphenation eol="some">
                     <!-- gestione SILLABAZIONE (parole che vanno a capo)-->
                     <p>
-                    Gli indicatori di sillabazione sono stati rimossi dalla codifica. E' stato però inserito un indicatore nell'elemento
+                    gli indicatori di sillabazione sono stati rimossi dalla codifica. E' stato però inserito un indicatore nell'elemento
                     <gi>lb</gi> che ha come valore dell'attributo <att>break</att> "no" quando si è verificata la sillabazione.
                     </p>
                 </hyphenation>
                 
                 <punctuation marks="some" placement="external">
-                    <p>Alcuni segni di punteggiatura nella trascrizione di Bouquet ed Engler non rispecchiano 
+                    <!-- gestione PUNTEGGIATURA -->
+                    <p>alcuni segni di punteggiatura nella trascrizione di Bouquet ed Engler non rispecchiano 
                         quelli presenti nel manoscritto. 
                         In quei casi, sono state codificate entrambe le versioni all'interno di un 
-                        <gi scheme="TEI">choice</gi>
+                        <gi scheme="TEI">choice</gi>.
                     </p>
                 </punctuation>
                 
                 <normalization method="markup">
-                    <p>Nel manoscritto sono presenti alcune abbreviazioni che sono state sciolte nella trascrizione di Bouquet ed Engler. 
-                        In quei casi, sono state codificate entrambe le versioni all'interno di un <gi scheme="TEI">choice</gi></p>
+                    <!-- gestione NORMALIZZAZIONE -->
+                    <p>nel manoscritto sono presenti alcune abbreviazioni che sono state sciolte nella trascrizione di Bouquet ed Engler. 
+                        In quei casi, sono state codificate entrambe le versioni all'interno di un <gi scheme="TEI">choice</gi>.</p>
                 </normalization>
                 
             </editorialDecl>
@@ -357,20 +359,18 @@
                     <lb n="8" facs="#P14_l8" />
                         Au milieu de cette immense multiplicité
                     <lb n="9" facs="#P14_l9" />
-                    de <term ref="#formes">formes</term>, <choice><orig><del rend="overstrike">nous ne vojons aucunne desordre,</del></orig>
-                        <reg resp="#SB #RE"><add change="#FDS" place="margin left"> 
+                    de <term ref="#formes">formes</term>, <del rend="overstrike" resp="#SB #RE">nous ne vojons aucunne desordre,</del>
+                        <add change="#FDS" place="margin left"> 
                             je fais cette remarque 
-                            pour éviter une <term ref="#fausserepresentation">fausse représentation</term></add>,</reg></choice> 
-                    <!--  *********************** ??????? da RIVEDERE perchè e' una sostituzione dell'autore a margine sinistro ???? -->
+                            pour éviter une <term ref="#fausserepresentation">fausse représentation</term></add>,
                     <lb n="10" facs="#P1_l10" />
-                    <choice><orig><del rend="overstrike">arcunne</del></orig><reg resp="#SB #RE"> </reg></choice>il serait faux de supposer que nous
-                    <!--  *********************** ???? da RIVEDERE perchè e' una CANCELLAZIONE dell'autore NON riportata dai trascrittori ??? -->
+                    <del rend="overstrike" resp="#FDS">arcunne</del>il serait faux de supposer que nous
                     <lb n="11" facs="#P1_l11" />
                     ayons de la peine à nous retrouver, et qu'on ait 
                     <lb n="12" facs="#P1_l12" />
                     devant soi le tableau d'<choice><abbr>i<am></am></abbr><expan resp="#SB #RB"><ex>un</ex></expan></choice> immense <term ref="#desordre">désordre</term>.
                 </ab>
-                <!--Nota a margine : je fais cette remarque pour éviter fausse représentation (RISOLTA (?)-->
+     
             </div>
            <!--PAGINA 14 PARAGRAFO 3  -->
            <div facs="#Pag14_par3" n="3">
@@ -378,9 +378,8 @@
                 <ab type="pericope" n="4" xml:id="Per4" facs="#P14_p4">
                     <lb n="13" facs="#P1_l13" />
                     Si nous prenons chacun des <term ref="#termesdarrivee">termes d'arrivée</term> B'
-                    <lb n="14" facs="#P1_l14" break="no"/>
+                    <lb n="14" facs="#P1_l14" break="no"/> <!-- parola a capo -->
                      B'' B''', nous retrouvons pour chacune exac-
-                    <!-- ******************* parola divisa a capo ***************** 'exactement' -->
                     <lb n="15" facs="#P1_l15" />
                     tement le même <term ref="#pointdedepart">point de départ</term> A, modifié
                     <lb n="16" facs="#P1_l16" />
@@ -412,14 +411,13 @@
                 <!--PERICOPE 7-->
                 <ab type="pericope" n="7" xml:id="Per7" facs="#P1_p7">
                     <lb n="21" facs="#P1_l21"/>
-                    <choice><orig><del rend="overstrike">La</del></orig><reg resp="#SB #RE"> </reg></choice> On voit dès maintenant combien
+                   <del rend="overstrike" resp="#FDS">La</del> On voit dès maintenant combien
                     <lb n="22" facs="#P1_l22" />
                     était éloignée de la <term ref="#verite">vérité</term> l'<term ref="#idee">idée</term> qui a
-                    <lb n="23" facs="#P1_l23" />
+                    <lb n="23" facs="#P1_l23"/>
                     dominé<choice><abbr resp="#FDS">tte</abbr><expan resp="#SB #RE">toute</expan></choice> la <choice><orig resp="#FDS">1°</orig><reg resp="#SB #RE">première</reg></choice> période des <term ref="#etudeslinguistiques">études linguis
-                    <lb n="24" facs="#P1_l24" break="no"/> <!-- controllare se va bene questa modifica -->
-                        tiques</term><choice><orig resp="#FDS">;</orig><reg resp="#SB #RE">,</reg></choice> à savoir que, pour <del rend="overstrike"><gap quantity="5" reason="illegible" extent="5" atLeast="3" atMost="5" unit="chars"/></del> <!-- tolto <del rend="overstrike"> per vedere gap -->
-                    <!-- *************************** controllare se GAP va messo un  CHOICE (NO) ****************** -->
+                    <lb n="24" facs="#P1_l24" break="no"/> 
+                     tiques</term><choice><orig resp="#FDS">;</orig><reg resp="#SB #RE">,</reg></choice> à savoir que, pour <del rend="overstrike"><gap quantity="5" reason="illegible" extent="5" atLeast="3" atMost="5" unit="chars"/></del>
                     <lb n="25" facs="#P1_l25" />
                     qu'une <term ref="#langue">langue</term> ou un <term ref="#parler"><emph rend="underline">parler</emph></term> arrivât
                     <lb n="26" facs="#P1_l26" />
@@ -427,7 +425,7 @@
                     <lb n="27" facs="#P1_l27" />
                     qu'une <term ref="#separation">séparation</term> <term ref="#geographique">géographique</term> <del rend="overstrike" resp="#FDS">,</del> se
                     <lb n="28" facs="#P1_l28" />
-                    produisît, <choice><orig resp="#FDS">par.</orig><reg resp="#SB #RE">par</reg></choice><choice><abbr>ex<am>.</am></abbr></choice><term ref="#exemple"><expan><ex>exemple</ex></expan></term> <choice><orig><del rend="overstrike" resp="#FDS">que</del></orig></choice> l'<term ref="#idee">idée</term> que l'<lang>anglais</lang> ne <!-- anglais -->
+                    produisît, <choice><orig resp="#FDS">par.</orig><reg resp="#SB #RE">par</reg></choice><choice><abbr>ex<am>.</am></abbr></choice><term ref="#exemple"><expan><ex>exemple</ex></expan></term> <del rend="overstrike" resp="#FDS">que</del> l'<term ref="#idee">idée</term> que l'<lang>anglais</lang> ne 
                     <lb n="29" facs="#P1_l29" />
                     <term ref="#differe">diffère</term> de l'<abbr>all<am>.</am></abbr><lang><expan><ex>allemand</ex></expan></lang> que parce que [ ]
                 </ab>
@@ -450,17 +448,16 @@
                     <lb n="2" facs="#P2_l2" />
                     j'entends de la <term ref="#discgeo"><emph rend="underline">discontinuité</emph> géographique</term>
                     <lb n="3" facs="#P2_l3" />
-                    <term ref="#absolue">absolue</term>, <gap quantity="7" atLeast="5" atMost="8" unit="chars" reason="illegible"/> <!-- tolto il del per vedere segnalazione del gap sul web -->
-                    <!-- **************** SEGUE frase cancellata NOn trascritta ILLEGGIBILE , anche la prima parola sotto **********+ -->
+                    <term ref="#absolue">absolue</term>, <del rend="overstrike"><gap quantity="7" atLeast="5" atMost="8" unit="chars" reason="illegible"/></del> 
                     <lb n="4" facs="#P2_l4" />
-                    <gap quantity="1" unit="chars"/> ce cas, bien loin de <term ref="#representer">représenter</term> la
+                    <del rend="overstrike"><gap quantity="1" unit="chars"/></del> ce cas, bien loin de <term ref="#representer">représenter</term> la
                     <lb n="5" facs="#P2_l5" />
                     <term ref="#condition">condition</term> <term ref="#reguliere">régulière</term> pour qu'il y ait <term ref="#divergence">divergence</term>,
                     <lb n="6" facs="#P2_l6" />
                     constitue un <term ref="#casparticulier"><emph rend="underline">cas particulier</emph></term> demandant à 
                     <lb n="7" facs="#P2_l7" />
                     être examiné à part
-                    <!--Nota a margine -->
+                    <!--Nota a margine sinistro-->
                     <add resp="#FDS" place="left margin">                 
                         et que 
                         j'exclus 
@@ -476,12 +473,11 @@
             <div facs="#Pag2_par2" n="7">
                 <!--PERICOPE 9-->
                 <ab type="pericope" n="9" xml:id="Per9" facs="#P2_p7">
-                    <!-- ****************+ frase NON trascritta ILLEGGIBILE ***************************** -->
-                    <gap quantity="3" unit="chars" reason="illegible"/> L'effet <!-- tolgo del per verificare gap <del rend="overstrike"><gap quantity="3" unit="chars" reason="illegible"/></del-->
+                    <del rend="overstrike"><gap quantity="3" unit="chars" reason="illegible"/></del> L'effet 
                     <lb n="8" facs="#P2_l8"/>
-                    de l'<term ref="#isolling">isolement linguistique</term> d'<choice><abbr>i</abbr><expan resp="#SB #RE">une</expan></choice> certaine <term ref="#communaute">com-
-                    <!-- ********************* parola a capo -->
-                    <lb n="9" facs="#P2_l9" />
+                    de l'<term ref="#isolling">isolement linguistique</term> d'<choice><abbr>i</abbr><expan resp="#SB #RE">une</expan></choice> certaine <term ref="#communaute">com
+                    <!--  parola a capo -->
+                    <lb n="9" facs="#P2_l9" break="no"/>
                     munauté</term> est <del rend="overstrike">double</del> probablement <term ref="#double">double</term>
                 </ab>
 
@@ -493,7 +489,7 @@
                     <lb n="11" facs="#P2_l11" />
                     rapidement <del rend="overstrike">,</del><reg resp="#SB #RE">,</reg> et de l'autre ces <term ref="#differences">différences</term> se
                     <lb n="12" facs="#P2_l12" />
-                    produisent dans une autre <term ref="#direction">direction</term> que si 
+                    produisent <choice><sic>d</sic> <corr>dans</corr></choice> une autre <term ref="#direction">direction</term> que si 
                     <lb n="13" facs="#P2_l13" />
                     la <term ref="#communaute">communauté</term> était restée en <term ref="#contact">contact</term> avec 
                     <lb n="14" facs="#P2_l14" />
@@ -505,16 +501,15 @@
                     Mais, je le répète, c'est là un cas
                     <lb n="15" facs="#P2_l15" />
                     sinon <term ref="#exceptionnel">exceptionnel</term>,
-                    <!-- cancellatura LEGGIBILE NON trascritta -->
-                    <del rend="overstrike"><gap quantity="3" atLeast="3" atMost="4" unit="words" reason="cancelled"/> du mains completement</del> <!-- AGGIUNGERE QUI CERTEZZA -->
+                    <del rend="overstrike"><gap quantity="3" atLeast="3" atMost="4" unit="words" reason="cancelled"/> du mains completement</del> 
                     <lb n="16" facs="#P2_l16" />
                     du moins réclamant une <term ref="#etudespeciale">étude spéciale</term>
                     <lb n="17" facs="#P2_l17" />
                     et qui ne peut être abordé qu'à <term ref="#condition">condition</term>
                     <lb n="18" facs="#P2_l18" />
-                    d'être <add resp="#FDS" place="above">d'abord</add><del rend="overstrike"><gap quantity="3" atLeast="3" atMost="4" unit="words" reason="illegible"/></del> <!-- ************ CANCELLATA NON LEGGIBILE DA SISTEMARE **********+ --> au clair <term ref="#precisement">précisément</term> sur
+                    d'être <del rend="overstrike" resp="#FDS">prealallat</del> <add resp="#FDS" place="above">d'abord</add> au clair <term ref="#precisement">précisément</term> sur
                     <lb n="19" facs="#P2_l19" />
-                    la <term ref="#differenciation">différenciation</term> qui s'accomplit dans un <term ref="#corps">corps</term>
+                    la <term ref="#differenciation">différenciation</term> qui s'accomplit <choice><sic>d</sic> <corr>dans</corr></choice> un <term ref="#corps">corps</term>
                     <lb n="20" facs="#P2_l20" />
                     <term ref="#lingcont">linguistique continu</term>.
                 </ab>

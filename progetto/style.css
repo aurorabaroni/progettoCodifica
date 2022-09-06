@@ -2,7 +2,7 @@
 /*BARRA DI NAVIGAZIONE*/
 header {
     position:fixed;
-    background-color: #fffacd; /*#a26360; */   
+    background-color: #fffacd;   
     width: 100%;
     top:0;
     left:0;
@@ -19,7 +19,7 @@ header h1 {
     position: fixed;
 }
 /* ------------------------------------------- */
-.button{ /* NON SERVE ?? */
+.button { 
     text-decoration: underline;
     color: black;
     border-radius: 2px; 
@@ -43,7 +43,7 @@ nav ul li {
     font-weight: bold;
 }
 /* ------------------------------------------- */
-/*CORPO DI TESTO*/
+/* CORPO DI TESTO*/
 /* ------------------------------------------- */
 body {
     margin-top: 70px;
@@ -67,30 +67,27 @@ body {
         overflow-y: scroll;
 }
 /* ------------------------------------------- */
-/* webkit sono estensioni per la fruibilità su Chrome e Safari IO TOGLIEREI */
 ::-webkit-scrollbar {
     width: 20px;
 }
 /* ------------------------------------------- */  
-  /* Track * webkit sono estensioni per la fruibilità su Chrome e Safari  IO TOGLIEREI */
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
 /* ------------------------------------------- */  
-  /* Handle * webkit sono estensioni per la fruibilità su Chrome e Safari IO TOGLIEREI*/
   ::-webkit-scrollbar-thumb {
     background: #a26360;
 }
-/* ------------------------------------------- */  
+/* ------------------------------------------- */ 
+
 .container-legenda{
-        background-color: #fbf0e7; /*  rgba(255, 255, 255, 0.692);*/
+        background-color: #fbf0e7; 
         width: 40%;
-        height: 60%;
+        height: 75%;
         text-align: center;
-        border: 2px solid #edbb92;/*   rgb(46, 46, 46);*/
+        border: 2px solid #edbb92;
         margin-left: 29%;
         margin-right: 20%;
-        /*  max-width: 275px;*/
         padding: 30px;
         border-radius:30px;
 }
@@ -106,7 +103,7 @@ body {
 }
 /* ------------------------------------------- */
 button {
-    background-color: antiquewhite; /*green; #a26360; */
+    background-color: antiquewhite; 
     font-family: 'Nuosu SIL', serif;
     font-weight: bold;
     width: 200px;
@@ -115,36 +112,42 @@ button {
 }
 /* ------------------------------------------- */
 button:active {
-    background-color: #edbb92; /*#a26360; green */
+    background-color: #edbb92; 
 }
 /* ------------------------------------------- */
 #Intro {
-    background-color: antiquewhite; /*white;#d4a29c*/
+    background-color: antiquewhite; 
     padding: 30px;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid #f6e1cf;
+    text-align:center;
+}
+/* ------------------------------------------- */
+#Codifica {
+    background-color: antiquewhite; 
+    padding: 30px;
+    border-top: 2px solid #fffacd;
     text-align:center;
 }
 /* ------------------------------------------- */
 #Pag14 {
-    background-color: #fffacd; /*  antiquewhite; #e8b298*/
-    border-bottom: 1px solid black;
+    background-color: #fffacd; 
+    border-bottom: 3px solid #f6e1cf;
 }
 /* ------------------------------------------- */
 #Pag15 {
-    background-color: #fffacd; /* antiquewhite#edcc8b*/
-    border-bottom: 1px solid black;
+    background-color: #fffacd; 
+    border-bottom: 1px solid #f6e1cf;
 }
 /* ------------------------------------------- */
 #Keywords { /* glossario */
-    background-color: #f6e1cf; /*white; #bdd1c5;*/
-    border-bottom: 1px solid black;
+    background-color: #f6e1cf; 
+    border-bottom: 2px solid #fffacd; 
 }
 /* ------------------------------------------- */
 #Info { /*bibliografia */
-    background-color: antiquewhite;  /*orange; #9daaa2; */
+    background-color: antiquewhite;  
     padding: 30px;
 }
-
 /* ------------------------------------------- */
 .titolo{ 
     grid-area: 1 / 1 / 2 / 3; 
@@ -177,10 +180,9 @@ button:active {
 /* ------------------------------------------- */
 /*  **************** per TEMPLATES *********** */
 /* ------------------------------------------- */
-/* ------------------------------------------- */
 .correzioni {
-    color: red; /*grey*/
-	background-color: white;
+    background-color: white;
+    color: red; 
 }
 /* ------------------------------------------- */
 .cancellazioni {
@@ -189,36 +191,30 @@ button:active {
 	background-color: black;
 }
 /* ------------------------------------------- */
-.aggiunte_lat { /* ???? */
-	color: #008aeb; /* white blue */ /* non può essere white */
-	/*  background-color: blue;*/
+.aggiunte_lat { 
+	color: #008aeb; 
 }
 /* ------------------------------------------- */
-.abbreviazioni { /* colore arancione */
-    color: #ff7514; /*#770123; rgb(215, 140, 0)*/
-	/* background-color: blue; */
+.abbreviazioni { 
+    color: #ff7514; 
 }
 /* ------------------------------------------- */
 .orgreg { /* colore  */
-    color:#0FF /*#770123; rgb(215, 140, 0)*/
-	/* background-color: blue; */
+    color:#0FF 
 }
 /* ------------------------------------------- */
 .corresp {
-	/*color: #770123; */
     background-color: rgb(96, 223, 96);
 }
 /* ------------------------------------------- */
 .glottonimi {
     color: brown;
-	/*background-color: grey; */
     text-decoration: underline;
 }
 /* ------------------------------------------- */
 .toponimi {
     color:white;
 	background-color: #F0C; 
-    /*text-decoration: underline; */
 }
 /* ------------------------------------------- */
 .sottolineato {
@@ -230,8 +226,11 @@ button:active {
 	font-weight:bolder;    
 }
 /* ------------------------------------------- */
-.gap { /* ANCORA NON AGGIUNTO A XSL */
+.gap {
     background-color: purple;
     color: white;
 }
-
+/* ------------------------------------------- */
+.corsivo {
+   font-style: italic;
+}
