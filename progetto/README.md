@@ -13,13 +13,44 @@ Per le Esercitazioni e il Progetto e' stato usato il software di editazione/vali
 <b> '<oXygen/> XML Editor 24.1, build 2022062007' </b>(licenza gratuita per 1 mese)
 Inoltre sia il Progetto che le Esercitazioni sono stati Validati con il software: 'Xerces-J-bin.2.12.1' 
 ## Comando per la Validazione con Xerces ('Xerces-J-bin.2.12.1')
-```shell
-$ java -cp "Xerces-J-bin.2.12.1/xerces-2_12_1/xml-apis.jar;Xerces-J-bin.2.12.1/xerces-2_12_1/xercesImpl.jar;Xerces-J-bin.2.12.1/xerces-2_12_1/xercesSamples.jar" dom.Counter prolusioni.xml
-```
+in cartella 'c:\codifica' ho preventivamente inserito il file DTD: 
+'tei_all.dtd'
+***********************************
+cd \
+---
+java -cp "Xerces-J-bin.2.12.1/xerces-2_12_1/xml-apis.jar;Xerces-J-bin.2.12.1/xerces-2_12_1/xercesImpl.jar;Xerces-J-bin.2.12.1/xerces-2_12_1/xercesSamples.jar" dom.Counter ./codifica/prolusioni.xml
+----------------------------------------
+altrimenti se uso la mia cartella di lavoro (c:\aurora):
+cd /aurora/codifica
+
+------------------------
+java -cp "/Xerces-J-bin.2.12.1/xerces-2_12_1/xml-apis.jar;/Xerces-J-bin.2.12.1/xerces-2_12_1/xercesImpl.jar;/Xerces-J-bin.2.12.1/xerces-2_12_1/xercesSamples.jar" dom.Counter codifica/prolusioni.xml
+------------------------
 e trasformati con il software: 'SaxonHE10-3J' 
 ## Comando per la Trasformazione con il processore XSLT "Saxon" ('SaxonHE10-3J')
-```shell
-$ java -jar ./SaxonHE10-3J/saxon-he-10.3.jar -s:prolusioni.xml -xsl:stile.xsl -o:prolusioni.html
+mettere in C:aurora/codifica/
+
+i file :
+---------
+- prolusioni.xml
+- prolusioni.xsl
+---------
+cd \aurora
+----------------------------------------
+passo 1 - per la Validazione TEI del .XML 
+----------------------------------------
+java -cp "/Xerces-J-bin.2.12.1/xerces-2_12_1/xml-apis.jar;/Xerces-J-bin.2.12.1/xerces-2_12_1/xercesImpl.jar;/Xerces-J-bin.2.12.1/xerces-2_12_1/xercesSamples.jar" dom.Counter ./codifica/prolusioni.xml
+----------------------------------------
+passo 2 - creazione del .HTML
+----------------------------------------
+java -jar /SaxonHE10-3J/saxon-he-10.3.jar -s:./codifica/prolusioni.xml -xsl:./codifica/prolusioni.xsl -o:./codifica/prolusioni.html
+
+-----------------
+controllo se .HTML e' stato creato:
+-----------------
+cd codifica
+dir
+--------------
 ```
 ## Anteprima
 https://aurorabaroni99.altervista.org/codificaTesti/progetto/prolusioni.html
