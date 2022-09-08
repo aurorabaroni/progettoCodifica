@@ -101,8 +101,9 @@ xmlns="http://www.w3.org/1999/xhtml">
                 <div class="testo-fr">
                     <h3>Trascrizione francese</h3>
                     <xsl:apply-templates select="//tei:text/tei:body/tei:fw[@xml:id='PageNum-15']"/>
-                    <xsl:apply-templates select="//tei:text/tei:body/tei:div[@n='6']"/> <br/>
-                    <xsl:apply-templates select="//tei:text/tei:body/tei:div[@n='7']"/> <br/>
+                    <xsl:apply-templates select="//tei:text/tei:body/tei:div[@n='6']"/><br/>
+                    <xsl:apply-templates select="//tei:text/tei:body/tei:div[@n='7']"/>
+                    <xsl:apply-templates select="//tei:text/tei:body/tei:div[@n='8']"/><br/>
                 </div> 
 <!-- ************************ PAGINA 15 - TRADUZIONE in Italiano  ************************ -->
                 <div class="testo-it">
@@ -161,7 +162,7 @@ xmlns="http://www.w3.org/1999/xhtml">
             <p> <h2>SUPPORTO FISICO</h2> Il supporto utilizzato sono dei <xsl:value-of select="tei:supportDesc/tei:support"/></p>
             <p> <h2>DESCRIZIONE</h2><xsl:value-of select="tei:layoutDesc"/></p>
         </xsl:for-each>
-        <p><h2>STORIA</h2> <xsl:value-of select="tei:history"/></p> <!-- non penso vada-->
+        <p><h2>STORIA</h2> <xsl:value-of select="tei:history"/></p> 
     </xsl:template>
 <!-- **************************************************************************+ -->     
     <xsl:template match="tei:langUsage">
@@ -188,7 +189,7 @@ xmlns="http://www.w3.org/1999/xhtml">
 <!-- ********************************************************************* -->
 <!--divisione RIGHE-->
 <xsl:template match="//tei:lb[@facs]">
-    <xsl:for-each select="self::node()">
+    <xsl:for-each select="self::node()"> <!-- current() -->
         <xsl:if test="@break='no'">-</xsl:if>
         <br/>
     </xsl:for-each>
@@ -307,6 +308,5 @@ xmlns="http://www.w3.org/1999/xhtml">
              <br/> <br/>
             </xsl:for-each>
     </xsl:template>
-    
 <!-- ********************************************************************* -->    
 </xsl:stylesheet>

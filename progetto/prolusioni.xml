@@ -325,14 +325,14 @@
             <fw type="pageNum" xml:id="PageNum-14" place="top left" facs="#Pag14_num"> 14 </fw>
 
             <!--PAGINA 14 PARAGRAFO 1-->
-            <div facs="#Pag14_par1" n="1">
+            <div n="1"> 
 
                 <!--PERICOPE 1-->
                 <ab type="pericope" n="1" xml:id="Per1" facs="#P14_p1">
                     <lb n="1" facs="#P14_l1" />
                         Je pourrais naturellement multiplier à
                     <lb n="2" facs="#P14_l2" />
-                        l'infini les <term ref="#exemple"><choice><abbr resp="#FDS">ex<am>.</am></abbr><expan resp="#SB #RE"><ex>exemples</ex></expan></choice></term>.
+                        l'infini les <term ref="#exemple"><choice><abbr>ex<am>.</am></abbr><expan><ex>exemples</ex></expan></choice></term>.
                  </ab>
 
                 <!--PERICOPE 2-->
@@ -352,19 +352,19 @@
             </div>
 
             <!--PAGINA 14 PARAGRAFO 2  -->
-            <div facs="#Pag14_par2" n="2">
+            <div n="2">
 
                 <!--PERICOPE 3-->
                 <ab type="pericope" n="3" xml:id="Per3" facs="#P14_p3">
                     <lb n="8" facs="#P14_l8" />
                         Au milieu de cette immense multiplicité
                     <lb n="9" facs="#P14_l9" />
-                    de <term ref="#formes">formes</term>, <del rend="overstrike" resp="#SB #RE">nous ne vojons aucunne desordre,</del>
-                        <add change="#FDS" place="margin left"> 
+                    de <term ref="#formes">formes</term>, <del rend="overstrike" hand="#FDS">nous ne vojons aucunne desordre,</del>
+                        <add hand="#FDS" place="left margin"> 
                             je fais cette remarque 
                             pour éviter une <term ref="#fausserepresentation">fausse représentation</term></add>,
                     <lb n="10" facs="#P1_l10" />
-                    <del rend="overstrike" resp="#FDS">arcunne</del>il serait faux de supposer que nous
+                    <del rend="overstrike" hand="#FDS">arcunne</del>il serait faux de supposer que nous
                     <lb n="11" facs="#P1_l11" />
                     ayons de la peine à nous retrouver, et qu'on ait 
                     <lb n="12" facs="#P1_l12" />
@@ -373,7 +373,7 @@
      
             </div>
            <!--PAGINA 14 PARAGRAFO 3  -->
-           <div facs="#Pag14_par3" n="3">
+            <div n="3">
                 <!--PERICOPE 4-->      
                 <ab type="pericope" n="4" xml:id="Per4" facs="#P14_p4">
                     <lb n="13" facs="#P1_l13" />
@@ -389,7 +389,7 @@
                 </ab>
            </div>
           <!--PAGINA 14 PARAGRAFO 4  -->
-               <div facs="#Pag14_par4" n="4">
+            <div n="4">
                 <!--PERICOPE 5-->
                 <ab type="pericope" n="5" xml:id="Per5" facs="#P1_p5">
                     Ainsi <mentioned xml:lang="fp">-<emph rend="underline">tsaθi - θãté - </emph></mentioned> 
@@ -399,33 +399,33 @@
 
                 <!--PERICOPE 6-->
                 <ab type="pericope" n="6" xml:id="Per6" facs="#P1_p6">
-                    <choice><abbr resp="#FDS">Tt</abbr><expan resp="#SB #RE">Tout</expan></choice> cela remonte mathématiquement
+                    <choice><abbr>Tt</abbr><expan resp="#SB #RE">Tout</expan></choice> cela remonte mathématiquement
                     <lb n="19" facs="#P1_l19" />
-                    à <mentioned xml:lang="lt"><emph rend="underline">castellum</emph></mentioned><choice><orig resp="#FDS">.</orig><reg resp="#SB #RE">:</reg></choice> - <mentioned xml:lang="fp"><emph rend="underline"> tsatθi - tsã - θãté – θã</emph></mentioned><choice><orig resp="#FDS"> </orig><reg resp="#SB #RE">,</reg></choice>
+                    à <mentioned xml:lang="lt"><emph rend="underline">castellum</emph></mentioned><choice><orig>.</orig><reg resp="#SB #RE">:</reg></choice> - <mentioned xml:lang="fp"><emph rend="underline"> tsatθi - tsã - θãté – θã</emph></mentioned><choice><orig> </orig><reg resp="#SB #RE">,</reg></choice>
                     <lb n="20" facs="#P1_l20" />
-                    <mentioned xml:lang="fr"><emph rend="underline">château</emph><choice><orig resp="#FDS">-</orig><reg resp="#SB #RE">,</reg></choice></mentioned><mentioned xml:lang="fr"><emph rend="underline">champ</emph></mentioned><choice><orig>;</orig><reg resp="#SB #RE">:</reg></choice><emph rend="italic">- st </emph> > θ <choice><orig resp="#FDS">;</orig><reg resp="#SB #RE">:</reg></choice><emph rend="underline"><mentioned xml:lang="fp">tîθa</mentioned></emph><choice><orig resp="#FDS">-.</orig><reg resp="#SB #RE">.</reg></choice>
+                    <mentioned xml:lang="fr"><emph rend="underline">château</emph><choice><orig>-</orig><reg resp="#SB #RE">,</reg></choice></mentioned><mentioned xml:lang="fr"><emph rend="underline">champ</emph></mentioned><choice><orig>;</orig><reg resp="#SB #RE">:</reg></choice><emph rend="italic">- st </emph> > θ <choice><orig resp="#FDS">;</orig><reg resp="#SB #RE">:</reg></choice><emph rend="underline"><mentioned xml:lang="fp">tîθa</mentioned></emph><choice><orig resp="#FDS">-.</orig><reg resp="#SB #RE">.</reg></choice>
                 </ab>
                </div>
           <!--PAGINA 14 PARAGRAFO 5  -->
-                <div facs="#Pag14_par5" n="5">       
+            <div n="5">       
                 <!--PERICOPE 7-->
                 <ab type="pericope" n="7" xml:id="Per7" facs="#P1_p7">
                     <lb n="21" facs="#P1_l21"/>
-                   <del rend="overstrike" resp="#FDS">La</del> On voit dès maintenant combien
+                   <del rend="overstrike" hand="#FDS">La</del> On voit dès maintenant combien
                     <lb n="22" facs="#P1_l22" />
                     était éloignée de la <term ref="#verite">vérité</term> l'<term ref="#idee">idée</term> qui a
                     <lb n="23" facs="#P1_l23"/>
-                    dominé<choice><abbr resp="#FDS">tte</abbr><expan resp="#SB #RE">toute</expan></choice> la <choice><orig resp="#FDS">1°</orig><reg resp="#SB #RE">première</reg></choice> période des <term ref="#etudeslinguistiques">études linguis
+                    dominé<choice><abbr>tte</abbr><expan>toute</expan></choice> la <choice><orig>1°</orig><reg resp="#SB #RE">première</reg></choice> période des <term ref="#etudeslinguistiques">études linguis
                     <lb n="24" facs="#P1_l24" break="no"/> 
-                     tiques</term><choice><orig resp="#FDS">;</orig><reg resp="#SB #RE">,</reg></choice> à savoir que, pour <del rend="overstrike"><gap quantity="5" reason="illegible" extent="5" atLeast="3" atMost="5" unit="chars"/></del>
+                     tiques</term><choice><orig>;</orig><reg resp="#SB #RE">,</reg></choice> à savoir que, pour <del rend="overstrike" hand="#FDS"><gap quantity="5" reason="illegible" extent="5" atLeast="3" atMost="5" unit="chars"/></del>
                     <lb n="25" facs="#P1_l25" />
                     qu'une <term ref="#langue">langue</term> ou un <term ref="#parler"><emph rend="underline">parler</emph></term> arrivât
                     <lb n="26" facs="#P1_l26" />
                     à se <term ref="#differencier">différencier</term> d'<choice><abbr>i</abbr><expan>une</expan></choice> autre, il était <term ref="#necessaire">nécessaire</term>
                     <lb n="27" facs="#P1_l27" />
-                    qu'une <term ref="#separation">séparation</term> <term ref="#geographique">géographique</term> <del rend="overstrike" resp="#FDS">,</del> se
+                    qu'une <term ref="#separation">séparation</term> <term ref="#geographique">géographique</term> <del rend="overstrike" hand="#FDS">,</del> se
                     <lb n="28" facs="#P1_l28" />
-                    produisît, <choice><orig resp="#FDS">par.</orig><reg resp="#SB #RE">par</reg></choice><choice><abbr>ex<am>.</am></abbr></choice><term ref="#exemple"><expan><ex>exemple</ex></expan></term> <del rend="overstrike" resp="#FDS">que</del> l'<term ref="#idee">idée</term> que l'<lang>anglais</lang> ne 
+                    produisît, <choice><orig>par.</orig><reg resp="#SB #RE">par</reg></choice><choice><abbr>ex<am>.</am></abbr></choice><term ref="#exemple"><expan><ex>exemple</ex></expan></term> <del rend="overstrike" hand="#FDS">que</del> l'<term ref="#idee">idée</term> que l'<lang>anglais</lang> ne 
                     <lb n="29" facs="#P1_l29" />
                     <term ref="#differe">diffère</term> de l'<abbr>all<am>.</am></abbr><lang><expan><ex>allemand</ex></expan></lang> que parce que [ ]
                 </ab>
@@ -434,12 +434,12 @@
 <!-- Fine CODIFICA - Pagina 14 -->
 
 <!-- Inizio CODIFICA - Pagina 15 -->
-            <pb n="2" facs="#Pag2" />
+            <pb n="2" facs="#Pag15" />
             <!--Numero della seconda pagina scritto a mano in alto a sx-->
             <fw type="pageNum" xml:id="PageNum-15" place="top-left" facs="#Pag15_num"> 15 </fw>
 
             <!--PAGINA 15 PARAGRAFO 1-->
-            <div facs="#Pag2_par1" n="6">
+            <div n="6">
 
                 <!--PERICOPE 8-->
                 <ab type="pericope" n="8" xml:id="Per8" facs="#P2_p8">
@@ -450,7 +450,7 @@
                     <lb n="3" facs="#P2_l3" />
                     <term ref="#absolue">absolue</term>, <del rend="overstrike"><gap quantity="7" atLeast="5" atMost="8" unit="chars" reason="illegible"/></del> 
                     <lb n="4" facs="#P2_l4" />
-                    <del rend="overstrike"><gap quantity="1" unit="chars"/></del> ce cas, bien loin de <term ref="#representer">représenter</term> la
+                    <del rend="overstrike"><gap quantity="1" unit="chars" reason="illegible"/></del> ce cas, bien loin de <term ref="#representer">représenter</term> la
                     <lb n="5" facs="#P2_l5" />
                     <term ref="#condition">condition</term> <term ref="#reguliere">régulière</term> pour qu'il y ait <term ref="#divergence">divergence</term>,
                     <lb n="6" facs="#P2_l6" />
@@ -458,7 +458,7 @@
                     <lb n="7" facs="#P2_l7" />
                     être examiné à part
                     <!--Nota a margine sinistro-->
-                    <add resp="#FDS" place="left margin">                 
+                    <add hand="#FDS" place="left margin">                 
                         et que 
                         j'exclus 
                         complètement 
@@ -470,7 +470,7 @@
             </div>
 
             <!--PAGINA 15 PARAGRAFO 2-->
-            <div facs="#Pag2_par2" n="7">
+            <div n="7">
                 <!--PERICOPE 9-->
                 <ab type="pericope" n="9" xml:id="Per9" facs="#P2_p7">
                     <del rend="overstrike"><gap quantity="3" unit="chars" reason="illegible"/></del> L'effet 
@@ -495,7 +495,10 @@
                     <lb n="14" facs="#P2_l14" />
                     la <term ref="#masse">masse</term>.
                 </ab>
-
+                </div>
+            
+                 <!--PAGINA 15 PARAGRAFO 3-->
+                <div n="8">
                 <!--PERICOPE 11-->
                 <ab type="pericope" n="11" xml:id="Per11" facs="#P2_p9">
                     Mais, je le répète, c'est là un cas
@@ -507,7 +510,7 @@
                     <lb n="17" facs="#P2_l17" />
                     et qui ne peut être abordé qu'à <term ref="#condition">condition</term>
                     <lb n="18" facs="#P2_l18" />
-                    d'être <del rend="overstrike" resp="#FDS">prealallat</del> <add resp="#FDS" place="above">d'abord</add> au clair <term ref="#precisement">précisément</term> sur
+                    d'être <del rend="overstrike" hand="#FDS">prealallat</del> <add resp="#FDS" place="supralinear">d'abord</add> au clair <term ref="#precisement">précisément</term> sur
                     <lb n="19" facs="#P2_l19" />
                     la <term ref="#differenciation">différenciation</term> qui s'accomplit <choice><sic>d</sic> <corr>dans</corr></choice> un <term ref="#corps">corps</term>
                     <lb n="20" facs="#P2_l20" />
@@ -583,7 +586,7 @@
 <!-- GLOSSARIO -->
                 <list type="terminology" rend="numbered">
 <!-- *************** Glossario - Pagina 14 ******************************** -->
-                    <!-- bisogna eliminare da <label> riga 591 a 595 e stessa cosa per altri termini? -->
+                    <!-- termine exemple -->
                     <label>
                         <term xml:id="exemple" xml:lang="fr">Exemple</term> <!-- FRANCESE -->
                         <term ref="#exemple" xml:lang="it">Esempio</term> <!-- ITALIANO -->
@@ -593,7 +596,7 @@
                           Esempio: Fatto particolare che serve a illustrare un'affermazione generica, a dare evidenza a un principio teorico.
                         </gloss>
                     </item>
-                    
+                    <!-- termine langue zande -->
                     <label>
                         <term xml:id="languezende" xml:lang="fr">Langue zende</term> <!-- FRANCESE -->
                         <term ref="#languezende" xml:lang="it">Lingua zenda</term> <!-- ITALIANO -->
@@ -607,7 +610,7 @@
                             utilizzata per molti anni ancora, a partire dal momento in cui cessò di essere una lingua parlata.
                         </gloss>
                     </item>
-                    
+                    <!-- termine libre sacre -->
                     <label>
                         <term xml:id="livresacre" xml:lang="fr">Livre sacrés</term> <!-- FRANCESE -->
                         <term ref="#livresacre" xml:lang="it">Libro sacro</term> <!-- ITALIANO -->
@@ -617,7 +620,7 @@
                             Libro sacro: La scrittura sacra che è a fondamento di una religione, e per antonomasia, nella religione cristiana, la Bibbia.
                         </gloss>
                     </item>
-                    
+                    <!-- termine langue -->
                     <label>
                         <term xml:id="langue" xml:lang="fr">Lingue</term> <!-- FRANCESE -->
                         <term ref="#langue" xml:lang="it">Lingua</term> <!-- ITALIANO -->
@@ -630,7 +633,7 @@
                             sintattiche.
                         </gloss>
                     </item>
-                    
+                    <!-- termine dialect iraniens -->
                     <label>
                         <term xml:id="dialectiraniens" xml:lang="fr">Dialect iraniens</term> <!-- FRANCESE -->
                         <term ref="#dialectiraniens" xml:lang="it">Dialetto iraniano</term> <!-- ITALIANO -->
@@ -641,7 +644,7 @@
                             sistema linguistico diventato dominante e riconosciuto come ufficiale, cioè la lingua nazionale (Iraniana).
                         </gloss>
                     </item>
-                    
+                    <!-- termine formes -->
                     <label>
                         <term xml:id="formes" xml:lang="fr">Formes</term> <!-- FRANCESE -->
                         <term ref="#formes" xml:lang="it">Forme</term> <!-- ITALIANO -->
@@ -652,7 +655,7 @@
                             Modo di essere, di presentarsi; così, con riferimento alla struttura, al genere oppure alla qualità.
                         </gloss>
                     </item>
-                    
+                    <!-- termine fausse representation -->
                     <label>
                         <term xml:id="fausserepresentation" xml:lang="fr">Fausse représentation</term> <!-- FRANCESE -->
                         <term ref="#fausserepresentation" xml:lang="it">Falsa rappresentazione</term> <!-- ITALIANO -->
@@ -662,7 +665,7 @@
                             Falsa rappresentazione: L'oggetto percepito viene sostituito da uno diverso, che ne diventa quindi simbolo che si vuol far passare per vero.
                         </gloss>
                     </item>
-                    
+                    <!-- termine desodre -->
                     <label>
                         <term xml:id="desordre" xml:lang="fr">Désordre</term> <!-- FRANCESE -->
                         <term ref="#desordre" xml:lang="it">Disordine</term> <!-- ITALIANO -->
@@ -672,7 +675,7 @@
                             Disordine: confusione; mancanza o turbamento dell'ordine, lo stato delle cose disordinate;                        
                         </gloss>
                     </item>
-                    
+                    <!-- termine termes d'arrivee -->
                     <label>
                         <term xml:id="termesdarrivee" xml:lang="fr">Termes d'arrivée</term> <!-- FRANCESE -->
                         <term ref="#termesdarrivee" xml:lang="it">Termine d'arrivo</term> <!-- ITALIANO -->
@@ -682,8 +685,7 @@
                             Termine d'arrivo: fine (punto,stato)a cui si mira. Condizione a cui si giunge o si è giunti.
                         </gloss>
                     </item>
-                    
-                    
+                    <!-- termine point de depart -->
                     <label>
                         <term xml:id="pointdedepart" xml:lang="fr">Point de départ</term> <!-- FRANCESE -->
                         <term ref="#pointdedepart" xml:lang="it">Punto di partenza</term> <!-- ITALIANO -->
@@ -693,7 +695,7 @@
                             Punto di partenza: punto d'inizio, il momento d'avvio di qualche cosa, o anche la situazione iniziale.
                         </gloss>
                     </item>
-                    
+                    <!-- termine differences -->
                     <label>
                         <term xml:id="differences" xml:lang="fr">Différente</term> <!-- FRANCESE -->
                         <term ref="#differences" xml:lang="it">Differente</term> <!-- ITALIANO -->
@@ -703,7 +705,7 @@
                             Differente: diverso, che ha natura o qualità dissimili da quelle di un altro oggetto o persona con cui è confrontato.
                         </gloss>
                     </item>
-                    
+                    <!-- termine verite -->
                     <label>
                         <term xml:id="verite" xml:lang="fr">Vérité</term> <!-- FRANCESE -->
                         <term ref="#verite" xml:lang="it">Verità</term> <!-- ITALIANO -->
@@ -713,7 +715,7 @@
                             Verità: rispondenza piena e assoluta con la realtà effettiva. Affermazione di un contenuto ideale, accettato come basilare dal punto di vista religioso, etico, storico.
                         </gloss>
                     </item>
-                
+                    <!-- termine idee -->
                 <label>
                     <term xml:id="idee" xml:lang="fr">Idée</term> <!-- FRANCESE -->
                     <term ref="#idee" xml:lang="it">Idea</term> <!-- ITALIANO -->
@@ -723,7 +725,7 @@
                         Idea: ogni singolo contenuto del pensiero, ogni entità mentale, e più in particolare la rappresentazione di un oggetto alla mente, la nozione che la mente si forma o riceve di una cosa reale o immaginaria.
                     </gloss>
                 </item>
-                    
+                    <!-- termine etudes linguistiques -->
                     <label>
                         <term xml:id="etudeslinguistiques" xml:lang="fr">Etude linguistique</term> <!-- FRANCESE -->
                         <term ref="#etudeslinguistiques" xml:lang="it">Studio linguistico</term> <!-- ITALIANO -->
@@ -733,7 +735,7 @@
                             Studio linguistico: attività didattica organica e regolare per quello che riguarda il linguaggio.
                         </gloss>
                     </item>
-                    
+                    <!-- termine parler -->
                      <label>
                         <term xml:id="parler" xml:lang="fr">Parler</term> <!-- FRANCESE -->
                         <term ref="#parler" xml:lang="it">Parlata</term> <!-- ITALIANO -->
@@ -743,7 +745,7 @@
                             Parlata: modo di parlare proprio di una persona o di una comunità, caratterizzato da aspetti della pronuncia, della morfologia, del lessico (ha significato più generico e meno preciso che dialetto). 
                         </gloss>
                     </item>
-                    
+                    <!-- termine differencier -->
                     <label>
                         <term xml:id="differencier" xml:lang="fr">Différencier</term> <!-- FRANCESE -->
                         <term ref="#differencier" xml:lang="it">Differenziarsi</term> <!-- ITALIANO -->
@@ -753,7 +755,7 @@
                             Differenziarsi: stabilire quali sono i caratteri differenziali che consentano di distinguere tra cose o esseri simili.
                         </gloss>
                     </item>
-                    
+                    <!-- termine necessaire -->
                     <label>
                         <term xml:id="necessaire" xml:lang="fr">Nécessaire</term> <!-- FRANCESE -->
                         <term ref="#necessaire" xml:lang="it">Necessario</term> <!-- ITALIANO -->
@@ -763,7 +765,7 @@
                             Necessario: che è per necessità, in opposizione a possibile e contingente.
                         </gloss>
                     </item>
-                    
+                    <!-- termine separation -->
                     <label>
                         <term xml:id="separation" xml:lang="fr">Séparation</term> <!-- FRANCESE -->
                         <term ref="#separation" xml:lang="it">Separazione</term> <!-- ITALIANO -->
@@ -773,7 +775,7 @@
                             Separazione: divisione 
                         </gloss>
                     </item>
-                    
+                    <!-- termine geographique -->
                     <label>
                         <term xml:id="geographique" xml:lang="fr">Géographique</term> <!-- FRANCESE -->
                         <term ref="#geographique" xml:lang="it">Geografica</term> <!-- ITALIANO -->
@@ -783,7 +785,7 @@
                             Geografica: pertinente all'oggetto e ai metodi della geografia. 
                         </gloss>
                     </item>
-                    
+                    <!-- termine differe -->
                     <label>
                         <term xml:id="differe" xml:lang="fr">Diffère</term> <!-- FRANCESE -->
                         <term ref="#differe" xml:lang="it">Differisce</term> <!-- ITALIANO -->
@@ -795,7 +797,7 @@
                     </item>    
 
 <!-- *************** Glossario - Pagina 15 ******************************** -->
-                    
+                    <!-- termine discgeo -->
                     <label>
                         <term xml:id="discgeo" xml:lang="fr">Discontinuité géographique</term> <!-- FRANCESE -->
                         <term ref="#discgeo" xml:lang="it">Discontinuità geografica</term> <!-- ITALIANO -->
@@ -805,8 +807,7 @@
                             Discontinuità geografica: mancanza di continuità pertinente alla geografia, interruzione che si ripete nel tempo e nello spazio per uno spazio geografico.
                         </gloss>
                     </item>
-                    
-                    
+                    <!-- termine absolue -->
                     <label>
                         <term xml:id="absolue" xml:lang="fr">Absolue</term> <!-- FRANCESE -->
                         <term ref="#absolue" xml:lang="it">Assoluta</term> <!-- ITALIANO -->
@@ -816,7 +817,7 @@
                             Assoluta: che non ammette limitazioni, restrizioni o condizioni relativamente a sé stesso, alla propria volontà o alle proprie attribuzioni
                         </gloss>
                     </item>
-                    
+                    <!-- termine representer -->
                     <label>
                         <term xml:id="representer" xml:lang="fr">Représenter</term> <!-- FRANCESE -->
                         <term ref="#representer" xml:lang="it">Rappresentare</term> <!-- ITALIANO -->
@@ -826,7 +827,7 @@
                             Rappresentare: avere il significato di, costituire, equivalere. Raffigurare un'idea astratta, un'entità non visibile mediante un segno o una figura simbolica.
                         </gloss>
                     </item>
-                    
+                    <!-- termine condition -->
                     <label>
                         <term xml:id="condition" xml:lang="fr">Condition</term> <!-- FRANCESE -->
                         <term ref="#condition" xml:lang="it">Condizione</term> <!-- ITALIANO -->
@@ -836,7 +837,7 @@
                             Condizione: qualità, requisito, situazione o presupposto necessari a un determinato scopo.
                         </gloss>
                     </item>
-                    
+                    <!-- termine reguliere -->
                     <label>
                         <term xml:id="reguliere" xml:lang="fr">Régulière</term> <!-- FRANCESE -->
                         <term ref="#reguliere" xml:lang="it">Regolare</term> <!-- ITALIANO -->
@@ -846,7 +847,7 @@
                             Regolare: conforme a una norma o ad una pratica consuetudinaria o convenzionale.
                         </gloss>
                     </item>
-                    
+                    <!-- termine divergence -->
                     <label>
                         <term xml:id="divergence" xml:lang="fr">Divergence</term> <!-- FRANCESE -->
                         <term ref="#divergence" xml:lang="it">Divergenza</term> <!-- ITALIANO -->
@@ -856,7 +857,7 @@
                             Divergenza: differenza, disparità, soprattutto nel modo di pensare e di giudicare.
                         </gloss>
                     </item>
-                    
+                    <!-- termine cas particulier -->
                     <label>
                         <term xml:id="casparticulier" xml:lang="fr">Cas particulier</term> <!-- FRANCESE -->
                         <term ref="#casparticulier" xml:lang="it">Caso particolare</term> <!-- ITALIANO -->
@@ -866,7 +867,7 @@
                             Caso particolare: avvenimento speciale che ha caratteri propri, distintivi.
                         </gloss>
                     </item>
-                    
+                    <!-- termine etude -->
                     <label>
                         <term xml:id="etude" xml:lang="fr">Etude</term> <!-- FRANCESE -->
                         <term ref="#etude" xml:lang="it">Studio</term> <!-- ITALIANO -->
@@ -876,7 +877,7 @@
                             Studio: applicazione volta all'apprendimento di quanto è stato sperimentato da altri in un ramo dello scibile, in un'arte, in un'attività pratica, allo scopo di fare proprie tali esperienze, ed eventualmente superarle, proponendo soluzioni nuove nel campo teorico o pratico.
                         </gloss>
                     </item>
-                    
+                    <!-- termine isolling -->
                     <label>
                         <term xml:id="isolling" xml:lang="fr">Isolement linguistique</term> <!-- FRANCESE -->
                         <term ref="#isolling" xml:lang="it">Isolamento linguistico</term> <!-- ITALIANO -->
@@ -886,8 +887,7 @@
                             Isolamento linguistico: isolamento che riguarda la lingua, il linguaggio e le manifestazioni linguistiche, da tutte le altre esperienze significative, così da ridurne al minimo le possibilità di accesso nel campo della coscienza.
                         </gloss>
                     </item>
-                    
-                    
+                    <!-- termine communaute -->
                     <label>
                         <term xml:id="communaute" xml:lang="fr">Communauté</term> <!-- FRANCESE -->
                         <term ref="#communaute" xml:lang="it">Comunità</term> <!-- ITALIANO -->
@@ -897,8 +897,7 @@
                             Comunità: collettività, insieme di persone che hanno comunione di vita sociale, condividono gli stessi comportamenti e interessi.
                         </gloss>
                     </item>
-                    
-                    
+                    <!-- termine double -->
                     <label>
                         <term xml:id="double" xml:lang="fr">Double</term> <!-- FRANCESE -->
                         <term ref="#double" xml:lang="it">Duplice</term> <!-- ITALIANO -->
@@ -908,7 +907,7 @@
                             Duplice: che si compone di due parti, di due elementi, non necessariamente uguali.
                         </gloss>
                     </item>
-                    
+                    <!-- termine direction -->
                     <label>
                         <term xml:id="direction" xml:lang="fr">Direction</term> <!-- FRANCESE -->
                         <term ref="#direction" xml:lang="it">Direzione</term> <!-- ITALIANO -->
@@ -918,7 +917,7 @@
                             Direzione: la parte o il punto verso cui è diretta una persona o si muove una cosa
                         </gloss>
                     </item>
-                    
+                    <!-- termine contact -->
                     <label>
                         <term xml:id="contact" xml:lang="fr">Contact</term> <!-- FRANCESE -->
                         <term ref="#contact" xml:lang="it">Contatto</term> <!-- ITALIANO -->
@@ -928,8 +927,7 @@
                             Contatto: relazione, rapporto.
                         </gloss>
                     </item>
-                    
-                    
+                    <!-- termine masse -->
                     <label>
                         <term xml:id="masse" xml:lang="fr">Masse</term> <!-- FRANCESE -->
                         <term ref="#masse" xml:lang="it">Massa</term> <!-- ITALIANO -->
@@ -939,8 +937,7 @@
                             Massa: moltitudine qualificata di persone che costituiscono un insieme più o meno organico.
                         </gloss>
                     </item>
-                    
-                    
+                    <!-- termine exceptionnel -->
                     <label>
                         <term xml:id="exceptionnel" xml:lang="fr">Exceptionnel</term> <!-- FRANCESE -->
                         <term ref="#exceptionnel" xml:lang="it">Eccezionale</term> <!-- ITALIANO -->
@@ -950,8 +947,7 @@
                             Eccezionale: che costituisce un'eccezione, quindi straordinario, singolare, insolito.
                         </gloss>
                     </item>
-                    
-                    
+                    <!-- termine etude speciale -->
                     <label>
                         <term xml:id="etudespeciale" xml:lang="fr">Etude spéciale</term> <!-- FRANCESE -->
                         <term ref="#etudespeciale" xml:lang="it">Studio speciale</term> <!-- ITALIANO -->
@@ -961,8 +957,7 @@
                             Studio speciale: studio non comune, fuori dell'ordinario, di genere particolare.
                         </gloss>
                     </item>
-                    
-                    
+                    <!-- termine precisement -->
                     <label>
                         <term xml:id="precisement" xml:lang="fr">Précisément</term> <!-- FRANCESE -->
                         <term ref="#precisement" xml:lang="it">Idee ben chiare</term> <!-- ITALIANO -->
@@ -972,8 +967,7 @@
                             Idee ben chiare: sapere ciò che si vuole
                         </gloss>
                     </item>
-                    
-                    
+                    <!-- termine differenciation -->
                     <label>
                         <term xml:id="differenciation" xml:lang="fr">Différenciation</term> <!-- FRANCESE -->
                         <term ref="#differenciation" xml:lang="it">Differenze</term> <!-- ITALIANO -->
@@ -983,7 +977,7 @@
                             Differenze: il fatto di differenziare, cioè di rendere differente o di trattare in modo differente, si acquistano cioè caratteri distintivi.
                         </gloss>
                     </item>
-                    
+                    <!-- termine corps -->
                     <label>
                         <term xml:id="corps" xml:lang="fr">Corps</term> <!-- FRANCESE -->
                         <term ref="#corps" xml:lang="it">Corpo</term> <!-- ITALIANO -->
@@ -993,7 +987,7 @@
                             Corpo: consistenza, concretezza, forma (con valore astratto);
                         </gloss>
                     </item>
-                    
+                    <!-- termine lingcont -->
                     <label>
                         <term xml:id="lingcont" xml:lang="fr">Linguistique</term> <!-- FRANCESE -->
                         <term ref="#lingcont" xml:lang="it">Linguistico</term> <!-- ITALIANO -->
